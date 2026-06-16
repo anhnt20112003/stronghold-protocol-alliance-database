@@ -1,0 +1,669 @@
+{
+  "operators": [
+    {
+      "name": "Insider",
+      "attributeType": "Combat",
+      "attribute": "For every 5 stacks added to [Laterano] Alliance, this Operator gains <span class='blue'>+1</span>/<span class='green'>+2</span> ASPD",
+      "tier": 1,
+      "alliances": ["Laterano"]
+    },
+    {
+      "name": "Courier",
+      "attributeType": "One-time",
+      "attribute": "&ltWhen obtained&gt <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to own Alliance(s) (Alliance does not need to be active)",
+      "tier": 1,
+      "alliances": ["Kjerag", "Resilient"]
+    },
+    {
+      "name": "Leizi",
+      "attributeType": "One-time",
+      "attribute": "&ltWhen obtained&gt Gain [Yan] Alliance stacks equivalent to <span class='blue'>the Dispatch Center level</span>/<span class='green'>2x Dispatch Center level</span>  (Alliance does not need to be active)",
+      "tier": 1,
+      "alliances": ["Yan"]
+    },
+    {
+      "name": "Specter",
+      "attributeType": "Combat",
+      "attribute": "&ltIn battle&gt When defeated, <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to active [Aegir] Alliance",
+      "tier": 1,
+      "alliances": ["Aegir"]
+    },
+    {
+      "name": "Vigna",
+      "attributeType": "Prep",
+      "attribute": "Costs 1 Fund to purchase",
+      "tier": 1,
+      "alliances": ["Resilient"]
+    },
+    {
+      "name": "Lappland",
+      "attributeType": "Combat",
+      "attribute": "&ltIn battle&gt Deal Weakness damage (changes damage type to either Physical or Arts depending on the target's DEF and RES)",
+      "tier": 1,
+      "alliances": ["Assist_Operator"]
+    },
+    {
+      "name": "Texas",
+      "attributeType": "Combat",
+      "attribute": "&ltIn battle&gt Deal Weakness damage (changes damage type to either Physical or Arts depending on the target's DEF and RES)",
+      "tier": 1,
+      "alliances": ["Swift"]
+    },
+    {
+      "name": "Caper",
+      "attributeType": "Combat",
+      "attribute": "When attacking enemy Drones, increases ATK to <span class='blue'>150%</span>/<span class='green'>200%</span>",
+      "tier": 1,
+      "alliances": ["Precision"]
+    },
+    {
+      "name": "Savage",
+      "attributeType": "Prep",
+      "attribute": "&ltWhen sold&gt Obtain <span class='blue'>1</span>/<span class='green'>2</span> extra Fund next Rest Phase",
+      "tier": 1,
+      "alliances": ["Aid"]
+    },
+    {
+      "name": "May",
+      "attributeType": "One-time",
+      "attribute": "&ltWhen obtained&gt <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to own Alliance(s) (Alliance does not need to be active)",
+      "tier": 1,
+      "alliances": ["Victoria", "Precision"]
+    },
+    {
+      "name": "Manticore",
+      "attributeType": "Combat",
+      "attribute": "SP recovery rate <span class='blue'>+/second</span>/<span class='green'>+0.3/second</span>",
+      "tier": 1,
+      "alliances": ["Sargon", "Raid"]
+    },
+    {
+      "name": "Pudding",
+      "attributeType": "One-time",
+      "attribute": "&ltWhen obtained&gt <span class='blue'>+3</span>/<span class='green'>+6</span> stacks to own Alliance(s) (Alliance does not need to be active)",
+      "tier": 1,
+      "alliances": ["Agile"]
+    },
+    {
+      "name": "Cuora",
+      "attributeType": "Can stack",
+      "attribute": "&ltWhen Rest Phase ends&gt If there are at least 3 Operators in the same row, <span class='blue'>+3</span>/<span class='green'>+6</span> stacks to active [Durable] Alliance",
+      "tier": 1,
+      "alliances": ["Durable"]
+    },
+    {
+      "name": "Gitano",
+      "attributeType": "One-time",
+      "attribute": "&ltWhen obtained&gt <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to own Alliance(s) (Alliance does not need to be active)",
+      "tier": 1,
+      "alliances": ["Foresight", "Marvel"]
+    },
+    {
+      "name": "Executor",
+      "attributeType": "Can stack",
+      "attribute": "&ltIn battle&gt Whenever the Operator ahead spends 7 bullets, <span class='blue'>+1</span>/<span class='green'>+2</span> stack to active [Laterano] Alliance",
+      "tier": 2,
+      "alliances": ["Laterano", "Precision"]
+    },
+    {
+      "name": "Matterhorn",
+      "attributeType": "One-time",
+      "attribute": "&ltWhen obtained&gt <span class='blue'>+3</span>/<span class='green'>+6</span> stacks to own Alliance(s) (Alliance does not need to be active)",
+      "tier": 2,
+      "alliances": ["Kjerag", "Durable"]
+    },
+    {
+      "name": "Harold",
+      "attributeType": "Prep",
+      "attribute": "&ltWhen obtained&gt Obtain <span class='blue'>1</span>/<span class='green'>2</span> extra Funds next Rest Phase",
+      "tier": 2,
+      "alliances": ["Victoria", "Kjerag"]
+    },
+    {
+      "name": "Underflow",
+      "attributeType": "Combat",
+      "attribute": "When attacking Sea Monster enemies, increases ATK to <span class='blue'>150%</span>/<span class='green'>200%</span>",
+      "tier": 2,
+      "alliances": ["Aegir"]
+    },
+    {
+      "name": "Utage",
+      "attributeType": "Can stack",
+      "attribute": "&ltIn battle&gt For every 1 enemy defeated, <span class='blue'>+1</span>/<span class='green'>+2</span> stacks to active [Raid] Alliance",
+      "tier": 2,
+      "alliances": ["Raid", "Aid"]
+    },
+    {
+      "name": "Kazemaru",
+      "attributeType": "Combat",
+      "attribute": "Only 2 copies of this Operator are needed for Elite promotion",
+      "tier": 2,
+      "alliances": ["Marvel", "Resilient"]
+    },
+    {
+      "name": "Tin Man",
+      "attributeType": "Can stack",
+      "attribute": "&ltWhen entering Rest Phase&gt <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to own active Alliance(s)",
+      "tier": 2,
+      "alliances": ["Swift", "Agile"]
+    },
+    {
+      "name": "Arene",
+      "attributeType": "Combat",
+      "attribute": "When attacking enemy Drones, increases ATK to <span class='blue'>150%</span>/<span class='green'>200%</span>",
+      "tier": 2,
+      "alliances": ["Laterano"]
+    },
+    {
+      "name": "Silence",
+      "attributeType": "Can stack",
+      "attribute": "&ltWhen entering Rest Phase&gt <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to own active Alliance(s)",
+      "tier": 2,
+      "alliances": ["Foresight"]
+    },
+    {
+      "name": "Wanqing",
+      "attributeType": "Can stack",
+      "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+1</span>/<span class='green'>+2</span> stack to active [Yan] Alliance for every Operator obtained this round",
+      "tier": 2,
+      "alliances": ["Yan"]
+    },
+    {
+      "name": "Papyrus",
+      "attributeType": "Can stack",
+      "attribute": "&ltIn battle&gt On first skill activation, <span class='blue'>+4</span>/<span class='green'>+8</span> stacks to active [Sargon] alliance",
+      "tier": 2,
+      "alliances": ["Sargon"]
+    },
+    {
+      "name": "Heavyrain",
+      "attributeType": "Combat",
+      "attribute": "For every 3 stacks added to [Sargon] or [Durable] Alliance, this Operator <span class='blue'>+1%</span>/<span class='green'>+2%</span> DEF",
+      "tier": 2,
+      "alliances": ["Sargon", "Durable"]
+    },
+    {
+      "name": "Rockrock",
+      "attributeType": "Prep",
+      "attribute": "&ltWhen obtained&gt Randomly obtain <span class='blue'>1</span>/<span class='green'>2</span> piece of Rockrock's custom creations",
+      "tier": 2,
+      "alliances": ["Victoria", "Agile"]
+    },
+    {
+      "name": "Gravel",
+      "attributeType": "Can stack",
+      "attribute": "&ltIn battle&gt When defeated, <span class='blue'>+3</span>/<span class='green'>+6</span> stacks to active [Resilient] Alliance",
+      "tier": 2,
+      "alliances": ["Raid", "Resilient"]
+    },
+    {
+      "name": "Ceylon",
+      "attributeType": "Can stack",
+      "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to the most stacked active Alliance; takes effect even if the Operator is on Bench",
+      "tier": 2,
+      "alliances": ["Aid"]
+    },
+    {
+      "name": "Exusiai",
+      "attributeType": "Prep",
+      "attribute": "&ltWhen obtained&gt Obtain <span class='blue'>1</span>/<span class='green'>2</span> extra Funds next Rest Phase",
+      "tier": 3,
+      "alliances": ["Laterano", "Marvel"]
+    },
+    {
+      "name": "Waai Fu",
+      "attributeType": "One-time",
+      "attribute": "&ltWhen obtained&gt <span class='blue'>+3</span>/<span class='green'>+6</span> stacks to the most stacked active Alliance",
+      "tier": 3,
+      "alliances": ["Yan", "Resilient"]
+    },
+    {
+      "name": "Skadi",
+      "attributeType": "Can stack",
+      "attribute": "&ltIn battle&gt For every 3 enemy defeated, <span class='blue'>+1</span>/<span class='green'>+2</span> stacks to active [Aegir], [Durable], [Raid] Alliance",
+      "tier": 3,
+      "alliances": ["Aegir", "Durable", "Raid"]
+    },
+    {
+      "name": "Enforcer",
+      "attributeType": "Can stack",
+      "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+3</span>/<span class='green'>+6</span> stacks each to active Alliance(s) of self and the Operator 1 tile behind",
+      "tier": 3,
+      "alliances": ["Laterano"]
+    },
+    {
+      "name": "Honeyberry",
+      "attributeType": "One-time",
+      "attribute": "&ltWhen obtained&gt <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to a random active Alliance, repeats 2 times",
+      "tier": 3,
+      "alliances": ["Yan"]
+    },
+    {
+      "name": "Snow Hunter",
+      "attributeType": "One-time",
+      "attribute": "&ltWhen obtained&gt <span class='blue'>+6</span>/<span class='green'>+12</span> stacks to own Alliance(s) (Alliance does not need to be active)",
+      "tier": 3,
+      "alliances": ["Kjerag", "Precision"]
+    },
+    {
+      "name": "Minimalist",
+      "attributeType": "Prep",
+      "attribute": "Costs 1 Fund to purchase",
+      "tier": 3,
+      "alliances": ["Sargon", "Agile"]
+    },
+    {
+      "name": "Aurora",
+      "attributeType": "Can stack",
+      "attribute": "&ltIn battle&gt Whenever an enemy within range is Frozen, recover <span class='blue'>1.5%</span>/<span class='green'>2.5%</span> Max HP several times",
+      "tier": 3,
+      "alliances": ["Kjerag"]
+    },
+    {
+      "name": "Swire the Elegant Wit",
+      "attributeType": "Prep",
+      "attribute": "&ltWhen Rest Phase ends&gt Obtain <span class='blue'>1</span>/<span class='green'>2</span> extra Funds in next Rest Phase (takes effect when [Yan]/[Investor] is active in bench)",
+      "tier": 3,
+      "alliances": ["Yan", "Investor"]
+    },
+    {
+      "name": "Philae",
+      "attributeType": "Can stack",
+      "attribute": "&ltIn battle&gt On first skill activation, <span class='blue'>+4</span>/<span class='green'>+8</span> stacks to active [Sargon] alliance",
+      "tier": 3,
+      "alliances": ["Sargon"]
+    },
+    {
+      "name": "Heidi",
+      "attributeType": "Can stack",
+      "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to active [Victoria] Alliance for every [Victoria] Operator of a different Tier on the field",
+      "tier": 3,
+      "alliances": ["Victoria", "Aid"]
+    },
+    {
+      "name": "Andreana",
+      "attributeType": "Combat",
+      "attribute": "When attacking Sea Monster enemies, increases ATK to <span class='blue'>150%</span>/<span class='green'>200%</span>",
+      "tier": 3,
+      "alliances": ["Aegir", "Precision"]
+    },
+    {
+      "name": "Ethan",
+      "attributeType": "Prep",
+      "attribute": "&ltWhen obtained&gt Obtain <span class='blue'>1</span>/<span class='green'>2</span> Operator from the Alliance with most members in your current squad (excluding self)",
+      "tier": 3,
+      "alliances": ["Assist_Operator"]
+    },
+    {
+      "name": "Kjera",
+      "attributeType": "Prep",
+      "attribute": "&ltWhen obtained&gt Obtain <span class='blue'>1</span>/<span class='green'>2</span> 'Kjeragi Nevermeltice'",
+      "tier": 3,
+      "alliances": ["Kjerag", "Foresight"]
+    },
+    {
+      "name": "Sankta Miksaparato",
+      "attributeType": "Combat",
+      "attribute": "For every 3 stacks added to [Laterano] or [Durable] Alliance, this Operator gains <span class='blue'>+1%</span>/<span class='green'>+2%</span> DEF",
+      "tier": 4,
+      "alliances": ["Laterano", "Durable"]
+    },
+    {
+      "name": "Pramanix",
+      "attributeType": "Can stack",
+      "attribute": "&ltIn battle&gt Whenever an enemy within range is Frozen, <span class='blue'>20%</span>/<span class='green'>40%</span> chance for +1 stack to active [Kjerag] Alliance",
+      "tier": 4,
+      "alliances": ["Kjerag", "Agile"]
+    },
+    {
+      "name": "Eunectes",
+      "attributeType": "Prep",
+      "attribute": "&ltWhen obtained&gt Obtain <span class='blue'>1</span>/<span class='green'>2</span> pieces of 'Quick Combat Rations'",
+      "tier": 4,
+      "alliances": ["Sargon"]
+    },
+    {
+      "name": "Bagpipe",
+      "attributeType": "Can stack",
+      "attribute": "&ltIn battle&gt For every 2 enemy defeated, <span class='blue'>+1</span>/<span class='green'>+2</span> stacks to active [Victoria], [Foresight], [Resilient] Alliance",
+      "tier": 4,
+      "alliances": ["Victoria", "Foresight", "Resilient"]
+    },
+    {
+      "name": "Mizuki",
+      "attributeType": "Combat",
+      "attribute": "For every 3 stacks added to [Aegir] or [Swift] Alliance, this Operator gains <span class='blue'>+1%</span>/<span class='green'>+2%</span> ATK",
+      "tier": 4,
+      "alliances": ["Aegir", "Swift"]
+    },
+    {
+      "name": "Warfarin",
+      "attributeType": "Can stack",
+      "attribute": "&ltIn battle&gt Grants '<span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to own active Alliance(s) on skill activation' to the Operator in the tile ahead (Can stack up to 10x every battle)",
+      "tier": 4,
+      "alliances": ["Marvel"]
+    },
+    {
+      "name": "Gnosis",
+      "attributeType": "Combat",
+      "attribute": "SP recovery rate <span class='blue'>+0.15/second</span>/<span class='green'>+0.3/second</span>",
+      "tier": 4,
+      "alliances": ["Kjerag", "Agile"]
+    },
+    {
+      "name": "Mulberry",
+      "attributeType": "One-time",
+      "attribute": "&ltWhen obtained&gt <span class='blue'>+3</span>/<span class='green'>+6</span> stacks to own Alliance(s) (Alliance does not need to be active)",
+      "tier": 4,
+      "alliances": ["Yan", "Aid"]
+    },
+    {
+      "name": "Blaze",
+      "attributeType": "Prep",
+      "attribute": "&ltWhen sold&gt Changes into <span class='blue'>1 copy</span>/<span class='green'>2 copies</span> of Blaze the Igniting Spark (or corresponding Model Operator)\n<span class='text-yellow-500'>Blaze the Igniting Spark will be part of both [Yan] and [Victoria] Alliances</span>",
+      "tier": 4,
+      "alliances": ["Yan", "Victoria"]
+    },
+    {
+      "name": "Fiammetta",
+      "attributeType": "Can stack",
+      "attribute": "&ltIn battle&gt Whenever Operators up to <span class='blue'>three</span>/<span class='green'>six</span> tiles ahead of self spend 10 bullets, +2 stacks to active [Laterano] Alliance",
+      "tier": 4,
+      "alliances": ["Laterano"]
+    },
+    {
+      "name": "Ines",
+      "attributeType": "Can stack",
+      "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+4</span>/<span class='green'>+8</span> stacks to own Active Alliance(s)",
+      "tier": 4,
+      "alliances": ["Foresight", "Raid"]
+    },
+    {
+      "name": "Kroos the Keen Glint",
+      "attributeType": "Can stack",
+      "attribute": "&ltIn battle&gt Grants '<span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to active [Precision] Alliance on skill activation' to the Operator in the tile ahead (Can stack up to <span class='blue'>10x</span>/<span class='green'>20x</span> every battle)",
+      "tier": 4,
+      "alliances": ["Precision"]
+    },
+    {
+      "name": "Mountain",
+      "attributeType": "Can stack",
+      "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+1</span>/<span class='green'>+2</span> to active [Investor] Alliance for every Operator obtained this round",
+      "tier": 4,
+      "alliances": ["Investor"]
+    },
+    {
+      "name": "Vulpisfoglia",
+      "attributeType": "One-time",
+      "attribute": "&ltWhen obtained&gt <span class='blue'>+8</span>/<span class='green'>+16</span> stacks to own Alliance(s) (Alliance does not need to be active)",
+      "tier": 4,
+      "alliances": ["Raid", "Swift"]
+    },
+    {
+      "name": "Astgenne",
+      "attributeType": "Prep",
+      "attribute": "&ltWhen Rest Phase ends&gt Obtain <span class='blue'>1</span>/<span class='green'>2</span> extra Fund(s) in next Rest Phase",
+      "tier": 4,
+      "alliances": ["Marvel"]
+    },
+    {
+      "name": "Leonhardt",
+      "attributeType": "Can stack",
+      "attribute": "<When Rest Phase Ends> <span class='blue'>+4</span>/<span class='green'>+8</span> stacks to own active Alliance(s)",
+      "tier": 4,
+      "alliances": ["Precision", "Swift"]
+    },
+    {
+      "name": "Texas the Omertosa",
+      "attributeType": "Combat",
+      "attribute": "For every 3 stacks added to [Raid] Alliance, this Operator has <span class='blue'>-1.5%</span>/<span class='green'>-3%</span> Redeployment Time",
+      "tier": 4,
+      "alliances": ["Raid", "Agile"]
+    },
+    {
+      "name": "Folinic",
+      "attributeType": "Prep",
+      "attribute": "&ltWhen sold&gt Obtain <span class='blue'>1</span>/<span class='green'>2</span> extra Fund next Rest Phase",
+      "tier": 4,
+      "alliances": ["Aid", "Assist_Operator"]
+    },
+    {
+      "name": "Executor the Ex Foedere",
+      "attributeType": "Can stack",
+      "attribute": "&ltIn battle&gt Whenever this Operator spends 7 bullets, <span class='blue'>+6</span>/<span class='green'>+12</span> [Laterano] and <span class='blue'>+3</span>/<span class='green'>+6</span> [Foresight] stacks if Alliances are active",
+      "tier": 5,
+      "alliances": ["Laterano", "Foresight"]
+    },
+    {
+      "name": "Blaze the Igniting Spark",
+      "attributeType": "One-time",
+      "attribute": "&ltWhen obtained&gt <span class='blue'>+3</span>/<span class='green'>+6</span> stacks to [Yan] and [Victoria] Alliances (Alliance does not need to be active)",
+      "tier": 5,
+      "alliances": ["Yan", "Victoria"]
+    },
+    {
+      "name": "Ulpianus",
+      "attributeType": "Combat",
+      "attribute": "For every 2 stacks added to [Aegir]  Alliance, this Operator gains <span class='blue'>+1%</span>/<span class='green'>+2%</span> ATK",
+      "tier": 5,
+      "alliances": ["Aegir"]
+    },
+    {
+      "name": "Surtr",
+      "attributeType": "Can stack",
+      "attribute": "&ltIn battle&gt For every 1 enemy defeated, <span class='blue'>+1</span>/<span class='green'>+2</span> stacks to active [Raid] Alliance",
+      "tier": 5,
+      "alliances": ["Raid"]
+    },
+    {
+      "name": "Civilight Eterna",
+      "attributeType": "Combat",
+      "attribute": "&ltIn battle&gt When the Operator in front adds stacks from their Attribute, <span class='blue'>+1</span>/<span class='green'>+2</span> additional stack",
+      "tier": 5,
+      "alliances": ["Marvel", "Assist_Operator"]
+    },
+    {
+      "name": "Saria",
+      "attributeType": "Specialized",
+      "attribute": "If Operator ahead of self has a &ltWhen Rest Phase ends&gt Attribute, this Operator copies it",
+      "tier": 5,
+      "alliances": ["Durable"]
+    },
+    {
+      "name": "Specter the Unchained",
+      "attributeType": "Can stack",
+      "attribute": "&ltIn battle&gt When defeated or switched to Substitute, <span class='blue'>+4</span>/<span class='green'>+8</span> [Aegir] amd [Resilient] stacks if Alliances are active",
+      "tier": 5,
+      "alliances": ["Aegir", "Resilient"]
+    },
+    {
+      "name": "Thorns the Lodestar",
+      "attributeType": "Can stack",
+      "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+4</span>/<span class='green'>+8</span> stacks each to active Alliance(s) of self and of the Operator 1 tile ahead",
+      "tier": 5,
+      "alliances": ["Marvel", "Swift"]
+    },
+    {
+      "name": "Rose Salt",
+      "attributeType": "Specialized",
+      "attribute": "&ltWhen sold&gt Triggers an Operator's &ltWhen Rest Phase ends&gt Attribute (Prioritizes Operators deployed on upper right tiles)",
+      "tier": 5,
+      "alliances": ["Swift"]
+    },
+    {
+      "name": "Passenger",
+      "attributeType": "Can stack",
+      "attribute": "&ltIn battle&gt On skill activation, if there are 3 operators in the same row, <span class='blue'>+2</span>/<span class='green'>+4</span> [Sargon] and [Precision] stacks if Alliances are active",
+      "tier": 5,
+      "alliances": ["Sargon", "Precision"]
+    },
+    {
+      "name": "Zuo Le",
+      "attributeType": "Can stack",
+      "attribute": "&ltIn battle&gt <span class='blue'>+4</span>/<span class='green'>+8</span> stacks to own active Alliance(s) on skill activation (Can stack up to 20x every battle)",
+      "tier": 5,
+      "alliances": ["Yan"]
+    },
+    {
+      "name": "Gladiia",
+      "attributeType": "Prep",
+      "attribute": "&ltWhen entering Rest Phase&gt If there are 3 Operators in the same row, obtain 1 Skadi, Specter, or Andreana<span class='green'>; repeats 2 times</span>",
+      "tier": 5,
+      "alliances": ["Aegir"]
+    },
+    {
+      "name": "Jessica the Liberated",
+      "attributeType": "Prep",
+      "attribute": "&ltWhen entering Rest Phase&gt Gain <span class='blue'>1</span>/<span class='green'>2</span> random piece(s) of equipment",
+      "tier": 5,
+      "alliances": ["Victoria", "Investor"]
+    },
+    {
+      "name": "Suzuran",
+      "attributeType": "Specialized",
+      "attribute": "&ltWhen entering Rest Phase&gt Trigger the 'When obtained' Attributes of Operators <span class='blue'>in the tile ahead</span>/<span class='green'>two tiles ahead of self</span>",
+      "tier": 5,
+      "alliances": ["Assist_Operator"]
+    },
+    {
+      "name": "Lin",
+      "attributeType": "Can stack",
+      "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+1</span>/<span class='green'>+2</span> stacks to active [Yan] and [Agile] Alliance for every Operator obtained during this Rest Phase",
+      "tier": 5,
+      "alliances": ["Yan", "Agile"]
+    },
+    {
+      "name": "SilverAsh",
+      "attributeType": "Can stack",
+      "attribute": "&ltIn battle&gt Whenever an enemy within range is Frozen, <span class='blue'>25%</span>/<span class='green'>50%</span> chance for +1 stack to active [Kjerag] Alliance",
+      "tier": 5,
+      "alliances": ["Kjerag", "Investor", "Marvel"]
+    },
+    {
+      "name": "Ptilopsis",
+      "attributeType": "Specialized",
+      "attribute": "If Operator ahead of self has a &ltWhen entering Rest Phase&gt Attribute, this Operator copies it",
+      "tier": 5,
+      "alliances": ["Aid", "Agile"]
+    },
+    {
+      "name": "Typhon",
+      "attributeType": "Combat",
+      "attribute": "<span class='blue'>+20%</span>/<span class='green'>+40%</span> ATK and HP; for every 3 stacks added to Core Alliances, this Operator gains <span class='blue'>+1%</span>/<span class='green'>+2%</span> ATK and HP\n<span class='text-gray-500'>(Core Alliances include [Yan], [Sargon], [Victoria], [Kjerag], [Laterano], and [Aegir])</span>",
+      "tier": 5,
+      "alliances": ["Precision", "Agile"]
+    },
+    {
+      "name": "Lemuen",
+      "attributeType": "Can stack",
+      "attribute": "&ltIn battle&gt Whenever this Operator spends 10 bullets while there are 3 Operators in the same row, <span class='blue'>+2</span>/<span class='green'>+4</span> [Laterano] and [Precision] stacks if Alliances are active",
+      "tier": 6,
+      "alliances": ["Laterano", "Precision"]
+    },
+    {
+      "name": "Yu",
+      "attributeType": "Prep",
+      "attribute": "&ltWhen entering Rest Phase&gt <span class='blue'>If there are 3 Operators in the same row, obtain 1 random Operator</span>/<span class='green'>Obtain 1 random Operator</span> from the Alliance from the Alliance with most members in your current squad",
+      "tier": 6,
+      "alliances": ["Yan", "Durable"]
+    },
+    {
+      "name": "Narantuya",
+      "attributeType": "Combat",
+      "attribute": "For every 8 stacks added to [Sargon] Alliance, this Operator gains <span class='blue'>+1%</span>/<span class='green'>+2%</span> ATK",
+      "tier": 6,
+      "alliances": ["Sargon"]
+    },
+    {
+      "name": "Vina Victoria",
+      "attributeType": "Combat",
+      "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to active [Victoria]/[Marvel] Alliance for every [Victoria]/[Marvel] Operator of a different Tier on the field",
+      "tier": 6,
+      "alliances": ["Victoria", "Marvel"]
+    },
+    {
+      "name": "Eyjafjalla the Hvít Aska",
+      "attributeType": "Can stack",
+      "attribute": "&ltIn battle&gt On skill activation, <span class='blue'>+1</span>/<span class='green'>+2</span> stacks to the most stacked active Alliance for every Operator in the same row",
+      "tier": 6,
+      "alliances": ["Assist_Operator"]
+    },
+    {
+      "name": "Muelsyse",
+      "attributeType": "Prep",
+      "attribute": "&ltWhen obtained&gt Gain <span class='blue'>1</span>/<span class='green'>2</span> piece(s) of 'Damazti Isomorph",
+      "tier": 6,
+      "alliances": ["Harmony"]
+    },
+    {
+      "name": "Exusiai the New Covenant",
+      "attributeType": "Prep",
+      "attribute": "&ltWhen obtained&gt Obtain <span class='blue'>2</span>/<span class='green'>4</span> extra Funds next Rest Phase",
+      "tier": 6,
+      "alliances": ["Laterano"]
+    },
+    {
+      "name": "Silence the Paradigmatic",
+      "attributeType": "Can stack",
+      "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+1</span>/<span class='green'>+2</span> stacks to active [Agile] Alliance for every 1 Funds spent this round",
+      "tier": 6,
+      "alliances": ["Agile", "Assist_Operator"]
+    },
+    {
+      "name": "Degenbrecher",
+      "attributeType": "Combat",
+      "attribute": "For every 3 stacks added to [Kjerag] or [Swift] Alliance, this Operator gains <span class='blue'>+1%</span>/<span class='green'>+2%</span> ATK",
+      "tier": 6,
+      "alliances": ["Kjerag", "Swift"]
+    },
+    {
+      "name": "Skadi the Corrupting Heart",
+      "attributeType": "Combat",
+      "attribute": "For every 10 stacks added to [Aegir] Alliance, this Operator recovers <span class='blue'>50</span>/<span class='green'>100</span> HP/s and <span class='blue'>+0.15</span>/<span class='green'>+0.3</span> SP/s",
+      "tier": 6,
+      "alliances": ["Aegir"]
+    },
+    {
+      "name": "Pepe",
+      "attributeType": "Prep",
+      "attribute": "&ltWhen entering Rest Phase&gt Obtain 1 Lucky Coin or Sargon Teapresso; <span class='green'>repeats twice</span> with a chance to find Desert Compass",
+      "tier": 6,
+      "alliances": ["Sargon", "Resilient"]
+    },
+    {
+      "name": "Goldenglow",
+      "attributeType": "Combat",
+      "attribute": "For every 3 stacks added to [Victoria] Alliance, this Operator gains <span class='blue'>+1</span>/<span class='green'>+2</span> ASPD",
+      "tier": 6,
+      "alliances": ["Victoria"]
+    },
+    {
+      "name": "Necrass",
+      "attributeType": "Can stack",
+      "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to active [Swift] Alliance for every Operator on Bench",
+      "tier": 6,
+      "alliances": ["Swift"]
+    },
+    {
+      "name": "Ifrit",
+      "attributeType": "Can stack",
+      "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+2</span>/<span class='green'>+4</span> stacks each to active Alliance(s) of every Operator directly ahead of self",
+      "tier": 6,
+      "alliances": ["Precision"]
+    },
+    {
+      "name": "Lumen",
+      "attributeType": "Can stack",
+      "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to active Alliances of all Operators on Bench",
+      "tier": 6,
+      "alliances": ["Aid", "Assist_Operator"]
+    },
+    {
+      "name": "Mudrock",
+      "attributeType": "Combat",
+      "attribute": "<span class='blue'>+20%</span>/<span class='green'>+40%</span> ATK and HP; for every 3 stacks added to Core Alliances, this Operator gains <span class='blue'>+1%</span>/<span class='green'>+2%</span> ATK and HP\n<span class='text-gray-500'>(Core Alliances include [Yan], [Sargon], [Victoria], [Kjerag], [Laterano], and [Aegir])</span>",
+      "tier": 6,
+      "alliances": ["Durable", "Resilient"]
+    }
+  ]
+}
