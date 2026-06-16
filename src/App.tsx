@@ -69,10 +69,43 @@ function App() {
 
   return (
     <div className="w-full min-h-screen bg-[#212121] relative">
-      <div className="w-full h-[10vh] max-h-14 bg-[#212121] fixed top-0 z-999 flex flex-row items-center justify-between px-4">
+      <div className="w-full h-[10vh] max-h-14 bg-[#212121] fixed top-0 z-999 flex-row items-center justify-between px-4 hidden md:flex">
         <div className="flex flex-row items-baseline gap-2">
           <div className="text-white text-2xl">SPA Database</div>
           <div className="text-white text-sm">Version {packageJson.version}</div>
+        </div>
+
+        {/* <div className="flex flex-row gap-5">
+          <div
+            className="
+            bg-[#00ffbb] rounded-md flex
+            justify-center items-center
+            text-black text-lg px-2 py-1"
+          >
+            Attributes
+          </div>
+          <div
+            className="
+            bg-[#25be9896] rounded-md flex
+            justify-center items-center
+            text-black text-lg px-2 py-1"
+          >
+            Alliances
+          </div>
+          <div
+            className="
+            bg-[#25be9896] rounded-md flex
+            justify-center items-center
+            text-black text-lg px-2 py-1"
+          >
+            Items
+          </div>
+        </div> */}
+      </div>
+      <div className="w-full h-[10vh] max-h-14 bg-[#212121] fixed top-0 z-999 flex-row items-center justify-between px-4 flex">
+        <div className="flex flex-row items-baseline gap-2">
+          <div className="text-white text-lg">SPA Database</div>
+          <div className="text-white text-xs">Version {packageJson.version}</div>
         </div>
 
         <div className="flex flex-row gap-5">
