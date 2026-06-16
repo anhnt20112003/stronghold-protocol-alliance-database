@@ -32,6 +32,13 @@ function OperatorCard(props: OperatorCardProps) {
     window.open(`https://arknights.wiki.gg/wiki/${opName}`, "_blank");
   };
 
+  const getAttributeTypeImgLink = (name: string) => {
+    if (name === "Specialized") return "/attributeicons/s_icon_support.png";
+    if (name === "Combat") return "/attributeicons/s_icon_battle.png";
+    if (name === "Prep") return "/attributeicons/s_icon_gold.png";
+    return "/attributeicons/s_icon_bond.png";
+  };
+
   return (
     <div className="w-full flex flex-row items-start justify-start px-4 gap-4">
       <div className="w-16 shrink-0 flex flex-col justify-start items-center text-center text-white leading-3.5 text-[12px] md:text-[14px]">
@@ -82,7 +89,11 @@ function OperatorCard(props: OperatorCardProps) {
           ))}
         </div>
         <div className="flex flex-row gap-3 text-black text-[10px] md:text-[12px]">
-          <div className="px-1.5 mb-1 rounded-sm bg-[#8a8a8a] text-white">
+          <div className="px-1.5 mb-1 rounded-sm bg-[#8a8a8a] text-white flex flex-row gap-1 items-center justify-center">
+            <img
+              src={getAttributeTypeImgLink(operator.attributeType)}
+              className="h-4 w-4 object-contain"
+            />
             {operator.attributeType}
           </div>
           {/* <div
