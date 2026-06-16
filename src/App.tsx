@@ -6,6 +6,7 @@ import OperatorCard from "./components/OperatorCard";
 import operatorData from "./data/operators.json";
 import type { OperatorDto } from "./dtos/operator.dto";
 import { AiOutlineUp } from "react-icons/ai";
+import packageJson from "../package.json";
 
 const CORE_ALLIANCES = [
   "Yan",
@@ -68,8 +69,38 @@ function App() {
 
   return (
     <div className="w-full min-h-screen bg-[#212121] relative">
-      <div className="w-full h-[10vh] max-h-14 bg-[#0bd5a5] fixed top-0 z-999 flex flex-row items-center justify-start px-4">
-        <div className="text-white text-2xl">SPA Database</div>
+      <div className="w-full h-[10vh] max-h-14 bg-[#212121] fixed top-0 z-999 flex flex-row items-center justify-between px-4">
+        <div className="flex flex-row items-baseline gap-2">
+          <div className="text-white text-2xl">SPA Database</div>
+          <div className="text-white text-sm">Version {packageJson.version}</div>
+        </div>
+
+        <div className="flex flex-row gap-5">
+          <div
+            className="
+            bg-[#00ffbb] rounded-md flex
+            justify-center items-center
+            text-black text-lg px-2 py-1"
+          >
+            Attributes
+          </div>
+          <div
+            className="
+            bg-[#25be9896] rounded-md flex
+            justify-center items-center
+            text-black text-lg px-2 py-1"
+          >
+            Alliances
+          </div>
+          <div
+            className="
+            bg-[#25be9896] rounded-md flex
+            justify-center items-center
+            text-black text-lg px-2 py-1"
+          >
+            Items
+          </div>
+        </div>
       </div>
       <div className="w-full flex flex-col mt-14">
         <div className="flex flex-col my-3 mx-4 gap-3 items-center">
