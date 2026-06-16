@@ -108,7 +108,7 @@ function App() {
           <div className="text-white text-xs">Version {packageJson.version}</div>
         </div>
 
-        <div className="flex flex-row gap-5">
+        {/* <div className="flex flex-row gap-5">
           <div
             className="
             bg-[#00ffbb] rounded-md flex
@@ -133,7 +133,7 @@ function App() {
           >
             Items
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="w-full flex flex-col mt-14">
         <div className="flex flex-col my-3 mx-4 gap-3 items-center">
