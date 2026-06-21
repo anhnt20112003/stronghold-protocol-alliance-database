@@ -1,7 +1,7 @@
 import AllianceButton from "./AllianceButton";
 import TierButton from "./TierButton";
 import OperatorCard from "./OperatorCard";
-import operatorData from "../data/operators.json";
+import { operators } from "../data/operators.json";
 import type { OperatorDto } from "../dtos/operator.dto";
 import { useState } from "react";
 
@@ -55,7 +55,7 @@ const AttributeList = () => {
     else setActiveTiers((prev) => [...prev, tier]);
   };
 
-  const operatorList: OperatorDto[] = operatorData.operators;
+  const operatorList: OperatorDto[] = operators;
 
   const filteredList = operatorList.filter(
     (op) =>

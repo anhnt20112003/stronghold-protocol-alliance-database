@@ -43,7 +43,7 @@ function OperatorCard(props: OperatorCardProps) {
     <div className="w-full flex flex-row items-start justify-start px-4 gap-4">
       <div className="w-16 shrink-0 flex flex-col justify-start items-center text-center text-white leading-3.5 text-[12px] md:text-[14px]">
         <button
-          className="relative cursor-pointer mb-1"
+          className="relative cursor-pointer mb-1 hover:-translate-y-1 transition-transform duration-300"
           onClick={() => navigateToTerraWiki(operator.name)}
         >
           <img
@@ -67,13 +67,12 @@ function OperatorCard(props: OperatorCardProps) {
       </div>
 
       <div className="flex flex-col justify-start items-start">
-        <div className="flex flex-row gap-3 pb-1">
+        <div className="flex flex-row gap-1 md:gap-2 pb-1">
           {operator.alliances.map((alliance) => (
             <div
               id={alliance}
               className={`
-              w-4 h-4 md:w-7 md:h-7
-              border-[#25be97] border rounded-full
+              w-7 h-7 border-[#25be97] border rounded-full
               flex justify-center items-center
             `}
               style={{ background: "radial-gradient(#25be97, #212121 80%)" }}
@@ -113,7 +112,7 @@ function OperatorCard(props: OperatorCardProps) {
           </div> */}
         </div>
         <div
-          className="text-sm text-white text-left whitespace-pre-wrap text-[10px] md:text-[12px]"
+          className="text-sm text-white text-left whitespace-pre-wrap text-[10px] md:text-[14px]"
           dangerouslySetInnerHTML={{
             __html: operator.attribute,
           }}

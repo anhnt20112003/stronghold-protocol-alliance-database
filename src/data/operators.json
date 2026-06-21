@@ -99,6 +99,13 @@
       "alliances": ["Foresight", "Marvel"]
     },
     {
+      "name": "Reserve Operator - Supporter",
+      "attributeType": "Combat",
+      "attribute": "<span class='blue'>+20%</span>/<span class='green'>+40%</span> ATK and HP",
+      "tier": 1,
+      "alliances": ["Harmony", "Assist_Operator"]
+    },
+    {
       "name": "Executor",
       "attributeType": "Can stack",
       "attribute": "&ltIn battle&gt Whenever the Operator ahead spends 7 bullets, <span class='blue'>+1</span>/<span class='green'>+2</span> stack to active [Laterano] Alliance",

@@ -4,109 +4,283 @@
       "bondId": "yanship",
       "name": "Yan",
       "desc": "[Yan] Operators' ATK increases by <span class='blue'>(23 + 0.9 × stacks)%</span>\n&ltWith <span class='green'>6</span> different [Yan] Operators on field&gt At the start of battle, 'Yan's Protection' is summoned with ATK and HP equal to 30% of the total ATK and HP of all [Yan] Operators at that moment. 'Yan's Protection' can use 'Cleansing Flame': attacks inflict a percentage of damage as Burn, and inflicts Elemental Fragility on surrounding enemies",
-      "activeCount": 3
+      "activeCount": 3,
+      "operatorList": [
+        "Leizi",
+        "Wanqing",
+        "Waai Fu",
+        "Honeyberry",
+        "Swire the Elegant Wit",
+        "Mulberry",
+        "Blaze",
+        "Blaze the Igniting Spark",
+        "Zuo Le",
+        "Lin",
+        "Yu"
+      ]
     },
     {
       "bondId": "sargonship",
       "name": "Sargon",
       "desc": "When any [Sargon] Operator activates a skill, all [Sargon] Operators temporarily gain <span class='blue'>+12</span> ASPD (up to a <span class='blue'>+300</span>) for <span class='blue'>(5 + 0.22 × stacks)</span> seconds\n&ltWith <span class='green'>6</span> different [Sargon] Operators on field&gt Skill activations will also cause all [Sargon] Operators to temporarily gain increased ATK (up to <span class='blue'>+300%</span>) for the same duration",
-      "activeCount": 3
+      "activeCount": 3,
+      "operatorList": [
+        "Manticore",
+        "Papyrus",
+        "Heavyrain",
+        "Minimalist",
+        "Philae",
+        "Eunectes",
+        "Passenger",
+        "Narantuya",
+        "Pepe"
+      ]
     },
     {
       "bondId": "victoriaship",
       "name": "Victoria",
       "desc": "[Victoria] Operators carrying equipment deal <span class='blue'>(120 + 0.8 × stacks)%</span> damage\n&ltEvery 25 stacks&gt Obtain 1 random Victorian Hammer\n&ltWith <span class='green'>6</span> different [Victoria] Operators on field&gt All [Victoria] Operators carrying equipment gain <span class='blue'>+80%</span> ATK",
-      "activeCount": 3
+      "activeCount": 3,
+      "operatorList": [
+        "May",
+        "Harold",
+        "Rockrock",
+        "Heidi",
+        "Bagpipe",
+        "Blaze",
+        "Blaze the Igniting Spark",
+        "Jessica the Liberated",
+        "Vina Victoria",
+        "Goldenglow"
+      ]
     },
     {
       "bondId": "kjeragship",
       "name": "Kjerag",
       "desc": "[Kjerag] Operators deal <span class='blue'>130%</span> damage, and deal <span class='blue'>(135 + 1 × stacks)%</span> to Cold and Frozen enemies \n&ltWith <span class='green'>6</span> different [Kjerag] Operators on field&gt A chill gust blows on the battlefield every 25 seconds, inflicting Cold on enemies for <span class='blue'>(20 × 0.1 × stacks)</span> seconds",
-      "activeCount": 3
+      "activeCount": 3,
+      "operatorList": [
+        "Courier",
+        "Matterhorn",
+        "Harold",
+        "Snow Hunter",
+        "Aurora",
+        "Kjera",
+        "Pramanix",
+        "Gnosis",
+        "SilverAsh",
+        "Degenbrecher"
+      ]
     },
     {
       "bondId": "lateranoship",
       "name": "Laterano",
       "desc": "[Laterano] Operators gain <span class='blue'>(5 + 1.5 × stacks)%</span> ammo on skill activation (rounded down)\n&ltWith <span class='green'>6</span> different [Laterano] Operators on field&gt All [Laterano] Operators gain <span class='blue'>+4%</span> ATK when any [Laterano] Operator spends 1 bullet, up to <span class='blue'>+180%</span>",
-      "activeCount": 3
+      "activeCount": 3,
+      "operatorList": [
+        "Insider",
+        "Executor",
+        "Arene",
+        "Exusiai",
+        "Enforcer",
+        "Sankta Miksaparato",
+        "Fiammetta",
+        "Executor the Ex Foedere",
+        "Lemuen",
+        "Exusiai the New Covenant"
+      ]
     },
     {
       "bondId": "egirship",
       "name": "Ægir",
       "desc": "[Ægir] Operators' <span class='blue'>+(35 + 1 × stacks)%</span> HP\nWhen the battle begins, [Ægir] Operators will devour the Operator on the tile in front of them, dealing 6000 Physical damage to the Operator and gaining their base ATK and Block, while adding [Ægir] stacks equal to the devoured Operator's Tier\n&ltWith <span class='green'>5</span> different [Ægir] Operators&gt on the field the first <span class='blue'>2</span> defeated will immediately revive",
-      "activeCount": 3
+      "activeCount": 3,
+      "operatorList": [
+        "Specter",
+        "Underflow",
+        "Skadi",
+        "Andreana",
+        "Mizuki",
+        "Ulpianus",
+        "Specter the Unchained",
+        "Gladiia",
+        "Skadi the Corrupting Heart"
+      ]
     },
     {
       "bondId": "investship",
       "name": "Investor",
       "desc": "Operators' 'When obtained' Attributes <span class='blue'>trigger twice</span>\n&ltAt <span class='green'>70</span> stacks&gt 'When obtained' Attributes trigger <span class='blue'>3 times</span> instead ([Investor] Operators on Bench can also count toward activating this Alliance)",
-      "activeCount": 3
+      "activeCount": 3,
+      "operatorList": ["Swire the Elegant Wit", "Mountain", "Jessica the Liberated", "SilverAsh"]
     },
     {
       "bondId": "maniship",
       "name": "Harmony",
       "desc": "The [Harmony] Alliance grants <span class='blue'>+1</span> Operator count to Core Alliances ([Yan], [Sargon], [Victoria], [Kjerag], [Laterano], and [Ægir]); [Harmony] Operators also gain effects from said activated Alliances",
-      "activeCount": 1
+      "activeCount": 1,
+      "operatorList": ["Reserve Operator - Supporter", "Muelsyse"]
     },
     {
       "bondId": "visiship",
       "name": "Foresight",
       "desc": "&ltFor every <span class='green'>10</span> stacks added&gt Gain <span class='blue'>+2</span> Funds\n&ltAt <span class='green'>100</span> stacks (first-time only)&gt Dispatch Center Operators <span class='blue'>cost 1 less Funds permanently</span> ([Foresight] Operators on Bench can also count toward activating this Alliance)",
-      "activeCount": 2
+      "activeCount": 2,
+      "operatorList": ["Gitano", "Silence", "Kjera", "Bagpipe", "Ines", "Executor the Ex Foedere"]
     },
     {
       "bondId": "preciship",
       "name": "Precision",
       "desc": "High Ground Operators <span class='blue'>(10 + 1.2 × stacks)%</span> ATK\n&ltWith <span class='green'>3</span> different [Precision] Operators on field&gt High Ground Operators' attacks ignore <span class='blue'>30%</span> DEF and RES, and attacks silence targets for 2 seconds",
-      "activeCount": 2
+      "activeCount": 2,
+      "operatorList": [
+        "Caper",
+        "May",
+        "Executor",
+        "Snow Hunter",
+        "Andreana",
+        "Kroos the Keen Glint",
+        "Leonhardt",
+        "Passenger",
+        "Typhon",
+        "Lemuen",
+        "Ifrit"
+      ]
     },
     {
       "bondId": "steadship",
       "name": "Durable",
       "desc": "All Operators gain <span class='blue'>+(30 + 1.25 × stacks)%</span> HP\n&ltWith <span class='green'>3</span> different [Durable] Operators&gt on the field Whenever a non-[Durable] Operator takes damage, <span class='blue'>40%</span> of that damage is split among all [Durable] Operators on field",
-      "activeCount": 2
+      "activeCount": 2,
+      "operatorList": [
+        "Cuora",
+        "Matterhorn",
+        "Heavyrain",
+        "Skadi",
+        "Sankta Miksaparato",
+        "Saria",
+        "Yu",
+        "Mudrock"
+      ]
     },
     {
       "bondId": "raidship",
       "name": "Raid",
       "desc": "If a [Raid] Operator's skill is ready with no enemies in their attack range, they will redeploy near a ground enemy, use their skill, and gain <span class='blue'>+(10 + 1 × stacks)%</span> ATK and HP during the skill duration\n&ltAt <span class='green'>30</span> stacks&gt All Operators <span class='blue'>-50%</span> DP Cost",
-      "activeCount": 2
+      "activeCount": 2,
+      "operatorList": [
+        "Manticore",
+        "Utage",
+        "Gravel",
+        "Skadi",
+        "Ines",
+        "Vulpisfoglia",
+        "Texas the Omertosa",
+        "Surtr"
+      ]
     },
     {
       "bondId": "miraship",
       "name": "Marvel",
       "desc": "On Dispatch Center refresh, there is a <span class='blue'>(25 + 0.3 × stacks)%</span> chance the next refresh will be free\n&ltEvery <span class='green'>50</span> stacks&gt Gain <span class='blue'>10</span> Funds ([Marvel] Operators on Bench can also count toward activating this Alliance)",
-      "activeCount": 2
+      "activeCount": 2,
+      "operatorList": [
+        "Gitano",
+        "Kazemaru",
+        "Exusiai",
+        "Warfarin",
+        "Astgenne",
+        "Civilight Eterna",
+        "Thorns the Lodestar",
+        "SilverAsh",
+        "Vina Victoria"
+      ]
     },
     {
       "bondId": "indomship",
       "name": "Resilient",
       "desc": "When a Ground Operator is defeated, there is a <span class='blue'>(18 + 0.4 × stacks)%</span> chance they will immediately redeploy\n&ltWith <span class='green'>3</span> different [Resilient] Operators on field&gt When defeated, Ground Operators grant <span class='blue'>+5</span> SP to all Operators on the field",
-      "activeCount": 2
+      "activeCount": 2,
+      "operatorList": [
+        "Courier",
+        "Vigna",
+        "Kazemaru",
+        "Gravel",
+        "Waai Fu",
+        "Bagpipe",
+        "Specter the Unchained",
+        "Pepe",
+        "Mudrock"
+      ]
     },
     {
       "bondId": "swiftship",
       "name": "Swift",
       "desc": "[Swift] Operators have a <span class='blue'>(20 + 0.35 × stacks)%</span> chance when their skill ends to immediately recover <span class='blue'>10</span> SP\n&ltAt <span class='green'>40</span> stacks&gt All Operators have the same chance to recover <span class='blue'>15</span> SP when their skill ends",
-      "activeCount": 2
+      "activeCount": 2,
+      "operatorList": [
+        "Texas",
+        "Tin Man",
+        "Mizuki",
+        "Vulpisfoglia",
+        "Leonhardt",
+        "Thorns the Lodestar",
+        "Rose Salt",
+        "Degenbrecher",
+        "Necrass"
+      ]
     },
     {
       "bondId": "deputship",
       "name": "Aid",
       "desc": "All Operators gain <span class='blue'>+(15 + 1.2 × stacks)%</span> DEF and <span class='blue'>-30%</span> Redeployment Time\nWhen Rest Phase ends, <span class='blue'>+2</span> stacks to all active Alliances\n&ltWith <span class='green'>3</span> different [Aid] Operators on field&gt <span class='blue'>+4</span> stacks instead",
-      "activeCount": 2
+      "activeCount": 2,
+      "operatorList": [
+        "Savage",
+        "Utage",
+        "Ceylon",
+        "Heidi",
+        "Mulberry",
+        "Folinic",
+        "Ptilopsis",
+        "Lumen"
+      ]
     },
     {
       "bondId": "skillfulship",
       "name": "Agile",
       "desc": "[Agile] Operators and Operators in the 8 adjacent tiles around them gain <span class='blue'>+(10 + 1 × stacks)</span> ASPD\n&ltAt <span class='green'>20</span> stacks&gt First manual refresh every Rest Phase will lower equipment price to <span class='blue'>1</span> Funds",
-      "activeCount": 2
+      "activeCount": 2,
+      "operatorList": [
+        "Pudding",
+        "Tin Man",
+        "Rockrock",
+        "Minimalist",
+        "Pramanix",
+        "Gnosis",
+        "Texas the Omertosa",
+        "Lin",
+        "Ptilopsis",
+        "Typhon",
+        "Silence the Paradigmatic"
+      ]
     },
     {
       "bondId": "emptyship",
       "name": "Assist Operator",
       "desc": "All Operators take <span class='blue'>-20%</span> Physical and Arts damage, deal <span class='blue'>120%</span> more damage; Elite Operators deal <span class='blue'>140%</span> more damage",
-      "activeCount": 3
+      "activeCount": 3,
+      "operatorList": [
+        "Reserve Operator - Supporter",
+        "Lappland",
+        "Ethan",
+        "Folinic",
+        "Civilight Eterna",
+        "Suzuran",
+        "Eyjafjalla the Hvít Aska",
+        "Silence the Paradigmatic",
+        "Lumen"
+      ]
     }
   ]
 }
