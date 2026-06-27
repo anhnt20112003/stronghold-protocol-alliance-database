@@ -3,7 +3,7 @@
     {
       "bondId": "yanship",
       "name": "Yan",
-      "desc": "[Yan] Operators' ATK increases by <span class='blue'>(23 + 0.9 × stacks)%</span>\n&ltWith <span class='green'>6</span> different [Yan] Operators on field&gt At the start of battle, 'Yan's Protection' is summoned with ATK and HP equal to 30% of the total ATK and HP of all [Yan] Operators at that moment. 'Yan's Protection' can use 'Cleansing Flame': attacks inflict a percentage of damage as Burn, and inflicts Elemental Fragility on surrounding enemies",
+      "desc": "[Yan] Operators' ATK increases by <span class='blue'>(23 + 0.9 × stacks)%</span>\n&ltWith <span class='green'>6</span> different [Yan] Operators on field&gt At the start of battle, 'Yan's Protection' is summoned with ATK and HP equal to <span class='blue'>30%</span> of the total ATK and HP of all [Yan] Operators at that moment. 'Yan's Protection' can use 'Cleansing Flame': attacks inflict a percentage of damage as Burn, and inflicts Elemental Fragility on surrounding enemies",
       "activeCount": 3,
       "operatorList": [
         "Leizi",
@@ -39,7 +39,7 @@
     {
       "bondId": "victoriaship",
       "name": "Victoria",
-      "desc": "[Victoria] Operators carrying equipment deal <span class='blue'>(120 + 0.8 × stacks)%</span> damage\n&ltEvery 25 stacks&gt Obtain 1 random Victorian Hammer\n&ltWith <span class='green'>6</span> different [Victoria] Operators on field&gt All [Victoria] Operators carrying equipment gain <span class='blue'>+80%</span> ATK",
+      "desc": "[Victoria] Operators carrying equipment deal <span class='blue'>(120 + 0.8 × stacks)%</span> damage\n&ltEvery <span class='green'>25</span> stacks&gt Obtain 1 random Victorian Hammer\n&ltWith <span class='green'>6</span> different [Victoria] Operators on field&gt All [Victoria] Operators carrying equipment gain <span class='blue'>+80%</span> ATK",
       "activeCount": 3,
       "operatorList": [
         "May",

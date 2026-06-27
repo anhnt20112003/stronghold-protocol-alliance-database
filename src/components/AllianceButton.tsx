@@ -13,7 +13,7 @@ function AllianceButton(props: AllianceButtonProps) {
       className="
         flex flex-row justify-center items-center
         gap-1 md:gap-3 px-2 py-1 md:px-3 md:py-1.5
-        border-2 rounded-xl text-[10px] md:text-[12px]
+        border-2 rounded-xl text-[10px] md:text-[14px]
       "
       style={{
         borderColor: isActive ? "#00ffbb" : "#25be97",

@@ -4,11 +4,13 @@ import packageJson from "../package.json";
 import AttributeList from "./components/AttributeList";
 import { useState } from "react";
 import AllianceList from "./components/AllianceList";
+import StrategyList from "./components/StrategyList";
+import ShopItemList from "./components/ShopItemList";
 
 function App() {
   const [currentPage, setCurrentPage] = useState<string>("Attributes");
 
-  const pages = ["Attributes", "Alliances", "Items"];
+  const pages = ["Attributes", "Alliances", "Strategies", "Items"];
 
   const switchPage = (page: string) => {
     setCurrentPage(page);
@@ -24,16 +26,17 @@ function App() {
           <div className="text-white text-sm">Version {packageJson.version}</div>
         </div>
 
-        <div className="flex flex-row gap-5">
+        <div className="flex flex-row gap-5 h-full">
           {pages.map((page) => (
             <button
               className="
-              rounded-md flex justify-center items-center
-              text-black text-lg px-2 py-1"
+              flex justify-center items-center
+              text-black text-lg px-2 h-full"
               onClick={() => (page === currentPage ? {} : switchPage(page))}
               style={{
-                backgroundColor: page === currentPage ? "#00ffbb" : "#17785f",
+                backgroundColor: page === currentPage ? "#00ffbb" : "#212121",
                 cursor: page === currentPage ? "default" : "pointer",
+                color: page === currentPage ? "black" : "white",
               }}
             >
               {page}
@@ -84,6 +87,8 @@ function App() {
       <div className="w-full flex flex-col mt-14">
         {currentPage === "Attributes" && <AttributeList />}
         {currentPage === "Alliances" && <AllianceList />}
+        {currentPage === "Strategies" && <StrategyList />}
+        {currentPage === "Items" && <ShopItemList />}
       </div>
       <div className="fixed bottom-5 right-5 z-999">
         <button
