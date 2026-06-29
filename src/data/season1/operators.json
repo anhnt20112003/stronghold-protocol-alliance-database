@@ -73,7 +73,7 @@
     {
       "name": "Manticore",
       "attributeType": "Combat",
-      "attribute": "SP recovery rate <span class='blue'>+/second</span>/<span class='green'>+0.3/second</span>",
+      "attribute": "SP recovery rate <span class='blue'>+0.15/second</span>/<span class='green'>+0.3/second</span>",
       "tier": 1,
       "alliances": ["Sargon", "Raid"]
     },
