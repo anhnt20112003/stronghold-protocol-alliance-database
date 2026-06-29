@@ -66,7 +66,7 @@ const AttributeList = () => {
   return (
     <>
       <div className="flex flex-col my-3 mx-4 gap-3 items-center">
-        <div className="px-[15vw] flex flex-row flex-wrap gap-3 justify-center">
+        <div className="flex flex-row flex-wrap gap-3 justify-center">
           {[1, 2, 3, 4, 5, 6].map((tier) => (
             <TierButton
               key={tier}
@@ -76,7 +76,7 @@ const AttributeList = () => {
             />
           ))}
         </div>
-        <div className="px-[10vw] flex flex-row flex-wrap gap-3 justify-center">
+        <div className="grid grid-cols-3 sm:grid-cols-6 flex-wrap gap-3 justify-center">
           {CORE_ALLIANCES.map((alliance) => (
             <AllianceButton
               allianceName={alliance}
@@ -86,7 +86,7 @@ const AttributeList = () => {
             />
           ))}
         </div>
-        <div className="px-[10vw] flex flex-row flex-wrap gap-3 justify-center">
+        <div className="grid grid-cols-3 sm:grid-cols-6 flex-wrap gap-3 justify-center">
           {ADDITIONAL_ALLIANCES.map((alliance) => (
             <AllianceButton
               allianceName={alliance}

@@ -11,7 +11,7 @@ function AllianceButton(props: AllianceButtonProps) {
   return (
     <button
       className="
-        flex flex-row justify-center items-center
+        flex flex-row justify-start items-center
         gap-1 md:gap-3 px-2 py-1 md:px-3 md:py-1.5
         border-2 rounded-xl text-[10px] md:text-[14px]
       "
@@ -25,7 +25,7 @@ function AllianceButton(props: AllianceButtonProps) {
       <div
         id={allianceName}
         className={`
-          w-5 h-5 md:w-7 md:h-7
+          w-5 h-5 md:w-7 md:h-7 shrink-0
           border-[#25be97] border rounded-full
           flex justify-center items-center
         `}
@@ -39,7 +39,9 @@ function AllianceButton(props: AllianceButtonProps) {
           src={getBondImage(allianceName)}
         />
       </div>
-      {allianceName.replaceAll("_", " ")}
+      <div className="flex justify-center items-center w-full">
+        {allianceName === "Assist_Operator" ? "Assist" : allianceName}
+      </div>
     </button>
   );
 }
