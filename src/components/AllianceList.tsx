@@ -1,14 +1,19 @@
-import { bondInfo } from "../data/alliances.json";
-import { operators } from "../data/operators.json";
 import type { OperatorDto } from "../dtos/operator.dto";
+import { operators as season1operators } from "../data/season1/operators.json";
+import { operators as season2operators } from "../data/season2/operators.json";
+import { bondInfo as season1bonds } from "../data/season1/alliances.json";
+import { bondInfo as season2bonds } from "../data/season2/alliances.json";
+import type { AllianceDto } from "../dtos/alliance.dto";
 
-type AllianceInfo = {
-  bondId: string;
-  name: string;
-  desc: string;
-  activeCount: number;
-  operatorList: string[];
-};
+const seasonOperatorData: Record<string, OperatorDto[]> = {
+  "1": season1operators,
+  "2": season2operators,
+} as const;
+
+const seasonBondData: Record<string, AllianceDto[]> = {
+  "1": season1bonds,
+  "2": season2bonds,
+} as const;
 
 const ROMAN_NUMERALS: Record<number, string> = {
   1: "I",
@@ -28,9 +33,13 @@ const TIER_COLOR: Record<number, string> = {
   6: "#fd8002",
 };
 
-const AllianceList = () => {
-  const allianceData: AllianceInfo[] = bondInfo;
-  const operatorData: OperatorDto[] = operators;
+type AllianceListProps = {
+  season: string;
+};
+
+const AllianceList = ({ season }: AllianceListProps) => {
+  const allianceData: AllianceDto[] = seasonBondData[season];
+  const operatorData: OperatorDto[] = seasonOperatorData[season];
 
   const navigateToTerraWiki = (opName: string) => {
     window.open(`https://arknights.wiki.gg/wiki/${opName}`, "_blank");
@@ -39,7 +48,9 @@ const AllianceList = () => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 mx-6 mb-6 gap-6">
       {allianceData.map((alliance) => {
-        const ops = operatorData.filter((op) => alliance.operatorList.includes(op.name));
+        const ops = operatorData.filter((op) =>
+          op.alliances.includes(alliance.name.replaceAll(" ", "_")),
+        );
         return (
           <div className="w-full flex flex-col items-center justify-start">
             <div
@@ -48,9 +59,9 @@ const AllianceList = () => {
             >
               <div
                 className="
-              w-18 shrink-0 flex flex-col justify-start
-              items-center text-center text-white
-              leading-4.5 text-[14px] md:text-[18px] gap-2"
+                w-18 shrink-0 flex flex-col justify-start
+                items-center text-center text-white
+                leading-4.5 text-[14px] md:text-[18px] gap-2"
               >
                 <div
                   className="w-18 h-18 border-3 border-[#25be97] flex justify-center items-center rounded-full"
@@ -62,8 +73,8 @@ const AllianceList = () => {
               </div>
               <div className="flex items-start flex-col">
                 <span className="text-sm text-white text-left text-[12px] md:text-[15px]">
-                  Requires <span className="green">{alliance.activeCount}</span> Operators to
-                  activate
+                  Requires <span className="green">{alliance.activeCount}</span>{" "}
+                  {alliance.activeCount == 1 ? "Operator" : "Operators"} to activate
                 </span>
                 <div
                   className="text-sm text-white text-left whitespace-pre-wrap text-[12px] md:text-[15px]"

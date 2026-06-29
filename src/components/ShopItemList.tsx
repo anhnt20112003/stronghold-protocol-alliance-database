@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { shopitems } from "../data/items.json";
+import { shopitems } from "../data/season1/items.json";
 
 type ShopItemDto = {
   iconLink: string;

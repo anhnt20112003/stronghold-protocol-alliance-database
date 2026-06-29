@@ -1,4 +1,4 @@
-import { bandInfo } from "../data/strategies.json";
+import { bandInfo } from "../data/season1/strategies.json";
 
 type StrategyDto = {
   name: string;

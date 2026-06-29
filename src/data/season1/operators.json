@@ -24,9 +24,9 @@
     {
       "name": "Specter",
       "attributeType": "Combat",
-      "attribute": "&ltIn battle&gt When defeated, <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to active [Aegir] Alliance",
+      "attribute": "&ltIn battle&gt When defeated, <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to active [Ægir] Alliance",
       "tier": 1,
-      "alliances": ["Aegir"]
+      "alliances": ["Ægir"]
     },
     {
       "name": "Vigna",
@@ -131,7 +131,7 @@
       "attributeType": "Combat",
       "attribute": "When attacking Sea Monster enemies, increases ATK to <span class='blue'>150%</span>/<span class='green'>200%</span>",
       "tier": 2,
-      "alliances": ["Aegir"]
+      "alliances": ["Ægir"]
     },
     {
       "name": "Utage",
@@ -227,9 +227,9 @@
     {
       "name": "Skadi",
       "attributeType": "Can stack",
-      "attribute": "&ltIn battle&gt For every 3 enemy defeated, <span class='blue'>+1</span>/<span class='green'>+2</span> stacks to active [Aegir], [Durable], [Raid] Alliance",
+      "attribute": "&ltIn battle&gt For every 3 enemy defeated, <span class='blue'>+1</span>/<span class='green'>+2</span> stacks to active [Ægir], [Durable], [Raid] Alliance",
       "tier": 3,
-      "alliances": ["Aegir", "Durable", "Raid"]
+      "alliances": ["Ægir", "Durable", "Raid"]
     },
     {
       "name": "Enforcer",
@@ -292,7 +292,7 @@
       "attributeType": "Combat",
       "attribute": "When attacking Sea Monster enemies, increases ATK to <span class='blue'>150%</span>/<span class='green'>200%</span>",
       "tier": 3,
-      "alliances": ["Aegir", "Precision"]
+      "alliances": ["Ægir", "Precision"]
     },
     {
       "name": "Ethan",
@@ -339,9 +339,9 @@
     {
       "name": "Mizuki",
       "attributeType": "Combat",
-      "attribute": "For every 3 stacks added to [Aegir] or [Swift] Alliance, this Operator gains <span class='blue'>+1%</span>/<span class='green'>+2%</span> ATK",
+      "attribute": "For every 3 stacks added to [Ægir] or [Swift] Alliance, this Operator gains <span class='blue'>+1%</span>/<span class='green'>+2%</span> ATK",
       "tier": 4,
-      "alliances": ["Aegir", "Swift"]
+      "alliances": ["Ægir", "Swift"]
     },
     {
       "name": "Warfarin",
@@ -451,9 +451,9 @@
     {
       "name": "Ulpianus",
       "attributeType": "Combat",
-      "attribute": "For every 2 stacks added to [Aegir]  Alliance, this Operator gains <span class='blue'>+1%</span>/<span class='green'>+2%</span> ATK",
+      "attribute": "For every 2 stacks added to [Ægir] Alliance, this Operator gains <span class='blue'>+1%</span>/<span class='green'>+2%</span> ATK",
       "tier": 5,
-      "alliances": ["Aegir"]
+      "alliances": ["Ægir"]
     },
     {
       "name": "Surtr",
@@ -479,9 +479,9 @@
     {
       "name": "Specter the Unchained",
       "attributeType": "Can stack",
-      "attribute": "&ltIn battle&gt When defeated or switched to Substitute, <span class='blue'>+4</span>/<span class='green'>+8</span> [Aegir] amd [Resilient] stacks if Alliances are active",
+      "attribute": "&ltIn battle&gt When defeated or switched to Substitute, <span class='blue'>+4</span>/<span class='green'>+8</span> [Ægir] amd [Resilient] stacks if Alliances are active",
       "tier": 5,
-      "alliances": ["Aegir", "Resilient"]
+      "alliances": ["Ægir", "Resilient"]
     },
     {
       "name": "Thorns the Lodestar",
@@ -516,7 +516,7 @@
       "attributeType": "Prep",
       "attribute": "&ltWhen entering Rest Phase&gt If there are 3 Operators in the same row, obtain 1 Skadi, Specter, or Andreana<span class='green'>; repeats 2 times</span>",
       "tier": 5,
-      "alliances": ["Aegir"]
+      "alliances": ["Ægir"]
     },
     {
       "name": "Jessica the Liberated",
@@ -556,7 +556,7 @@
     {
       "name": "Typhon",
       "attributeType": "Combat",
-      "attribute": "<span class='blue'>+20%</span>/<span class='green'>+40%</span> ATK and HP; for every 3 stacks added to Core Alliances, this Operator gains <span class='blue'>+1%</span>/<span class='green'>+2%</span> ATK and HP\n<span class='text-gray-500'>(Core Alliances include [Yan], [Sargon], [Victoria], [Kjerag], [Laterano], and [Aegir])</span>",
+      "attribute": "<span class='blue'>+20%</span>/<span class='green'>+40%</span> ATK and HP; for every 3 stacks added to Core Alliances, this Operator gains <span class='blue'>+1%</span>/<span class='green'>+2%</span> ATK and HP\n<span class='text-gray-500'>(Core Alliances include [Yan], [Sargon], [Victoria], [Kjerag], [Laterano], and [Ægir])</span>",
       "tier": 5,
       "alliances": ["Precision", "Agile"]
     },
@@ -583,7 +583,7 @@
     },
     {
       "name": "Vina Victoria",
-      "attributeType": "Combat",
+      "attributeType": "Can stack",
       "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to active [Victoria]/[Marvel] Alliance for every [Victoria]/[Marvel] Operator of a different Tier on the field",
       "tier": 6,
       "alliances": ["Victoria", "Marvel"]
@@ -626,9 +626,9 @@
     {
       "name": "Skadi the Corrupting Heart",
       "attributeType": "Combat",
-      "attribute": "For every 10 stacks added to [Aegir] Alliance, this Operator recovers <span class='blue'>50</span>/<span class='green'>100</span> HP/s and <span class='blue'>+0.15</span>/<span class='green'>+0.3</span> SP/s",
+      "attribute": "For every 10 stacks added to [Ægir] Alliance, this Operator recovers <span class='blue'>50</span>/<span class='green'>100</span> HP/s and <span class='blue'>+0.15</span>/<span class='green'>+0.3</span> SP/s",
       "tier": 6,
-      "alliances": ["Aegir"]
+      "alliances": ["Ægir"]
     },
     {
       "name": "Pepe",
@@ -668,7 +668,7 @@
     {
       "name": "Mudrock",
       "attributeType": "Combat",
-      "attribute": "<span class='blue'>+20%</span>/<span class='green'>+40%</span> ATK and HP; for every 3 stacks added to Core Alliances, this Operator gains <span class='blue'>+1%</span>/<span class='green'>+2%</span> ATK and HP\n<span class='text-gray-500'>(Core Alliances include [Yan], [Sargon], [Victoria], [Kjerag], [Laterano], and [Aegir])</span>",
+      "attribute": "<span class='blue'>+20%</span>/<span class='green'>+40%</span> ATK and HP; for every 3 stacks added to Core Alliances, this Operator gains <span class='blue'>+1%</span>/<span class='green'>+2%</span> ATK and HP\n<span class='text-gray-500'>(Core Alliances include [Yan], [Sargon], [Victoria], [Kjerag], [Laterano], and [Ægir])</span>",
       "tier": 6,
       "alliances": ["Durable", "Resilient"]
     }

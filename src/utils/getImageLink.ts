@@ -2,8 +2,8 @@ export function getBondImage(type: string) {
   const table: Record<string, string> = {
     Arcane: "arcaneship",
     Aid: "deputship",
-    Aegir: "egirship",
-    Assist_Operator: "emptyship",
+    Ægir: "egirship",
+    "Assist Operator": "emptyship",
     Resilient: "indomship",
     Investor: "investship",
     Kazimierz: "kazimierzship",
