@@ -1,11 +1,11 @@
 import "./App.css";
 import { AiOutlineUp, AiOutlineMenu } from "react-icons/ai";
 import packageJson from "../package.json";
-import AttributeList from "./components/AttributeList";
+import AttributeList from "./features/AttributeList";
 import { useState } from "react";
-import AllianceList from "./components/AllianceList";
+import AllianceList from "./features/AllianceList";
 import StrategyList from "./components/StrategyList";
-import ShopItemList from "./components/ShopItemList";
+import ShopItemList from "./features/ShopItemList";
 import { useSearchParams } from "react-router-dom";
 import HeaderDesktop from "./components/HeaderDesktop";
 import HeaderMobile from "./components/HeaderMobile";

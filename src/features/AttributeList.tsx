@@ -1,6 +1,6 @@
-import AllianceButton from "./AllianceButton";
-import TierButton from "./TierButton";
-import OperatorCard from "./OperatorCard";
+import AllianceButton from "../components/AllianceButton";
+import TierButton from "../components/TierButton";
+import OperatorCard from "../components/OperatorCard";
 import { operators as season1operators } from "../data/season1/operators.json";
 import { operators as season2operators } from "../data/season2/operators.json";
 import { bondInfo as season1bonds } from "../data/season1/alliances.json";
