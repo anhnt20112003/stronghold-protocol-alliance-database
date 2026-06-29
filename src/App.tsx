@@ -6,14 +6,19 @@ import { useState } from "react";
 import AllianceList from "./components/AllianceList";
 import StrategyList from "./components/StrategyList";
 import ShopItemList from "./components/ShopItemList";
+import { useSearchParams } from "react-router-dom";
 
 function App() {
-  const [currentPage, setCurrentPage] = useState<string>("Attributes");
+  const [searchParams, setSearchParams] = useSearchParams();
 
-  const pages = ["Attributes", "Alliances", "Strategies", "Items"];
+  const tabs = ["Attributes", "Alliances", "Strategies", "Items"];
+  const page = searchParams.get("tab");
+  const currentPage = tabs.includes(page ?? "") ? page! : "Attributes";
 
-  const switchPage = (page: string) => {
-    setCurrentPage(page);
+  const switchTab = (page: string) => {
+    const params = new URLSearchParams(searchParams);
+    params.set("tab", page);
+    setSearchParams(params, { replace: true });
   };
 
   const [toggleMobileMenu, setToggleMobileMenu] = useState<boolean>(false);
@@ -27,19 +32,19 @@ function App() {
         </div>
 
         <div className="flex flex-row gap-5 h-full">
-          {pages.map((page) => (
+          {tabs.map((tab) => (
             <button
               className="
               flex justify-center items-center
               text-black text-lg px-2 h-full"
-              onClick={() => (page === currentPage ? {} : switchPage(page))}
+              onClick={() => (tab === currentPage ? {} : switchTab(tab))}
               style={{
-                backgroundColor: page === currentPage ? "#00ffbb" : "#212121",
-                cursor: page === currentPage ? "default" : "pointer",
-                color: page === currentPage ? "black" : "white",
+                backgroundColor: tab === currentPage ? "#00ffbb" : "#212121",
+                cursor: tab === currentPage ? "default" : "pointer",
+                color: tab === currentPage ? "black" : "white",
               }}
             >
-              {page}
+              {tab}
             </button>
           ))}
         </div>
@@ -62,14 +67,14 @@ function App() {
               display: toggleMobileMenu ? "flex" : "none",
             }}
           >
-            {pages.map((page) => (
+            {tabs.map((page) => (
               <button
                 className="
               flex justify-center items-center
               text-black text-lg px-2 py-1 w-full"
                 onClick={() => {
                   if (page !== currentPage) {
-                    switchPage(page);
+                    switchTab(page);
                     setToggleMobileMenu((prev) => !prev);
                   }
                 }}
