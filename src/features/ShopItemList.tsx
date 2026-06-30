@@ -44,7 +44,7 @@ const ShopItemList = () => {
 
   return (
     <>
-      <div className="grid grid-cols sm:grid-cols-3 mx-6 mb-6 gap-6">
+      <div className="grid grid-cols md:grid-cols-3 mx-6 mb-6 gap-6">
         {items.map((item) => (
           <div
             className="
@@ -82,7 +82,7 @@ const ShopItemList = () => {
       </div>
       <div>
         <div className="text-2xl">Damazti Isomorph equipments:</div>
-        <div className="grid grid-cols-1 sm:grid-cols-3 mx-6 mb-6 mt-6 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 mx-6 mb-6 mt-6 gap-6">
           {Object.keys(mumuballCombinations).map((key) => {
             const item =
               items.filter((i) =>

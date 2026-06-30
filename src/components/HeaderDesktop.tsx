@@ -28,7 +28,7 @@ const HeaderDesktop = (props: HeaderProps) => {
   ];
 
   return (
-    <div className="w-full h-[10vh] max-h-14 bg-[#212121] fixed top-0 z-999 flex-row items-center justify-between px-4 hidden sm:flex">
+    <div className="w-full h-[10vh] max-h-14 bg-[#212121] fixed top-0 z-999 flex-row items-center justify-between px-4 hidden md:flex">
       <div className="flex flex-row items-baseline gap-2">
         <div className="text-white text-2xl">SPA Database</div>
         <div className="text-white text-xl">by Silverglow</div>

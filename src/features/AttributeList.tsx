@@ -60,7 +60,7 @@ const AttributeList = ({ season }: AttributeListProps) => {
             />
           ))}
         </div>
-        <div className="grid grid-cols-3 sm:grid-cols-6 flex-wrap gap-3 justify-center">
+        <div className="flex flex-row flex-wrap gap-3 justify-center max-w-96 md:max-w-195">
           {coreAlliances.map((alliance) => (
             <AllianceButton
               allianceName={alliance.name}
@@ -70,7 +70,7 @@ const AttributeList = ({ season }: AttributeListProps) => {
             />
           ))}
         </div>
-        <div className="grid grid-cols-3 sm:grid-cols-6 flex-wrap gap-3 justify-center">
+        <div className="flex flex-row flex-wrap gap-3 justify-center max-w-96 md:max-w-195">
           {additionalAlliances.map((alliance) => (
             <AllianceButton
               allianceName={alliance.name}

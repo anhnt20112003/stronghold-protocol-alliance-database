@@ -10,7 +10,7 @@ type StrategyDto = {
 const StrategyList = () => {
   const strats: StrategyDto[] = bandInfo;
   return (
-    <div className="grid grid-cols sm:grid-cols-3 mx-6 mb-6 gap-6">
+    <div className="grid grid-cols md:grid-cols-3 mx-6 mb-6 gap-6">
       {strats.map((strategy) => (
         <div
           className="
