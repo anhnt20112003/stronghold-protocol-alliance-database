@@ -59,7 +59,7 @@
     {
       "bondId": "investship",
       "name": "Investor",
-      "desc": "Operators' 'When obtained' Attributes <span class='blue'>trigger twice</span>\n&ltAt <span class='green'>70</span> stacks&gt 'When obtained' Attributes trigger <span class='blue'>3 times</span> instead\n<span class='text-gray-500'>[Investor] Operators on Bench can also count toward activating this Alliance</span>",
+      "desc": "Operators' 'When obtained' Attributes <span class='blue'>trigger twice</span>\n&ltAt <span class='green'>100</span> stacks&gt 'When obtained' Attributes trigger <span class='blue'>3 times</span> instead\n<span class='text-gray-500'>[Investor] Operators on Bench can also count toward activating this Alliance</span>",
       "activeCount": 3
     },
     {
@@ -71,7 +71,7 @@
     {
       "bondId": "visiship",
       "name": "Foresight",
-      "desc": "&ltFor every <span class='green'>10</span> stacks added&gt Gain <span class='blue'>+2</span> Funds\n&ltAt <span class='green'>80</span> stacks (first-time only)&gt [Foresight] Operators <span class='blue'>cost 1 less Funds permanently</span>\n&ltAt <span class='green'>150</span> stacks (first-time only)&gt All Dispatch Center Operators <span class='blue'>cost 1 less Funds permanently (stacks with the effect above)</span>\n<span class='text-gray-500'>[Foresight] Operators on Bench can also count toward activating this Alliance</span>",
+      "desc": "&ltFor every <span class='green'>10</span> stacks added&gt Gain <span class='blue'>+2</span> Funds\n&ltAt <span class='green'>80</span> stacks (first-time only)&gt [Foresight] Operators <span class='blue'>cost 1 less Funds permanently</span>\n&ltAt <span class='green'>150</span> stacks (first-time only)&gt The above effect becomes: All Dispatch Center Operators <span class='blue'>cost 1 less Funds permanently</span>\n<span class='text-gray-500'>[Foresight] Operators on Bench can also count toward activating this Alliance</span>",
       "activeCount": 2
     },
     {
@@ -95,7 +95,7 @@
     {
       "bondId": "miraship",
       "name": "Marvel",
-      "desc": "On Dispatch Center refresh, there is a <span class='blue'>(25 + 0.3 × stacks)%</span> chance the next refresh will be free\n&ltEvery <span class='green'>50</span> stacks&gt Gain <span class='blue'>10</span> Funds\n<span class='text-gray-500'>[Marvel] Operators on Bench can also count toward activating this Alliance</span>",
+      "desc": "On Dispatch Center refresh, there is a <span class='blue'>(18 + 0.3 × stacks)%</span> chance the next refresh will be free\n&ltEvery <span class='green'>100</span> stacks&gt Gain <span class='blue'>20</span> Funds\n<span class='text-gray-500'>[Marvel] Operators on Bench can also count toward activating this Alliance</span>",
       "activeCount": 2
     },
     {

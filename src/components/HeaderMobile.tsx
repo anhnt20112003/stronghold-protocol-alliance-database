@@ -23,6 +23,10 @@ const HeaderMobile = (props: HeaderProps) => {
       value: "2",
       title: "Second Season",
     },
+    {
+      value: "2.1",
+      title: "Second Season (Patched)",
+    },
   ];
   const [toggleMobileMenu, setToggleMobileMenu] = useState<boolean>(false);
 

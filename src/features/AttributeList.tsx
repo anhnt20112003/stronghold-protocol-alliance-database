@@ -1,29 +1,17 @@
 import AllianceButton from "../components/AllianceButton";
 import TierButton from "../components/TierButton";
 import OperatorCard from "../components/OperatorCard";
-import { operators as season1operators } from "../data/season1/operators.json";
-import { operators as season2operators } from "../data/season2/operators.json";
-import { bondInfo as season1bonds } from "../data/season1/alliances.json";
-import { bondInfo as season2bonds } from "../data/season2/alliances.json";
 import type { OperatorDto } from "../dtos/operator.dto";
 import { useState } from "react";
 import type { AllianceDto } from "../dtos/alliance.dto";
-
-const seasonOperatorData: Record<string, OperatorDto[]> = {
-  "1": season1operators,
-  "2": season2operators,
-} as const;
-
-const seasonBondData: Record<string, AllianceDto[]> = {
-  "1": season1bonds,
-  "2": season2bonds,
-} as const;
+import { getAlliancesBySeason, getOperatorsBySeason } from "../utils/getDataBySeason";
 
 type AttributeListProps = {
   season: string;
 };
 
 const AttributeList = ({ season }: AttributeListProps) => {
+  // console.log(season, "season list");
   const [activeCoreAlliances, setActiveCoreAlliances] = useState<string[]>([]);
   const [activeAddAlliances, setActiveAddAlliances] = useState<string[]>([]);
   const [activeTiers, setActiveTiers] = useState<number[]>([]);
@@ -45,12 +33,12 @@ const AttributeList = ({ season }: AttributeListProps) => {
     else setActiveTiers((prev) => [...prev, tier]);
   };
 
-  const allianceData: AllianceDto[] = seasonBondData[season];
+  const allianceData: AllianceDto[] = getAlliancesBySeason(season);
   const coreAlliances = allianceData.filter((alliance) => alliance.core === true);
   const additionalAlliances = allianceData.filter(
     (alliance) => alliance.core !== true && alliance.noFilter !== true,
   );
-  const operatorData: OperatorDto[] = seasonOperatorData[season];
+  const operatorData: OperatorDto[] = getOperatorsBySeason(season);
 
   const filteredList = operatorData.filter(
     (op) =>

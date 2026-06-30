@@ -1,19 +1,6 @@
 import type { OperatorDto } from "../dtos/operator.dto";
-import { operators as season1operators } from "../data/season1/operators.json";
-import { operators as season2operators } from "../data/season2/operators.json";
-import { bondInfo as season1bonds } from "../data/season1/alliances.json";
-import { bondInfo as season2bonds } from "../data/season2/alliances.json";
 import type { AllianceDto } from "../dtos/alliance.dto";
-
-const seasonOperatorData: Record<string, OperatorDto[]> = {
-  "1": season1operators,
-  "2": season2operators,
-} as const;
-
-const seasonBondData: Record<string, AllianceDto[]> = {
-  "1": season1bonds,
-  "2": season2bonds,
-} as const;
+import { getAlliancesBySeason, getOperatorsBySeason } from "../utils/getDataBySeason";
 
 const ROMAN_NUMERALS: Record<number, string> = {
   1: "I",
@@ -38,8 +25,8 @@ type AllianceListProps = {
 };
 
 const AllianceList = ({ season }: AllianceListProps) => {
-  const allianceData: AllianceDto[] = seasonBondData[season];
-  const operatorData: OperatorDto[] = seasonOperatorData[season];
+  const allianceData: AllianceDto[] = getAlliancesBySeason(season);
+  const operatorData: OperatorDto[] = getOperatorsBySeason(season);
 
   const navigateToTerraWiki = (opName: string) => {
     window.open(`https://arknights.wiki.gg/wiki/${opName}`, "_blank");

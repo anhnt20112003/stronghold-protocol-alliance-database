@@ -21,6 +21,10 @@ const HeaderDesktop = (props: HeaderProps) => {
       value: "2",
       title: "Second Season",
     },
+    {
+      value: "2.1",
+      title: "Second Season (Patched)",
+    },
   ];
 
   return (

@@ -11,7 +11,7 @@ import HeaderMobile from "./components/HeaderMobile";
 function App() {
   const [searchParams, setSearchParams] = useSearchParams();
 
-  const seasons = ["1", "2"];
+  const seasons = ["1", "2", "2.1"];
   const season = searchParams.get("season");
   const currentSeason = seasons.includes(season ?? "0") ? season! : "1";
 
@@ -19,15 +19,16 @@ function App() {
   const page = searchParams.get("tab");
   const currentPage = tabs.includes(page ?? "") ? page! : "Attributes";
 
-  const switchTab = (page: string) => {
+  const switchTab = (tab: string) => {
     const params = new URLSearchParams(searchParams);
-    params.set("tab", page);
+    params.set("tab", tab);
     setSearchParams(params, { replace: true });
   };
 
   const switchSeason = (season: string) => {
     const params = new URLSearchParams(searchParams);
     params.set("season", season);
+    // console.log(season, "season");
     setSearchParams(params, { replace: true });
   };
 
