@@ -50,7 +50,7 @@ function App() {
         {currentPage === "Attributes" && <AttributeList season={currentSeason} />}
         {currentPage === "Alliances" && <AllianceList season={currentSeason} />}
         {currentPage === "Strategies" && <StrategyList />}
-        {currentPage === "Items" && <ShopItemList />}
+        {currentPage === "Items" && <ShopItemList season={currentSeason} />}
       </div>
       <div className="fixed bottom-5 right-5 z-10">
         <button

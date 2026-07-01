@@ -6,8 +6,8 @@ import { bondInfo as season1bonds } from "../data/season1/alliances.json";
 import { bondInfo as season2bonds } from "../data/season2/alliances.json";
 import { bondInfo as season21bonds } from "../data/season2.1/alliances.json";
 
-// import { shopitems as season1itemss } from "../data/season1/items.json";
-// import { bondInfo as season2bonds } from "../data/season2/alliances.json";
+import { shopitems as season1items } from "../data/season1/items.json";
+import { shopitems as season2items } from "../data/season2/items.json";
 
 // import { bandInfo as season1bands } from "../data/season1/strategies.json";
 // import { bondInfo as season2bonds } from "../data/season2/alliances.json";
@@ -42,6 +42,23 @@ export function getAlliancesBySeason(season: string) {
     }
     default: {
       return season1bonds;
+    }
+  }
+}
+
+export function getItemsBySeason(season: string) {
+  switch (season) {
+    case "1": {
+      return season1items;
+    }
+    case "2": {
+      return season2items;
+    }
+    // case "2.1": {
+    //   return season21bonds;
+    // }
+    default: {
+      return season1items;
     }
   }
 }

@@ -1,319 +1,321 @@
 {
   "shopitems": [
     {
-      "iconLink": "trap_1040_acarm040",
-      "itemName": "Yanese Dagger",
-      "effectDesc": "Gains <span class='blue'>+5%</span>/<span class='green'>+8%</span> ATK on skill activation (stacks up to 10 times)",
-      "cost": 0,
-      "tier": 1
-    },
-    {
       "iconLink": "trap_1041_acarm041",
       "itemName": "Victorian Hammer",
       "effectDesc": "ATK <span class='blue'>+10%</span>/<span class='green'>+20%</span>",
-      "cost": 0,
-      "tier": 1
-    },
-    {
-      "iconLink": "trap_1042_acarm042",
-      "itemName": "Burning Victorian Hammer",
-      "effectDesc": "<span class='blue'>+25%</span>/<span class='green'>+40%</span> ATK; When dealing Arts damage, deals an additional 10% as Burn",
-      "cost": 0,
-      "tier": 1
-    },
-    {
-      "iconLink": "trap_1043_acarm043",
-      "itemName": "Durable Victorian Hammer",
-      "effectDesc": "<span class='blue'>+25%</span>/<span class='green'>+40%</span> ATK; Upon taking lethal damage for the first time only, HP will not go below 1, lasting for 15 seconds",
-      "cost": 0,
-      "tier": 1
-    },
-    {
-      "iconLink": "trap_1044_acarm044",
-      "itemName": "Speedy Victorian Hammer",
-      "effectDesc": "ATK <span class='blue'>+25%</span>/<span class='green'>+40%</span>, ASPD +30",
-      "cost": 0,
-      "tier": 1
-    },
-    {
-      "iconLink": "trap_1045_acarm045",
-      "itemName": "Frightening Victorian Hammer",
-      "effectDesc": "<span class='blue'>+25%</span>/<span class='green'>+40%</span> ATK; If equipped by a Ground Operator, their attacks have 8% chance of inflicting Frighten for 2 seconds",
-      "cost": 0,
+      "cost": 1,
       "tier": 1
     },
     {
       "iconLink": "trap_1046_acarm046",
       "itemName": "Ægirian Blade",
       "effectDesc": "ATK <span class='blue'>+35%</span>/<span class='green'>+60%</span>, ASPD -10",
-      "cost": 0,
+      "cost": 1,
       "tier": 1
     },
     {
       "iconLink": "trap_1047_acarm047",
       "itemName": "Durable Shield",
       "effectDesc": "DEF <span class='blue'>+35%</span>/<span class='green'>+60%</span>",
-      "cost": 0,
+      "cost": 1,
       "tier": 1
     },
     {
       "iconLink": "trap_1048_acarm048",
       "itemName": "Pocket Arts Circle",
       "effectDesc": "RES <span class='blue'>+20</span>/<span class='green'>+35</span>",
-      "cost": 0,
-      "tier": 1
-    },
-    {
-      "iconLink": "trap_1049_acarm049",
-      "itemName": "Goliath Helmet",
-      "effectDesc": "<span class='blue'>+35%</span>/<span class='green'>+60%</span> HP; if there is no Operator in the tile ahead on deployment, +25% more HP",
-      "cost": 0,
-      "tier": 1
-    },
-    {
-      "iconLink": "trap_1050_acarm050",
-      "itemName": "Sargonian Teaspresso",
-      "effectDesc": "SP recovery rate <span class='blue'>+0.15/second</span>/<span class='green'>+0.25/second</span>",
-      "cost": 0,
-      "tier": 1
-    },
-    {
-      "iconLink": "trap_1051_acarm051",
-      "itemName": "Quick Combat Rations",
-      "effectDesc": "On Deployment, <span class='blue'>+3</span>/<span class='green'>+6</span> SP; for every Operator in the same Alliance, <span class='blue'>+3</span>/<span class='green'>+6</span> more SP",
-      "cost": 0,
-      "tier": 1
-    },
-    {
-      "iconLink": "trap_1052_acarm052",
-      "itemName": "Miniature Accelerator",
-      "effectDesc": "Every attack or heal gives ASPD <span class='blue'>+1</span>/<span class='green'>+2</span> for this battle, up to 60 stacks",
-      "cost": 0,
-      "tier": 1
-    },
-    {
-      "iconLink": "trap_1053_acarm053",
-      "itemName": "Laser Sighter",
-      "effectDesc": "Attacks ignore <span class='blue'>25%</span>/<span class='green'>40%</span> RES",
-      "cost": 0,
-      "tier": 1
-    },
-    {
-      "iconLink": "trap_1054_acarm054",
-      "itemName": "Buzzer",
-      "effectDesc": "More likely to be attacked<span class='green'>, +30% HP</span>",
-      "cost": 0,
-      "tier": 1
-    },
-    {
-      "iconLink": "trap_1055_acarm055",
-      "itemName": "Disguise Outfit",
-      "effectDesc": "After deployment, gain Camouflage for <span class='blue'>25</span>/<span class='green'>50</span> seconds",
-      "cost": 0,
+      "cost": 2,
       "tier": 1
     },
     {
       "iconLink": "trap_1056_acarm056",
       "itemName": "Tough Launcher",
       "effectDesc": "<span class='blue'>-30%</span>/<span class='green'>-50%</span> Redeployment Time, -30% HP",
-      "cost": 0,
+      "cost": 1,
       "tier": 1
+    },
+    {
+      "iconLink": "trap_1049_acarm049",
+      "itemName": "Goliath Helmet",
+      "effectDesc": "<span class='blue'>+35%</span>/<span class='green'>+60%</span> HP; if there is no Operator in the tile ahead on deployment, +25% more HP",
+      "cost": 2,
+      "tier": 2
+    },
+    {
+      "iconLink": "trap_1040_acarm040",
+      "itemName": "Yanese Dagger",
+      "effectDesc": "Gains <span class='blue'>+5%</span>/<span class='green'>+8%</span> ATK on skill activation (stacks up to 10 times)",
+      "cost": 1,
+      "tier": 2
+    },
+    {
+      "iconLink": "trap_1042_acarm042",
+      "itemName": "Burning Victorian Hammer",
+      "effectDesc": "<span class='blue'>+25%</span>/<span class='green'>+40%</span> ATK; When dealing Arts damage, deals an additional 10% as Burn",
+      "cost": 1,
+      "tier": 2
+    },
+    {
+      "iconLink": "trap_1043_acarm043",
+      "itemName": "Durable Victorian Hammer",
+      "effectDesc": "<span class='blue'>+25%</span>/<span class='green'>+40%</span> ATK; Upon taking lethal damage for the first time only, HP will not go below 1, lasting for 15 seconds",
+      "cost": 2,
+      "tier": 2
+    },
+    {
+      "iconLink": "trap_1044_acarm044",
+      "itemName": "Speedy Victorian Hammer",
+      "effectDesc": "ATK <span class='blue'>+25%</span>/<span class='green'>+40%</span>, ASPD +30",
+      "cost": 2,
+      "tier": 2
+    },
+    {
+      "iconLink": "trap_1045_acarm045",
+      "itemName": "Frightening Victorian Hammer",
+      "effectDesc": "<span class='blue'>+25%</span>/<span class='green'>+40%</span> ATK; If equipped by a Ground Operator, their attacks have 8% chance of inflicting Frighten for 2 seconds",
+      "cost": 2,
+      "tier": 2
+    },
+
+    {
+      "iconLink": "trap_1051_acarm051",
+      "itemName": "Quick Combat Rations",
+      "effectDesc": "On Deployment, <span class='blue'>+3</span>/<span class='green'>+6</span> SP; for every Operator in the same Alliance, <span class='blue'>+3</span>/<span class='green'>+6</span> more SP",
+      "cost": 2,
+      "tier": 2
+    },
+    {
+      "iconLink": "trap_1052_acarm052",
+      "itemName": "Miniature Accelerator",
+      "effectDesc": "Every attack or heal gives ASPD <span class='blue'>+1</span>/<span class='green'>+2</span> for this battle, up to 60 stacks",
+      "cost": 1,
+      "tier": 2
+    },
+    {
+      "iconLink": "trap_1053_acarm053",
+      "itemName": "Laser Sighter",
+      "effectDesc": "Attacks ignore <span class='blue'>25%</span>/<span class='green'>40%</span> RES",
+      "cost": 2,
+      "tier": 2
+    },
+    {
+      "iconLink": "trap_1054_acarm054",
+      "itemName": "Buzzer",
+      "effectDesc": "More likely to be attacked<span class='green'>, +30% HP</span>",
+      "cost": 1,
+      "tier": 2
     },
     {
       "iconLink": "trap_1057_acarm057",
       "itemName": "Lateran Clip",
       "effectDesc": "When ammo-type skills have 1 bullet left for the first time, there is <span class='blue'>40%</span>/<span class='green'>70%</span> chance of recovering 40% ammo",
-      "cost": 0,
-      "tier": 1
+      "cost": 2,
+      "tier": 3
     },
-    {
-      "iconLink": "trap_1058_acarm058",
-      "itemName": "Teargas Can",
-      "effectDesc": "Attacks have <span class='blue'>3%</span>/<span class='green'>5%</span> chance to inflict 1 stack of Paralysis on target",
-      "cost": 0,
-      "tier": 1
-    },
-    {
-      "iconLink": "trap_1059_acarm059",
-      "itemName": "Concentrated Smelling Salts",
-      "effectDesc": "When HP is greater than <span class='blue'>85%</span>/<span class='green'>50%</span>, Operator is immune to Stun, Frozen, and other special statuses",
-      "cost": 0,
-      "tier": 1
-    },
-    {
-      "iconLink": "trap_1060_acarm060",
-      "itemName": "Riot Shield",
-      "effectDesc": "When blocking enemies, takes <span class='blue'>40%</span>/<span class='green'>70%</span> less damage from enemies not blocked by this unit",
-      "cost": 0,
-      "tier": 1
-    },
-    {
-      "iconLink": "trap_1061_acarm061",
-      "itemName": "Protection Drone",
-      "effectDesc": "Heals have <span class='blue'>10%</span>/<span class='green'>15%</span> chance to grant 1 stack of Shield to the target (Max 1 stack)",
-      "cost": 0,
-      "tier": 1
-    },
-    {
-      "iconLink": "trap_1062_acarm062",
-      "itemName": "Kjeragi Nevermeltice",
-      "effectDesc": "Attacks have <span class='blue'>18%</span>/<span class='green'>30%</span> chance of inflicting Cold on the target for 1s",
-      "cost": 0,
-      "tier": 1
-    },
+
     {
       "iconLink": "trap_1063_acarm063",
       "itemName": "Precision Scope",
       "effectDesc": "Attacks on targets 3 or more tiles away deal <span class='blue'>25%</span>/<span class='green'>40%</span> more damage",
-      "cost": 0,
-      "tier": 1
+      "cost": 2,
+      "tier": 3
     },
     {
       "iconLink": "trap_1064_acarm064",
       "itemName": "Raid Grenade",
       "effectDesc": "For <span class='blue'>8</span>/<span class='green'>12</span> seconds after every deployment, attacks inflict 2 seconds of Stun",
-      "cost": 0,
-      "tier": 1
+      "cost": 1,
+      "tier": 3
+    },
+    {
+      "iconLink": "trap_1050_acarm050",
+      "itemName": "Sargonian Teaspresso",
+      "effectDesc": "SP recovery rate <span class='blue'>+0.15/second</span>/<span class='green'>+0.25/second</span>",
+      "cost": 2,
+      "tier": 3
+    },
+    {
+      "iconLink": "trap_1055_acarm055",
+      "itemName": "Disguise Outfit",
+      "effectDesc": "After deployment, gain Camouflage for <span class='blue'>25</span>/<span class='green'>50</span> seconds",
+      "cost": 1,
+      "tier": 3
+    },
+    {
+      "iconLink": "trap_1060_acarm060",
+      "itemName": "Riot Shield",
+      "effectDesc": "When blocking enemies, takes <span class='blue'>40%</span>/<span class='green'>70%</span> less damage from enemies not blocked by this unit",
+      "cost": 2,
+      "tier": 3
+    },
+    {
+      "iconLink": "trap_1058_acarm058",
+      "itemName": "Teargas Can",
+      "effectDesc": "Attacks have <span class='blue'>3%</span>/<span class='green'>5%</span> chance to inflict 1 stack of Paralysis on target",
+      "cost": 2,
+      "tier": 4
+    },
+    {
+      "iconLink": "trap_1062_acarm062",
+      "itemName": "Kjeragi Nevermeltice",
+      "effectDesc": "Attacks have <span class='blue'>18%</span>/<span class='green'>30%</span> chance of inflicting Cold on the target for 1s",
+      "cost": 2,
+      "tier": 4
     },
     {
       "iconLink": "trap_1065_acarm065",
       "itemName": "Dormant Heir",
       "effectDesc": "For every target hit by an attack, recovers <span class='blue'>2%</span>/<span class='green'>4%</span> Max HP",
-      "cost": 0,
-      "tier": 1
+      "cost": 1,
+      "tier": 4
     },
     {
       "iconLink": "trap_1066_acarm066",
       "itemName": "Lucky Coin",
       "effectDesc": "Destroyed when equipped and grants <span class='blue'>1~6</span>/<span class='green'>2~12</span> Funds",
-      "cost": 0,
-      "tier": 1
+      "cost": 3,
+      "tier": 4
+    },
+    {
+      "iconLink": "trap_1059_acarm059",
+      "itemName": "Concentrated Smelling Salts",
+      "effectDesc": "When HP is greater than <span class='blue'>85%</span>/<span class='green'>50%</span>, Operator is immune to Stun, Frozen, and other special statuses",
+      "cost": 2,
+      "tier": 4
+    },
+    {
+      "iconLink": "trap_1061_acarm061",
+      "itemName": "Protection Drone",
+      "effectDesc": "Heals have <span class='blue'>10%</span>/<span class='green'>15%</span> chance to grant 1 stack of Shield to the target (Max 1 stack)",
+      "cost": 3,
+      "tier": 4
     },
     {
       "iconLink": "trap_1067_acarm067",
       "itemName": "Bimodule Robotic Arm",
       "effectDesc": "<span class='blue'>+10%</span>/<span class='green'>+20%</span> ATK, and when dealing Physical or Arts damage, damage type turns into Weakness damage",
-      "cost": 0,
-      "tier": 1
+      "cost": 4,
+      "tier": 4
     },
     {
       "iconLink": "trap_1068_acarm068",
       "itemName": "M3 Cocoon Shell",
       "effectDesc": "When defeated in battle, immediately revive (<span class='blue'>once</span>/<span class='green'>twice</span> per battle)",
-      "cost": 0,
-      "tier": 1
+      "cost": 3,
+      "tier": 4
     },
     {
       "iconLink": "trap_1069_acarm069",
       "itemName": "Mimic Matter",
       "effectDesc": "Destroyed when equipped, and if you have at least two of this non-Elite Operator, obtain a third copy; otherwise obtain 1 random non-Elite Operator from the same Alliance",
-      "cost": 0,
-      "tier": 1
-    },
-    {
-      "iconLink": "trap_1070_acarm070",
-      "itemName": "HR File",
-      "effectDesc": "Destroyed when equipped and increases Deployment Limit to 9",
-      "cost": 0,
-      "tier": 1
+      "cost": 4,
+      "tier": 5
     },
     {
       "iconLink": "trap_1071_acarm071",
       "itemName": "Doctor Hologram",
       "effectDesc": "Equippable by any Operator; <span class='blue'>this is destroyed at the start of the next round</span>, and the Operator is promoted to an Elite Operator",
-      "cost": 0,
-      "tier": 1
-    },
-    {
-      "iconLink": "trap_1072_acarm072",
-      "itemName": "Mutated Cells",
-      "effectDesc": "After the battle ends, equipped Operator changes to a random Operator 1 Tier higher",
-      "cost": 0,
-      "tier": 1
-    },
-    {
-      "iconLink": "trap_1073_acgarm073",
-      "itemName": "Damazti Isomorph",
-      "effectDesc": "Equipped Operator gains an extra Alliance (based on the other Equipment)\n>Details can be checked in Equipment's Talent tab during simulations (check the end of the page)",
-      "cost": 0,
-      "tier": 1
-    },
-    {
-      "iconLink": "trap_1074_acarm074",
-      "itemName": "Commercial Packaging Plan",
-      "effectDesc": "For every <span class='blue'>8</span>/<span class='green'>6</span> Operators sold, obtain an extra copy of the Operator (non-Elite) with this equipped",
-      "cost": 0,
-      "tier": 1
+      "cost": 5,
+      "tier": 5
     },
     {
       "iconLink": "trap_1075_acarm075",
       "itemName": "Dispatch Module",
       "effectDesc": "Destroyed when equipped and immediately refreshes shop once, offering only Operators from the same Alliance as the Operator equipped with it",
-      "cost": 0,
-      "tier": 1
-    },
-    {
-      "iconLink": "trap_1076_acarm076",
-      "itemName": "Gun-Knight's Might",
-      "effectDesc": "<span class='blue'>+35%</span>/<span class='green'>+60%</span> ATK; If equipped by a [Laterano] Operator, the Operator gains a 35% chance to fire an extra bullet at an enemy within Attack Range, dealing 150% ATK as Physical damage\n<span class='text-yellow-500'>If 'Lateran Clip' is also equipped by the [Laterano] Operator, bullet deals 300% ATK instead</span>",
-      "cost": 0,
-      "tier": 1
-    },
-    {
-      "iconLink": "trap_1077_acarm077",
-      "itemName": "Tianshi's Cauldron",
-      "effectDesc": "<span class='blue'>+45%</span>/<span class='green'>+70%</span> HP; If equipped by a [Yan] Operator, gain +25 ASPD for every Operator obtained this round before battle begins (Max 3 stacks)\n<span class='text-yellow-500'>If 'Yanese Dagger' is also equipped by the [Yan] Operator, +2 Funds whenever you obtain an Operator (Max 3 times per round)</span>",
-      "cost": 0,
-      "tier": 1
-    },
-    {
-      "iconLink": "trap_1078_acarm078",
-      "itemName": "Trench Test Subject",
-      "effectDesc": "Damage taken <span class='blue'>-180</span>/<span class='green'>-300</span>; If equipped by an [Ægir] Operator, that Operator's Devour range increases to 4 adjacent tiles, and adds on [Ægir] stacks accordingly\n<span class='text-yellow-500'>If 'Ægirian Blade' is also equipped by the [Ægir] Operator, the Operator gains extra HP equal to the HP of the Devoured allies</span>",
-      "cost": 0,
-      "tier": 1
-    },
-    {
-      "iconLink": "trap_1079_acarm079",
-      "itemName": "Steam Heart",
-      "effectDesc": "<span class='blue'>+35</span>/<span class='green'>+60</span> ASPD; If equipped by a [Victoria] Operator, the Operator gains effects of all Victorian Hammers on the field\n<span class='text-yellow-500'>If any 'Victorian Hammer' is also equipped by the [Victoria] Operator, effects of this 'Victorian Hammer' are doubled</span>",
-      "cost": 0,
-      "tier": 1
-    },
-    {
-      "iconLink": "trap_1102_acarm102",
-      "itemName": "Kjeragandr's Tears",
-      "effectDesc": "<span class='blue'>+30</span>/<span class='green'>+50</span> RES; If equipped by a [Kjerag] Operator, when that Operator defeats an enemy, other enemies within a certain range are inflicted with 2 seconds of Cold\n<span class='text-yellow-500'>If 'Kjeragi Nevermeltice' is also equipped by the [Kjerag] Operator, +2 extra seconds of Cold</span>",
-      "cost": 0,
-      "tier": 1
-    },
-    {
-      "iconLink": "trap_1103_acarm103",
-      "itemName": "Desert Compass",
-      "effectDesc": "<span class='blue'>+25</span>/<span class='green'>+40</span> Starting SP; If equipped by a [Sargon] Operator, the Operator recovers 30 SP when skill ends for the first time\n<span class='text-yellow-500'>If 'Sargonian Teaspresso' is also equipped by the [Sargon] Operator, every skill activation grants 3 SP to all [Sargon] Operators</span>",
-      "cost": 0,
-      "tier": 1
+      "cost": 4,
+      "tier": 5
     },
     {
       "iconLink": "trap_1109_acarm109",
       "itemName": "Transmitter",
       "effectDesc": "Destroys itself along with the Operator when equipped; automatically chooses a Teammate with the most members in the corresponding Alliance, and dispatches a same-quality copy of that Operator to the Teammate during the next Rest Phase\nIf no eligible Teammate exists, the original Operator will be returned\nCannot be equipped by Custom Operators",
-      "cost": 0,
-      "tier": 1
+      "cost": 1,
+      "tier": 5
+    },
+    {
+      "iconLink": "trap_1076_acarm076",
+      "itemName": "Gun-Knight's Might",
+      "effectDesc": "<span class='blue'>+35%</span>/<span class='green'>+60%</span> ATK; If equipped by a [Laterano] Operator, the Operator gains a 35% chance to fire an extra bullet at an enemy within Attack Range, dealing 150% ATK as Physical damage\n<span class='text-yellow-500'>If 'Lateran Clip' is also equipped by the [Laterano] Operator, bullet deals 300% ATK instead</span>",
+      "cost": 4,
+      "tier": 6
+    },
+    {
+      "iconLink": "trap_1077_acarm077",
+      "itemName": "Tianshi's Cauldron",
+      "effectDesc": "<span class='blue'>+45%</span>/<span class='green'>+70%</span> HP; If equipped by a [Yan] Operator, gain +25 ASPD for every Operator obtained this round before battle begins (Max 3 stacks)\n<span class='text-yellow-500'>If 'Yanese Dagger' is also equipped by the [Yan] Operator, +2 Funds whenever you obtain an Operator (Max 3 times per round)</span>",
+      "cost": 4,
+      "tier": 6
+    },
+    {
+      "iconLink": "trap_1078_acarm078",
+      "itemName": "Trench Test Subject",
+      "effectDesc": "Damage taken <span class='blue'>-180</span>/<span class='green'>-300</span>; If equipped by an [Ægir] Operator, that Operator's Devour range increases to 4 adjacent tiles, and adds on [Ægir] stacks accordingly\n<span class='text-yellow-500'>If 'Ægirian Blade' is also equipped by the [Ægir] Operator, the Operator gains extra HP equal to the HP of the Devoured allies</span>",
+      "cost": 4,
+      "tier": 6
+    },
+    {
+      "iconLink": "trap_1079_acarm079",
+      "itemName": "Steam Heart",
+      "effectDesc": "<span class='blue'>+35</span>/<span class='green'>+60</span> ASPD; If equipped by a [Victoria] Operator, the Operator gains effects of all Victorian Hammers on the field (excluding ATK buffs)\n<span class='text-yellow-500'>If any 'Victorian Hammer' is also equipped by the [Victoria] Operator, effects of this 'Victorian Hammer' are doubled</span>",
+      "cost": 4,
+      "tier": 6
+    },
+    {
+      "iconLink": "trap_1102_acarm102",
+      "itemName": "Kjeragandr's Tears",
+      "effectDesc": "<span class='blue'>+30</span>/<span class='green'>+50</span> RES; If equipped by a [Kjerag] Operator, when that Operator defeats an enemy, other enemies within a certain range are inflicted with 2 seconds of Cold\n<span class='text-yellow-500'>If 'Kjeragi Nevermeltice' is also equipped by the [Kjerag] Operator, +2 extra seconds of Cold</span>",
+      "cost": 4,
+      "tier": 6
+    },
+    {
+      "iconLink": "trap_1103_acarm103",
+      "itemName": "Desert Compass",
+      "effectDesc": "<span class='blue'>+25</span>/<span class='green'>+40</span> Starting SP; If equipped by a [Sargon] Operator, the Operator recovers 30 SP when skill ends for the first time\n<span class='text-yellow-500'>If 'Sargonian Teaspresso' is also equipped by the [Sargon] Operator, every skill activation grants 3 SP to all [Sargon] Operators</span>",
+      "cost": 4,
+      "tier": 6
+    },
+    {
+      "iconLink": "trap_1070_acarm070",
+      "itemName": "HR File",
+      "effectDesc": "Destroyed when equipped and increases Deployment Limit to 9",
+      "cost": 4,
+      "tier": 6
+    },
+    {
+      "iconLink": "trap_1072_acarm072",
+      "itemName": "Mutated Cells",
+      "effectDesc": "After the battle ends, equipped Operator changes to a random Operator 1 Tier higher",
+      "cost": 2,
+      "tier": 6
+    },
+    {
+      "iconLink": "trap_1073_acgarm073",
+      "itemName": "Damazti Isomorph",
+      "effectDesc": "Equipped Operator gains an extra Alliance (based on the other Equipment)\nDetails can be checked in Equipment's Talent tab during simulations (check the end of the page)",
+      "cost": 4,
+      "tier": 6
+    },
+    {
+      "iconLink": "trap_1074_acarm074",
+      "itemName": "Commercial Packaging Plan",
+      "effectDesc": "For every <span class='blue'>8</span>/<span class='green'>6</span> Operators sold, obtain an extra copy of the Operator (non-Elite) with this equipped",
+      "cost": 4,
+      "tier": 6
     },
     {
       "iconLink": "trap_1110_accopy",
       "itemName": "Dusk's Scroll",
       "effectDesc": "Drag onto field to use; obtains Operator in range (Includes Elite Operators and equipment!)",
-      "cost": 0,
-      "tier": 1
+      "cost": null,
+      "tier": null
     },
     {
       "iconLink": "trap_1111_acchal",
       "itemName": "Pointing Stick",
       "effectDesc": "Drag onto field to use and select a bounty to challenge",
-      "cost": 0,
-      "tier": 1
+      "cost": null,
+      "tier": null
     }
   ]
 }
