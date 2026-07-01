@@ -212,7 +212,7 @@
       "tier": 4
     },
     {
-      "iconLink": "trap_1065_acarm065",
+      "iconLink": "trap_1119_acarm119",
       "itemName": "Kazimierz Stadium Flag",
       "effectDesc": "When deployed, increase damage dealt to <span class='blue'>135%</span>/<span class='green'>160%</span>, decaying over 15 seconds",
       "cost": 1,

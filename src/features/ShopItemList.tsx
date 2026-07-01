@@ -27,7 +27,7 @@ const TIER_COLOR: Record<number, string> = {
   6: "#fd8002",
 };
 
-const mumuballCombinations: Record<string, string[]> = {
+const mumuballCombinationsSeason1: Record<string, string[]> = {
   yanship: ["trap_1040_acarm040"],
   victoriaship: [
     "trap_1041_acarm041",
@@ -47,6 +47,29 @@ const mumuballCombinations: Record<string, string[]> = {
   swiftship: ["trap_1051_acarm051"],
 };
 
+const mumuballCombinationsSeason2: Record<string, string[]> = {
+  yanship: ["trap_1040_acarm040"],
+  victoriaship: [
+    "trap_1041_acarm041",
+    "trap_1042_acarm042",
+    "trap_1043_acarm043",
+    "trap_1044_acarm044",
+    "trap_1045_acarm045",
+  ],
+  egirship: ["trap_1046_acarm046"],
+  steadship: ["trap_1047_acarm047"],
+  sargonship: ["trap_1050_acarm050"],
+  siracusaship: ["trap_1121_acarm121"],
+  kazimierzship: ["trap_1119_acarm119"],
+  indomship: ["trap_1056_acarm056"],
+  lateranoship: ["trap_1057_acarm057"],
+  kjeragship: ["trap_1062_acarm062"],
+  preciship: ["trap_1063_acarm063"],
+  raidship: ["trap_1064_acarm064"],
+  swiftship: ["trap_1051_acarm051"],
+  arcaneship: ["trap_1048_acarm048"],
+};
+
 type ShopItemListProps = {
   season: string;
 };
@@ -56,13 +79,17 @@ const ShopItemList = ({ season }: ShopItemListProps) => {
 
   const [victorianHammerIndex, setvictorianHammerIndex] = useState(0);
 
-  // useEffect(() => {
-  //   const id = setInterval(() => {
-  //     setvictorianHammerIndex((i) => (i + 1) % mumuballCombinations["victoriaship"].length);
-  //   }, 1000);
+  const mumuballCombinations =
+    season !== "1" ? mumuballCombinationsSeason2 : mumuballCombinationsSeason1;
 
-  //   return () => clearInterval(id);
-  // }, []);
+  useEffect(() => {
+    const id = setInterval(() => {
+      // console.log(mumuballCombinations["victoriaship"][victorianHammerIndex], "mumu");
+      setvictorianHammerIndex((i) => (i + 1) % mumuballCombinations["victoriaship"].length);
+    }, 1000);
+
+    return () => clearInterval(id);
+  });
 
   return (
     <>
@@ -154,7 +181,7 @@ const ShopItemList = ({ season }: ShopItemListProps) => {
                   <div className="w-18 h-18 border-3 border-[#25be97] flex justify-center items-center">
                     <div className="w-4/5 h-4/5">
                       <img
-                        src={`/shopitemicons/${item[victorianHammerIndex].iconLink}.png`}
+                        src={`/shopitemicons/${item[victorianHammerIndex]?.iconLink}.png`}
                         className="h-full w-full object-contain"
                       />
                     </div>
