@@ -18,7 +18,7 @@ function App() {
 
   const tabs = ["Home", "Attributes", "Alliances", "Strategies", "Items"];
   const page = searchParams.get("tab");
-  const currentPage = tabs.includes(page ?? "") ? page! : "";
+  const currentPage = tabs.includes(page ?? "") ? page! : "Home";
 
   const switchTab = (tab: string) => {
     const params = new URLSearchParams(searchParams);
