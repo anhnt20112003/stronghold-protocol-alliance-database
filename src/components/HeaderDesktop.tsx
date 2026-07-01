@@ -10,8 +10,7 @@ interface HeaderProps {
 
 const HeaderDesktop = (props: HeaderProps) => {
   const { currentPage, currentSeason, switchTab, switchSeason } = props;
-  const tabs = ["Attributes", "Alliances", "Strategies", "Items"];
-
+  const tabs = ["Home", "Attributes", "Alliances", "Strategies", "Items"];
   const seasonSelectOptions = [
     {
       value: "1",
@@ -35,9 +34,11 @@ const HeaderDesktop = (props: HeaderProps) => {
       </div>
 
       <div className="flex flex-row gap-5 h-full">
-        <div className="flex justify-center items-center">
-          <Select options={seasonSelectOptions} value={currentSeason} onChange={switchSeason} />
-        </div>
+        {currentPage !== "Home" && (
+          <div className="flex justify-center items-center">
+            <Select options={seasonSelectOptions} value={currentSeason} onChange={switchSeason} />
+          </div>
+        )}
         {tabs.map((tab) => (
           <button
             className="

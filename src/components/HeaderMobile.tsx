@@ -12,8 +12,7 @@ interface HeaderProps {
 
 const HeaderMobile = (props: HeaderProps) => {
   const { currentPage, currentSeason, switchTab, switchSeason } = props;
-  const tabs = ["Attributes", "Alliances", "Strategies", "Items"];
-
+  const tabs = ["Home", "Attributes", "Alliances", "Strategies", "Items"];
   const seasonSelectOptions = [
     {
       value: "1",

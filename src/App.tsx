@@ -7,6 +7,7 @@ import ShopItemList from "./features/ShopItemList";
 import { useSearchParams } from "react-router-dom";
 import HeaderDesktop from "./components/HeaderDesktop";
 import HeaderMobile from "./components/HeaderMobile";
+import Home from "./features/Home";
 
 function App() {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -15,9 +16,9 @@ function App() {
   const season = searchParams.get("season");
   const currentSeason = seasons.includes(season ?? "0") ? season! : "1";
 
-  const tabs = ["Attributes", "Alliances", "Strategies", "Items"];
+  const tabs = ["Home", "Attributes", "Alliances", "Strategies", "Items"];
   const page = searchParams.get("tab");
-  const currentPage = tabs.includes(page ?? "") ? page! : "Attributes";
+  const currentPage = tabs.includes(page ?? "") ? page! : "";
 
   const switchTab = (tab: string) => {
     const params = new URLSearchParams(searchParams);
@@ -47,19 +48,22 @@ function App() {
         switchSeason={switchSeason}
       />
       <div className="w-full flex flex-col mt-14">
+        {currentPage === "Home" && <Home />}
         {currentPage === "Attributes" && <AttributeList season={currentSeason} />}
         {currentPage === "Alliances" && <AllianceList season={currentSeason} />}
         {currentPage === "Strategies" && <StrategyList season={currentSeason} />}
         {currentPage === "Items" && <ShopItemList season={currentSeason} />}
       </div>
-      <div className="fixed bottom-5 right-5 z-10">
-        <button
-          className="w-8 h-8 bg-[#0bd5a5] flex justify-center items-center text-white text-center rounded-md"
-          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-        >
-          <AiOutlineUp />
-        </button>
-      </div>
+      {currentPage !== "Home" && (
+        <div className="fixed bottom-5 right-5 z-10">
+          <button
+            className="w-8 h-8 bg-[#0bd5a5] flex justify-center items-center text-white text-center rounded-md"
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          >
+            <AiOutlineUp />
+          </button>
+        </div>
+      )}
     </div>
   );
 }
