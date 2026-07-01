@@ -1,14 +1,19 @@
-import { bandInfo } from "../data/season1/strategies.json";
+import { getStrategiesBySeason } from "../utils/getDataBySeason";
 
 type StrategyDto = {
   name: string;
   iconLink: string;
+  initialHp: number;
   effectName: string;
   effectDesc: string;
 };
 
-const StrategyList = () => {
-  const strats: StrategyDto[] = bandInfo;
+type StrategyListProps = {
+  season: string;
+};
+
+const StrategyList = ({ season }: StrategyListProps) => {
+  const strats: StrategyDto[] = getStrategiesBySeason(season);
   return (
     <div className="grid grid-cols md:grid-cols-3 mx-6 mb-6 gap-6">
       {strats.map((strategy) => (
@@ -29,6 +34,12 @@ const StrategyList = () => {
               <img src={`/bandicons/${strategy.iconLink}.png`} className="w-full h-full" />
             </div>
             {strategy.name}
+            <div className="flex align-baseline flex-row items-center text-white text-[16px]">
+              <div className="h-4">
+                <img src="Life_Points.webp" className="h-4 object-cover mr-2" />
+              </div>
+              {strategy.initialHp}
+            </div>
           </div>
           <div className="flex items-start flex-col">
             <div

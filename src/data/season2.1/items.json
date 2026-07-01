@@ -137,7 +137,7 @@
     {
       "iconLink": "trap_1048_acarm048",
       "itemName": "Pocket Arts Circle",
-      "effectDesc": "RES <span class='blue'>+20</span>/<span class='green'>+35</span>",
+      "effectDesc": "RES <span class='blue'>+20</span>/<span class='green'>+35</span>, attacks Silence the target for 5 seconds",
       "cost": 2,
       "tier": 3
     },
@@ -298,7 +298,7 @@
     {
       "iconLink": "trap_1074_acarm074",
       "itemName": "Commercial Packaging Plan",
-      "effectDesc": "For every <span class='blue'>7</span>/<span class='green'>6</span> Operators sold, obtain a (non-Elite) Operator from the same Alliance of the Operator with this equipped (their tier will not exceed Dispatch Center level)",
+      "effectDesc": "For every <span class='blue'>8</span>/<span class='green'>7</span> Operators sold, obtain a (non-Elite) Operator from the same Alliance of the Operator with this equipped (their tier will not exceed Dispatch Center level)",
       "cost": 3,
       "tier": 5
     },

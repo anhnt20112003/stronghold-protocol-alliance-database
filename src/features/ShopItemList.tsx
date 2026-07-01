@@ -47,11 +47,11 @@ const mumuballCombinations: Record<string, string[]> = {
   swiftship: ["trap_1051_acarm051"],
 };
 
-type AllianceListProps = {
+type ShopItemListProps = {
   season: string;
 };
 
-const ShopItemList = ({ season }: AllianceListProps) => {
+const ShopItemList = ({ season }: ShopItemListProps) => {
   const items: ShopItemDto[] = getItemsBySeason(season);
 
   const [victorianHammerIndex, setvictorianHammerIndex] = useState(0);

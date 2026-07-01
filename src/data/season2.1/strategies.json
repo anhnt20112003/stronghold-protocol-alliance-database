@@ -3,44 +3,44 @@
     {
       "name": "Warfarin",
       "iconLink": "icon_bldsk",
-      "initialHp": 27,
+      "initialHp": 28,
       "effectName": "Intensive Monitoring",
-      "effectDesc": "<span class=\"font-bold\">[Intensive Monitoring]</span> When the battle starts, +2 Alliance Stacks to 1 random Operator of each different Tier on the field\nIn Standard Simulation, all Operators +30% ATK, DEF, and HP"
+      "effectDesc": "<span class=\"font-bold\">[Intensive Monitoring]</span> When the battle starts, +2 Alliance Stacks to 1 random Operator of each different Tier on the field"
     },
     {
       "name": "Amiya",
       "iconLink": "icon_amiya",
-      "initialHp": 30,
+      "initialHp": 25,
       "effectName": "Wills As One",
-      "effectDesc": "<span class=\"font-bold\">[Wills As One]</span> When there are 2/3/4 different active Alliances, all Operators +15/30/50% ATK and HP respectively\nIn Standard Simulation, all Operators +30% ATK, DEF, and HP"
+      "effectDesc": "<span class=\"font-bold\">[Wills As One]</span> When there are 3/4/5 different active Alliances, all Operators +20/30/40% ATK and HP respectively"
     },
     {
       "name": "Du Yaoye",
       "iconLink": "icon_duyaoy",
-      "initialHp": 26,
+      "initialHp": 29,
       "effectName": "Heroes All Around",
-      "effectDesc": "<span class=\"font-bold\">[Heroes All Around]</span> The first two manual refreshes in every round become a special refresh: This refresh will prioritize offering 1 Yan Operator\nIn Standard Simulation, all Operators +30% ATK, DEF, and HP\n<span class=\"text-red-500\">Strategy may be flawed when some [Yan] Operators are missing</span></>"
+      "effectDesc": "<span class=\"font-bold\">[Heroes All Around]</span> The first two manual refreshes in every round become a special refresh: This refresh will prioritize offering 1 Yan Operator\n<span class=\"text-red-500\">Strategy may be flawed when some [Yan] Operators are missing</span></>"
     },
     {
       "name": "Goliath",
       "iconLink": "icon_sarkazb",
       "initialHp": 45,
       "effectName": "Indestructible",
-      "effectDesc": "<span class=\"font-bold\">[Indestructible]</span> Start with 45 Life Points\nIn Standard Simulation, all Operators +30% ATK, DEF, and HP"
+      "effectDesc": "<span class=\"font-bold\">[Indestructible]</span> Start with 45 Life Points"
     },
     {
       "name": "Orchid",
       "iconLink": "icon_orchid",
-      "initialHp": 27,
+      "initialHp": 30,
       "effectName": "HR Consultant",
-      "effectDesc": "<span class=\"font-bold\">[HR Consultant]</span> Every manual refresh becomes a special refresh: 2 copies of the same Operator will appear with one Frozen; obtain 1 Dispatch Module on Round 10: When equipped, refreshing will offer Operator(s) from the same Alliance as the equipped Operator"
+      "effectDesc": "<span class=\"font-bold\">[HR Consultant]</span> Every manual refresh becomes a special refresh: 2 copies of the same Operator will appear with one Frozen; obtain 1 Dispatch Module on Round 10"
     },
     {
       "name": "Justin Fitzroy Jr.",
       "iconLink": "icon_justin",
       "initialHp": 23,
       "effectName": "Private Equity Fund",
-      "effectDesc": "<span class=\"font-bold\">[Private Equity Fund]</span> Upon entering Rest Phase on Rounds 1, 4, 7, 10, obtain 1 Lucky Coin: Destroyed when equipped and grants 1-6 Funds"
+      "effectDesc": "<span class=\"font-bold\">[Private Equity Fund]</span> Upon entering Rest Phase on Rounds 1, 4, 7, 10, obtain 1 Knight's Donation Box: Destroyed when equipped and grants 1-6 Funds"
     },
     {
       "name": "Ermengarde",
@@ -108,7 +108,7 @@
     {
       "name": "Mulberry",
       "iconLink": "icon_mberry",
-      "initialHp": 22,
+      "initialHp": 28,
       "effectName": "Experimental Med. Sticks",
       "effectDesc": "<span class=\"font-bold\">[Experimental Med. Sticks]</span> When the battle begins, all allied Operators in the rightmost column of the field gain the following effect: Every attack has a 20% chance to grant 1 Shield (max 1 stack)"
     },
@@ -127,18 +127,11 @@
       "effectDesc": "<span class=\"font-bold\">[Unstable Element]</span> In Round 3, obtain special equipment Mutated Cells: After the battle ends, equipped Operator changes to a random Operator 1 Tier higher (up to Tier 6)"
     },
     {
-      "name": "Eunectes",
-      "iconLink": "icon_zumama",
-      "initialHp": 38,
-      "effectName": "Machine Assistance",
-      "effectDesc": "<span class=\"font-bold\">[Machine Assistance]</span> 1 'Double Lids' appears on all battlefields: Can perform long-ranged Arts attacks and inflicts Fragile on enemy targets (Can be upgraded!)"
-    },
-    {
       "name": "Yu",
       "iconLink": "icon_yu",
-      "initialHp": 32,
+      "initialHp": 27,
       "effectName": "Slow Simmer",
-      "effectDesc": "<span class=\"font-bold\">[Slow Simmer]</span> When Round 8 begins, if there is only 1 active Alliance, +40 stacks to it; otherwise +12 stacks to all active Alliances"
+      "effectDesc": "<span class=\"font-bold\">[Slow Simmer]</span> When Round 8 begins, if there is only 1 active Alliance, +36zzzz stacks to it; otherwise +12 stacks to all active Alliances"
     },
     {
       "name": "Dobermann",
@@ -159,7 +152,7 @@
       "iconLink": "icon_malkie",
       "initialHp": 30,
       "effectName": "Commercial Packaging",
-      "effectDesc": "<span class=\"font-bold\">[Commercial Packaging]</span> Start with 1 Commercial Packaging Plan: For every 8 Operators sold, obtain 1 copy of the equipped Operator"
+      "effectDesc": "<span class=\"font-bold\">[Commercial Packaging]</span> Start with 1 Commercial Packaging Plan: For every 7 Operators sold, obtain 1 copy of the equipped Operator"
     },
     {
       "name": "Qalaiša",
@@ -173,7 +166,7 @@
       "iconLink": "icon_chen",
       "initialHp": 22,
       "effectName": "Personal Power",
-      "effectDesc": "<span class=\"font-bold\">[Personal Power]</span> High Ground Operators deal Weakness damage (When dealing Physical or Arts damage, change damage type depending on the target's DEF and RES)"
+      "effectDesc": "<span class=\"font-bold\">[Personal Power]</span> All Operators deal Weakness damage (When dealing Physical or Arts damage, change damage type depending on the target's DEF and RES)"
     },
     {
       "name": "Damazti Cluster",
@@ -209,6 +202,83 @@
       "initialHp": 29,
       "effectName": "'Mystery Customer'",
       "effectDesc": "<span class=\"font-bold\">['Mystery Customer']</span> From Round 5 onwards, some enemies you and your teammates encounter may be replaced with &ltDuck Lord&gt, &ltGopnik&gt, &ltCrying Thief&gt, or &ltFatty&gt. Defeating them (even during Unite Phases) will grant 1 Funds"
+    },
+    {
+      "name": "Shamare",
+      "iconLink": "icon_vodfox",
+      "initialHp": 22,
+      "effectName": "'Voodoo Doll'",
+      "effectDesc": "<span class=\"font-bold\">['Voodoo Doll']</span> The first time you sell an Operator each round, exchange them for a random Operator instead."
+    },
+    {
+      "name": "Ioleta Russell",
+      "iconLink": "icon_ioleta",
+      "initialHp": 29,
+      "effectName": "'Command and Order'",
+      "effectDesc": "<span class=\"font-bold\">['Command and Order']</span> "
+    },
+    {
+      "name": "Matsukiri",
+      "iconLink": "icon_makiri",
+      "initialHp": 24,
+      "effectName": "'Well-connected'",
+      "effectDesc": "<span class=\"font-bold\">['Well-connected']</span> When entering Rest Phase in even-numbered rounds, randomly receive an Operator from the Dispatch Center"
+    },
+    {
+      "name": "Młynar",
+      "iconLink": "icon_mlynar",
+      "initialHp": 24,
+      "effectName": "'Business Metrics'",
+      "effectDesc": "<span class=\"font-bold\">['Business Metrics']</span> For every [Kazimierz] Operator purchased, gain 1 extra Fund next round (up to 3 each round)"
+    },
+    {
+      "name": "Chiave",
+      "iconLink": "icon_chiave",
+      "initialHp": 23,
+      "effectName": "'Mystery Customer'",
+      "effectDesc": "<span class=\"font-bold\">['Gang Action']</span> After actively refreshing the Dispatch Center 6 times, obtain 1 random [Siracusa] Operator (up to 2 each round)"
+    },
+    {
+      "name": "Narantuya",
+      "iconLink": "icon_narant",
+      "initialHp": 26,
+      "effectName": "'Everyone Gets Their Cut'",
+      "effectDesc": "<span class=\"font-bold\">['Everyone Gets Their Cut']</span> When entering Rest Phase in even-numbered rounds, a special refresh occurs, offering a choice between 2 free equipments\nThe Sargon Alliance &ltWith <span class='green'>6</span> different [Sargon] Operators on field&gt will be replaced with \"When [Sargon] Operators activate their skills, Operators within the surrounding 8 tiles also gain the effects of that Operator's equipments (up to Tier V), lasting for 60 seconds.\""
+    },
+    {
+      "name": "Touch",
+      "iconLink": "icon_amedic",
+      "initialHp": 28,
+      "effectName": "'Field Medic'",
+      "effectDesc": "<span class=\"font-bold\">['Field Medic']</span> One Reserve Operator - Medic will appear on the field for every players; at the start of combat, if there are 2 upgraded Operators, Touch will appear instead."
+    },
+    {
+      "name": "Suzuran",
+      "iconLink": "icon_lisa",
+      "initialHp": 20,
+      "effectName": "'Protective Power'",
+      "effectDesc": "<span class=\"font-bold\">['Protective Power']</span> At the start of each round, trigger the &ltWhen obtained&gt effect of one Operator on field (Prioritizes Operators deployed on upper right tiles)"
+    },
+    {
+      "name": "Jessica",
+      "iconLink": "icon_jesica",
+      "initialHp": 22,
+      "effectName": "'Rendezvous Orders'",
+      "effectDesc": "<span class=\"font-bold\">['Rendezvous Orders']</span> Upon entering Rest Phase on Rounds 4, 7, 10 and 13, obtain 1 Dispatch Module"
+    },
+    {
+      "name": "Muelsyse",
+      "iconLink": "icon_mlyss",
+      "initialHp": 28,
+      "effectName": "'Pure Drop'",
+      "effectDesc": "<span class=\"font-bold\">['Pure Drop']</span> At the start of round 1, obtain 1 upgraded Doctor Hologram"
+    },
+    {
+      "name": "Fang",
+      "iconLink": "icon_fang",
+      "initialHp": 24,
+      "effectName": "'Teamwork'",
+      "effectDesc": "<span class=\"font-bold\">['Teamwork']</span> Upon entering Rest Phase on Rounds 8, 10, 12 and 14, obtain 1 Transmitter"
     }
   ]
 }

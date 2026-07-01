@@ -8,9 +8,11 @@ import { bondInfo as season21bonds } from "../data/season2.1/alliances.json";
 
 import { shopitems as season1items } from "../data/season1/items.json";
 import { shopitems as season2items } from "../data/season2/items.json";
+import { shopitems as season21items } from "../data/season2.1/items.json";
 
-// import { bandInfo as season1bands } from "../data/season1/strategies.json";
-// import { bondInfo as season2bonds } from "../data/season2/alliances.json";
+import { bandInfo as season1bands } from "../data/season1/strategies.json";
+import { bandInfo as season2bands } from "../data/season2/strategies.json";
+import { bandInfo as season21bands } from "../data/season2.1/strategies.json";
 
 export function getOperatorsBySeason(season: string) {
   switch (season) {
@@ -54,11 +56,28 @@ export function getItemsBySeason(season: string) {
     case "2": {
       return season2items;
     }
-    // case "2.1": {
-    //   return season21bonds;
-    // }
+    case "2.1": {
+      return season21items;
+    }
     default: {
       return season1items;
+    }
+  }
+}
+
+export function getStrategiesBySeason(season: string) {
+  switch (season) {
+    case "1": {
+      return season1bands;
+    }
+    case "2": {
+      return season2bands;
+    }
+    case "2.1": {
+      return season21bands;
+    }
+    default: {
+      return season1bands;
     }
   }
 }

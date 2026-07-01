@@ -49,7 +49,7 @@ function App() {
       <div className="w-full flex flex-col mt-14">
         {currentPage === "Attributes" && <AttributeList season={currentSeason} />}
         {currentPage === "Alliances" && <AllianceList season={currentSeason} />}
-        {currentPage === "Strategies" && <StrategyList />}
+        {currentPage === "Strategies" && <StrategyList season={currentSeason} />}
         {currentPage === "Items" && <ShopItemList season={currentSeason} />}
       </div>
       <div className="fixed bottom-5 right-5 z-10">
