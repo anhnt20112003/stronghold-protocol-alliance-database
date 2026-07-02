@@ -40,7 +40,7 @@ function AllianceButton(props: AllianceButtonProps) {
         />
       </div>
       <div className="flex justify-center items-center w-full">
-        {allianceName === "Assist Operator" ? "Assist" : allianceName}
+        {allianceName === "Assist_Operator" ? "Assist" : allianceName}
       </div>
     </button>
   );

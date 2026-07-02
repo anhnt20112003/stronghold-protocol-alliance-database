@@ -110,7 +110,7 @@
     },
     {
       "bondId": "emptyship",
-      "name": "Assist Operator",
+      "name": "Assist_Operator",
       "desc": "All Operators take <span class='blue'>-20%</span> Physical and Arts damage, deal <span class='blue'>120%</span> more damage; Elite Operators deal <span class='blue'>140%</span> more damage",
       "activeCount": 3
     }

@@ -3,7 +3,7 @@ export function getBondImage(type: string) {
     Arcane: "arcaneship",
     Aid: "deputship",
     Ægir: "egirship",
-    "Assist Operator": "emptyship",
+    Assist_Operator: "emptyship",
     Resilient: "indomship",
     Investor: "investship",
     Kazimierz: "kazimierzship",

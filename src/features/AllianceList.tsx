@@ -56,7 +56,7 @@ const AllianceList = ({ season }: AllianceListProps) => {
                 >
                   <img src={`/bondicons/icon_${alliance.bondId}.png`} className="w-12 h-12" />
                 </div>
-                {alliance.name}
+                {alliance.name.replace("_", " ")}
               </div>
               <div className="flex items-start flex-col">
                 <span className="text-sm text-white text-left text-[12px] md:text-[15px]">
