@@ -243,7 +243,7 @@
       "attributeType": "One-time",
       "attribute": "&ltWhen obtained&gt <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to a random active Alliance, repeats 2 times",
       "tier": 3,
-      "alliances": ["Yan"]
+      "alliances": ["Assist_Operator"]
     },
     {
       "name": "Snow Hunter",
