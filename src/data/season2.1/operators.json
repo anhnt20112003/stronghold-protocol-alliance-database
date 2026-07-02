@@ -73,7 +73,7 @@
     {
       "name": "Podenco",
       "attributeType": "Can stack",
-      "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+1</span>/<span class='green'>+2</span> stacks to the most stacked active Alliance; takes effect even if the Operator is on Bench",
+      "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to the most stacked active Alliance; takes effect even if the Operator is on Bench",
       "tier": 1,
       "alliances": ["Marvel", "Foresight"]
     },
@@ -171,14 +171,14 @@
     {
       "name": "Humus",
       "attributeType": "Combat",
-      "attribute": "&ltIn battle&gt For every 2 enemy defeated, <span class='blue'>+1</span>/<span class='green'>+2</span> stacks to active [Raid] Alliance",
+      "attribute": "&ltIn battle&gt For every 2 enemy defeated, <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to active [Raid] Alliance",
       "tier": 2,
       "alliances": ["Raid"]
     },
     {
       "name": "Rockrock",
       "attributeType": "Prep",
-      "attribute": "&ltWhen obtained&gt Randomly obtain <span class='blue'>1</span>/<span class='green'>2</span> piece of Rockrock's custom creations",
+      "attribute": "&ltWhen obtained&gt Randomly obtain <span class='blue'>1</span>/<span class='green'>2</span> piece(s) of Rockrock's custom creations",
       "tier": 2,
       "alliances": ["Victoria", "Arcane"]
     },
@@ -192,7 +192,7 @@
     {
       "name": "Gravel",
       "attributeType": "Can stack",
-      "attribute": "&ltWhen deployed&gt <span class='blue'>+1</span>/<span class='green'>+2</span> stacks to active [Kazimierz] Alliance\n&ltWhen defeated&gt <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to active [Resilient] Alliance",
+      "attribute": "&ltWhen deployed&gt <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to active [Kazimierz] Alliance\n&ltWhen defeated&gt <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to active [Resilient] Alliance",
       "tier": 2,
       "alliances": ["Kazimierz", "Resilient"]
     },
@@ -241,7 +241,7 @@
     {
       "name": "Exusiai",
       "attributeType": "Prep",
-      "attribute": "&ltWhen obtained&gt Obtain <span class='blue'>1</span>/<span class='green'>2</span> extra Funds next Rest Phase",
+      "attribute": "&ltWhen obtained&gt Obtain <span class='blue'>1</span>/<span class='green'>2</span> extra Fund(s) next Rest Phase",
       "tier": 3,
       "alliances": ["Laterano", "Marvel"]
     },
@@ -255,21 +255,21 @@
     {
       "name": "Swire",
       "attributeType": "Prep",
-      "attribute": "&ltWhen obtained&gt Obtain <span class='blue'>1</span>/<span class='green'>2</span> 'Lucky Coin'",
+      "attribute": "&ltWhen obtained&gt Obtain <span class='blue'>1</span>/<span class='green'>2</span> 'Lucky Coin(s)'",
       "tier": 3,
       "alliances": ["Yan", "Foresight"]
     },
     {
       "name": "Swire the Elegant Wit",
       "attributeType": "Prep",
-      "attribute": "&ltWhen Rest Phase ends&gt Obtain <span class='blue'>1</span>/<span class='green'>2</span> extra Funds in next Rest Phase (takes effect when [Yan]/[Investor] is active in bench)",
+      "attribute": "&ltWhen Rest Phase ends&gt Obtain <span class='blue'>1</span>/<span class='green'>2</span> extra Fund(s) in next Rest Phase (takes effect when [Yan]/[Investor] is active in bench)",
       "tier": 3,
       "alliances": ["Yan", "Investor"]
     },
     {
       "name": "Skadi",
       "attributeType": "Can stack",
-      "attribute": "&ltIn battle&gt For every 2 enemy defeated, <span class='blue'>+1</span>/<span class='green'>+2</span> stacks to active [Ægir], [Durable], [Raid] Alliance",
+      "attribute": "&ltIn battle&gt For every 2 enemy defeated, <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to active [Ægir], [Durable], [Raid] Alliance",
       "tier": 3,
       "alliances": ["Ægir", "Durable", "Raid"]
     },
@@ -332,7 +332,7 @@
     {
       "name": "Cuora",
       "attributeType": "Can stack",
-      "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+1</span>/<span class='green'>+2</span> stacks to active [Durable] Alliance for every Operator in the same row",
+      "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to active [Durable] Alliance for every Operator in the same row",
       "tier": 3,
       "alliances": ["Durable"]
     },
@@ -381,7 +381,7 @@
     {
       "name": "Mostima",
       "attributeType": "Can stack",
-      "attribute": "&ltIn battle&gt Whenever Operators up to 4 tiles ahead of self spend 6 bullets, <span class='blue'>+1</span>/<span class='green'>+2</span> stacks to active [Laterano] Alliance",
+      "attribute": "&ltIn battle&gt Whenever Operators up to 4 tiles ahead of self spend 6 bullets, <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to active [Laterano] Alliance",
       "tier": 4,
       "alliances": ["Laterano", "Arcane"]
     },
@@ -509,7 +509,7 @@
     {
       "name": "Civilight Eterna",
       "attributeType": "Combat",
-      "attribute": "&ltIn battle&gt When the Operator in front adds stacks from their Attribute, <span class='blue'>+1</span>/<span class='green'>+2</span> additional stack",
+      "attribute": "&ltIn battle&gt When the Operator in front adds stacks from their Attribute, <span class='blue'>+1</span>/<span class='green'>+2</span> additional stack(s)",
       "tier": 4,
       "alliances": ["Assist_Operator"]
     },
@@ -530,7 +530,7 @@
     {
       "name": "Titi",
       "attributeType": "Can stack",
-      "attribute": "&ltIn battle&gt Whenever an enemy or Operator in range is inflicted with Sleep or Stun, <span class='blue'>+1</span>/<span class='green'>+2</span> [Sargon] and [Precision] stacks if Alliances are active (up to <span class='blue'>24</span>/<span class='green'>48</span> stacks every battle)",
+      "attribute": "&ltIn battle&gt Whenever an enemy or Operator in range is inflicted with Sleep or Stun, <span class='blue'>+1</span>/<span class='green'>+2</span> [Sargon] and [Precision] stack(s) if Alliances are active (up to <span class='blue'>24</span>/<span class='green'>48</span> stacks every battle)",
       "tier": 5,
       "alliances": ["Sargon", "Precision"]
     },
@@ -651,7 +651,7 @@
     {
       "name": "Nymph",
       "attributeType": "Can stack",
-      "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+2</span>/<span class='green'>+4</span> stack(s) to active [Swift] Alliance for every Operator on Bench",
+      "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to active [Swift] Alliance for every Operator on Bench",
       "tier": 5,
       "alliances": ["Swift"]
     },
@@ -721,7 +721,7 @@
     {
       "name": "Virtuosa",
       "attributeType": "Can stack",
-      "attribute": "On skill activation, <span class='blue'>+1</span>/<span class='green'>+2</span> stacks to the most stacked active Alliance for every Operator in the same row (up to <span class='blue'>10</span>/<span class='green'>20</span> stacks each round)",
+      "attribute": "On skill activation, <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to the most stacked active Alliance for every Operator in the same row (up to <span class='blue'>10</span>/<span class='green'>20</span> stacks each round)",
       "tier": 6,
       "alliances": ["Laterano"]
     },

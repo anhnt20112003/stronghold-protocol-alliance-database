@@ -59,7 +59,7 @@
     {
       "name": "Savage",
       "attributeType": "Prep",
-      "attribute": "&ltWhen sold&gt Obtain <span class='blue'>1</span>/<span class='green'>2</span> extra Fund next Rest Phase",
+      "attribute": "&ltWhen sold&gt Obtain <span class='blue'>1</span>/<span class='green'>2</span> extra Fund(s) next Rest Phase",
       "tier": 1,
       "alliances": ["Aid"]
     },
@@ -108,7 +108,7 @@
     {
       "name": "Executor",
       "attributeType": "Can stack",
-      "attribute": "&ltIn battle&gt Whenever the Operator ahead spends 7 bullets, <span class='blue'>+1</span>/<span class='green'>+2</span> stack to active [Laterano] Alliance",
+      "attribute": "&ltIn battle&gt Whenever the Operator ahead spends 7 bullets, <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to active [Laterano] Alliance",
       "tier": 2,
       "alliances": ["Laterano", "Precision"]
     },
@@ -122,7 +122,7 @@
     {
       "name": "Harold",
       "attributeType": "Prep",
-      "attribute": "&ltWhen obtained&gt Obtain <span class='blue'>1</span>/<span class='green'>2</span> extra Funds next Rest Phase",
+      "attribute": "&ltWhen obtained&gt Obtain <span class='blue'>1</span>/<span class='green'>2</span> extra Fund(s) next Rest Phase",
       "tier": 2,
       "alliances": ["Victoria", "Kjerag"]
     },
@@ -136,7 +136,7 @@
     {
       "name": "Utage",
       "attributeType": "Can stack",
-      "attribute": "&ltIn battle&gt For every 1 enemy defeated, <span class='blue'>+1</span>/<span class='green'>+2</span> stacks to active [Raid] Alliance",
+      "attribute": "&ltIn battle&gt For every 1 enemy defeated, <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to active [Raid] Alliance",
       "tier": 2,
       "alliances": ["Raid", "Aid"]
     },
@@ -171,7 +171,7 @@
     {
       "name": "Wanqing",
       "attributeType": "Can stack",
-      "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+1</span>/<span class='green'>+2</span> stack to active [Yan] Alliance for every Operator obtained this round",
+      "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to active [Yan] Alliance for every Operator obtained this round",
       "tier": 2,
       "alliances": ["Yan"]
     },
@@ -185,14 +185,14 @@
     {
       "name": "Heavyrain",
       "attributeType": "Combat",
-      "attribute": "For every 3 stacks added to [Sargon] or [Durable] Alliance, this Operator <span class='blue'>+1%</span>/<span class='green'>+2%</span> DEF",
+      "attribute": "For every 3 stacks added to [Sargon] or [Durable] Alliance, this Operator gains <span class='blue'>+1%</span>/<span class='green'>+2%</span> DEF",
       "tier": 2,
       "alliances": ["Sargon", "Durable"]
     },
     {
       "name": "Rockrock",
       "attributeType": "Prep",
-      "attribute": "&ltWhen obtained&gt Randomly obtain <span class='blue'>1</span>/<span class='green'>2</span> piece of Rockrock's custom creations",
+      "attribute": "&ltWhen obtained&gt Randomly obtain <span class='blue'>1</span>/<span class='green'>2</span> piece(s) of Rockrock's custom creations",
       "tier": 2,
       "alliances": ["Victoria", "Agile"]
     },
@@ -213,7 +213,7 @@
     {
       "name": "Exusiai",
       "attributeType": "Prep",
-      "attribute": "&ltWhen obtained&gt Obtain <span class='blue'>1</span>/<span class='green'>2</span> extra Funds next Rest Phase",
+      "attribute": "&ltWhen obtained&gt Obtain <span class='blue'>1</span>/<span class='green'>2</span> extra Fund(s) next Rest Phase",
       "tier": 3,
       "alliances": ["Laterano", "Marvel"]
     },
@@ -269,7 +269,7 @@
     {
       "name": "Swire the Elegant Wit",
       "attributeType": "Prep",
-      "attribute": "&ltWhen Rest Phase ends&gt Obtain <span class='blue'>1</span>/<span class='green'>2</span> extra Funds in next Rest Phase (takes effect when [Yan]/[Investor] is active in bench)",
+      "attribute": "&ltWhen Rest Phase ends&gt Obtain <span class='blue'>1</span>/<span class='green'>2</span> extra Fund(s) in next Rest Phase (takes effect when [Yan]/[Investor] is active in bench)",
       "tier": 3,
       "alliances": ["Yan", "Investor"]
     },
@@ -297,7 +297,7 @@
     {
       "name": "Ethan",
       "attributeType": "Prep",
-      "attribute": "&ltWhen obtained&gt Obtain <span class='blue'>1</span>/<span class='green'>2</span> Operator from the Alliance with most members in your current squad (excluding self)",
+      "attribute": "&ltWhen obtained&gt Obtain <span class='blue'>1</span>/<span class='green'>2</span> Operator(s) from the Alliance with most members in your current squad (excluding self)",
       "tier": 3,
       "alliances": ["Assist_Operator"]
     },
@@ -325,14 +325,14 @@
     {
       "name": "Eunectes",
       "attributeType": "Prep",
-      "attribute": "&ltWhen obtained&gt Obtain <span class='blue'>1</span>/<span class='green'>2</span> pieces of 'Quick Combat Rations'",
+      "attribute": "&ltWhen obtained&gt Obtain <span class='blue'>1</span>/<span class='green'>2</span> piece(s) of 'Quick Combat Rations'",
       "tier": 4,
       "alliances": ["Sargon"]
     },
     {
       "name": "Bagpipe",
       "attributeType": "Can stack",
-      "attribute": "&ltIn battle&gt For every 2 enemy defeated, <span class='blue'>+1</span>/<span class='green'>+2</span> stacks to active [Victoria], [Foresight], [Resilient] Alliance",
+      "attribute": "&ltIn battle&gt For every 2 enemy defeated, <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to active [Victoria], [Foresight], [Resilient] Alliance",
       "tier": 4,
       "alliances": ["Victoria", "Foresight", "Resilient"]
     },
@@ -430,7 +430,7 @@
     {
       "name": "Folinic",
       "attributeType": "Prep",
-      "attribute": "&ltWhen sold&gt Obtain <span class='blue'>1</span>/<span class='green'>2</span> extra Fund next Rest Phase",
+      "attribute": "&ltWhen sold&gt Obtain <span class='blue'>1</span>/<span class='green'>2</span> extra Fund(s) next Rest Phase",
       "tier": 4,
       "alliances": ["Aid", "Assist_Operator"]
     },
@@ -458,14 +458,14 @@
     {
       "name": "Surtr",
       "attributeType": "Can stack",
-      "attribute": "&ltIn battle&gt For every 1 enemy defeated, <span class='blue'>+1</span>/<span class='green'>+2</span> stacks to active [Raid] Alliance",
+      "attribute": "&ltIn battle&gt For every 1 enemy defeated, <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to active [Raid] Alliance",
       "tier": 5,
       "alliances": ["Raid"]
     },
     {
       "name": "Civilight Eterna",
       "attributeType": "Combat",
-      "attribute": "&ltIn battle&gt When the Operator in front adds stacks from their Attribute, <span class='blue'>+1</span>/<span class='green'>+2</span> additional stack",
+      "attribute": "&ltIn battle&gt When the Operator in front adds stacks from their Attribute, <span class='blue'>+1</span>/<span class='green'>+2</span> additional stack(s)",
       "tier": 5,
       "alliances": ["Marvel", "Assist_Operator"]
     },
@@ -535,7 +535,7 @@
     {
       "name": "Lin",
       "attributeType": "Can stack",
-      "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+1</span>/<span class='green'>+2</span> stacks to active [Yan] and [Agile] Alliance for every Operator obtained during this Rest Phase",
+      "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to active [Yan] and [Agile] Alliance for every Operator obtained during this Rest Phase",
       "tier": 5,
       "alliances": ["Yan", "Agile"]
     },
@@ -570,7 +570,7 @@
     {
       "name": "Yu",
       "attributeType": "Prep",
-      "attribute": "&ltWhen entering Rest Phase&gt <span class='blue'>If there are 3 Operators in the same row, obtain 1 random Operator</span>/<span class='green'>Obtain 1 random Operator</span> from the Alliance from the Alliance with most members in your current squad",
+      "attribute": "&ltWhen entering Rest Phase&gt <span class='blue'>If there are 3 Operators in the same row, obtain 1 random Operator</span>/<span class='green'>Obtain 1 random Operator</span> from the Alliance with the most members in your current squad",
       "tier": 6,
       "alliances": ["Yan", "Durable"]
     },
@@ -591,14 +591,14 @@
     {
       "name": "Eyjafjalla the Hvít Aska",
       "attributeType": "Can stack",
-      "attribute": "&ltIn battle&gt On skill activation, <span class='blue'>+1</span>/<span class='green'>+2</span> stacks to the most stacked active Alliance for every Operator in the same row",
+      "attribute": "&ltIn battle&gt On skill activation, <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to the most stacked active Alliance for every Operator in the same row",
       "tier": 6,
       "alliances": ["Assist_Operator"]
     },
     {
       "name": "Muelsyse",
       "attributeType": "Prep",
-      "attribute": "&ltWhen obtained&gt Gain <span class='blue'>1</span>/<span class='green'>2</span> piece(s) of 'Damazti Isomorph",
+      "attribute": "&ltWhen obtained&gt Gain <span class='blue'>1</span>/<span class='green'>2</span> piece(s) of \"Damazti Isomorph\"",
       "tier": 6,
       "alliances": ["Harmony"]
     },
@@ -612,7 +612,7 @@
     {
       "name": "Silence the Paradigmatic",
       "attributeType": "Can stack",
-      "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+1</span>/<span class='green'>+2</span> stacks to active [Agile] Alliance for every 1 Funds spent this round",
+      "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to active [Agile] Alliance for every 1 Funds spent this round",
       "tier": 6,
       "alliances": ["Agile", "Assist_Operator"]
     },

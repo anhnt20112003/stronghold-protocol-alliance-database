@@ -105,7 +105,7 @@
     {
       "bondId": "skillfulship",
       "name": "Agile",
-      "desc": "[Agile] Operators and Operators in the 8 adjacent tiles around them gain <span class='blue'>+(10 + 1 × stacks)</span> ASPD\n&ltAt <span class='green'>20</span> stacks&gt First manual refresh every Rest Phase will lower equipment price to <span class='blue'>1</span> Funds",
+      "desc": "[Agile] Operators and Operators in the 8 adjacent tiles around them gain <span class='blue'>+(10 + 1 × stacks)</span> ASPD\n&ltAt <span class='green'>20</span> stacks&gt First manual refresh every Rest Phase will lower equipment price to <span class='blue'>1</span> Fund",
       "activeCount": 2
     },
     {

@@ -5,7 +5,7 @@ export default function Home() {
     <div className="px-10 flex flex-col items-start text-left gap-5 text-white">
       <div className="text-xl md:text-3xl">Welcome to Stronghold Protocol Alliance Database</div>
       <div className="text-lg md:text-xl">
-        This page is dedicated to documenting relevent data regarding the Stronghold Protocol
+        This page is dedicated to documenting relevant data regarding the Stronghold Protocol
         Alliance seasons for the EN community. CN content are tentatively translated and may not
         reflect the official translations.
       </div>
