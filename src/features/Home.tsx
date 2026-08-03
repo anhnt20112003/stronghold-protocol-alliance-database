@@ -2,8 +2,11 @@ import { FaGithub, FaTwitter, FaFacebook } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <div className="px-10 flex flex-col items-start text-left gap-5 text-white">
-      <div className="text-xl md:text-3xl">Welcome to Stronghold Protocol Alliance Database</div>
+    <div className="px-10 flex flex-col items-center text-center gap-5 text-white">
+      <div className="w-[15vw] h-[15vw]">
+        <img src="/kelsey.png" className="w-[15vw]" />
+      </div>
+      <div className="text-xl md:text-3xl">Welcome to Stronghold Protocol Database</div>
       <div className="text-lg md:text-xl">
         This page is dedicated to documenting relevant data regarding the Stronghold Protocol
         Alliance seasons for the EN community. CN content are tentatively translated and may not
@@ -16,7 +19,7 @@ export default function Home() {
         If any issue arises (i.e. bugs, incorrect data, typo, etc), please contact me using methods
         below:
       </div>
-      <div className="flex flex-row text-2xl md:text-3xl w-full gap-10">
+      <div className="flex flex-row text-2xl md:text-3xl w-full gap-10 items-center justify-center">
         <div
           onClick={() =>
             window.open("https://github.com/anhnt20112003/stronghold-protocol-alliance-database")
