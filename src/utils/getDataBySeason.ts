@@ -1,32 +1,32 @@
-import { operators as season1operators } from "../data/season1/operators.json";
-import { operators as season2operators } from "../data/season2/operators.json";
-import { operators as season21operators } from "../data/season2.1/operators.json";
+import { operators as allianceSeason1operators } from "../data/alliance/season1/operators.json";
+import { operators as allianceSeason2operators } from "../data/alliance/season2/operators.json";
+import { operators as allianceSeason21operators } from "../data/alliance/season2.1/operators.json";
 
-import { bondInfo as season1bonds } from "../data/season1/alliances.json";
-import { bondInfo as season2bonds } from "../data/season2/alliances.json";
-import { bondInfo as season21bonds } from "../data/season2.1/alliances.json";
+import { bondInfo as allianceSeason1bonds } from "../data/alliance/season1/alliances.json";
+import { bondInfo as allianceSeason2bonds } from "../data/alliance/season2/alliances.json";
+import { bondInfo as allianceSeason21bonds } from "../data/alliance/season2.1/alliances.json";
 
-import { shopitems as season1items } from "../data/season1/items.json";
-import { shopitems as season2items } from "../data/season2/items.json";
-import { shopitems as season21items } from "../data/season2.1/items.json";
+import { shopitems as allianceSeason1items } from "../data/alliance/season1/items.json";
+import { shopitems as allianceSeason2items } from "../data/alliance/season2/items.json";
+import { shopitems as allianceSeason21items } from "../data/alliance/season2.1/items.json";
 
-import { bandInfo as season1bands } from "../data/season1/strategies.json";
-import { bandInfo as season2bands } from "../data/season2/strategies.json";
-import { bandInfo as season21bands } from "../data/season2.1/strategies.json";
+import { bandInfo as allianceSeason1bands } from "../data/alliance/season1/strategies.json";
+import { bandInfo as allianeSeason2bands } from "../data/alliance/season2/strategies.json";
+import { bandInfo as allianceSeason21bands } from "../data/alliance/season2.1/strategies.json";
 
 export function getOperatorsBySeason(season: string) {
   switch (season) {
     case "1": {
-      return season1operators;
+      return allianceSeason1operators;
     }
     case "2": {
-      return season2operators;
+      return allianceSeason2operators;
     }
     case "2.1": {
-      return season21operators;
+      return allianceSeason21operators;
     }
     default: {
-      return season1operators;
+      return allianceSeason1operators;
     }
   }
 }
@@ -34,16 +34,16 @@ export function getOperatorsBySeason(season: string) {
 export function getAlliancesBySeason(season: string) {
   switch (season) {
     case "1": {
-      return season1bonds;
+      return allianceSeason1bonds;
     }
     case "2": {
-      return season2bonds;
+      return allianceSeason2bonds;
     }
     case "2.1": {
-      return season21bonds;
+      return allianceSeason21bonds;
     }
     default: {
-      return season1bonds;
+      return allianceSeason1bonds;
     }
   }
 }
@@ -51,16 +51,16 @@ export function getAlliancesBySeason(season: string) {
 export function getItemsBySeason(season: string) {
   switch (season) {
     case "1": {
-      return season1items;
+      return allianceSeason1items;
     }
     case "2": {
-      return season2items;
+      return allianceSeason2items;
     }
     case "2.1": {
-      return season21items;
+      return allianceSeason21items;
     }
     default: {
-      return season1items;
+      return allianceSeason1items;
     }
   }
 }
@@ -68,16 +68,16 @@ export function getItemsBySeason(season: string) {
 export function getStrategiesBySeason(season: string) {
   switch (season) {
     case "1": {
-      return season1bands;
+      return allianceSeason1bands;
     }
     case "2": {
-      return season2bands;
+      return allianeSeason2bands;
     }
     case "2.1": {
-      return season21bands;
+      return allianceSeason21bands;
     }
     default: {
-      return season1bands;
+      return allianceSeason1bands;
     }
   }
 }
