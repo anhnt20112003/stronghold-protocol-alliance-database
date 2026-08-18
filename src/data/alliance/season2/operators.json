@@ -151,14 +151,14 @@
       "name": "Cliffheart",
       "attributeType": "One-time",
       "attribute": "&ltWhen obtained&gt <span class='blue'>+3</span>/<span class='green'>+6</span> stacks to own Alliance(s) (Alliance does not need to be active)",
-      "tier": 1,
+      "tier": 2,
       "alliances": ["Kjerag", "Resilient"]
     },
     {
       "name": "Grain Buds",
       "attributeType": "One-time",
       "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+1</span>/<span class='green'>+2</span> stack to active [Yan] Alliance for every Operator obtained this round",
-      "tier": 1,
+      "tier": 2,
       "alliances": ["Yan", "Agile"]
     },
     {

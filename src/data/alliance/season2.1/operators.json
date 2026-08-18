@@ -113,13 +113,6 @@
       "alliances": ["Kazimierz", "Swift"]
     },
     {
-      "name": "Indigo",
-      "attributeType": "Can stack",
-      "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+1</span>/<span class='green'>+2</span> stacks to active [Resilient] Alliance(s)",
-      "tier": 1,
-      "alliances": ["Resilient"]
-    },
-    {
       "name": "Executor",
       "attributeType": "Can stack",
       "attribute": "&ltIn battle&gt When defeating an enemy for the first time this round, <span class='blue'>+3</span>/<span class='green'>+6</span> stacks to active [Precision] and [Laterano] Alliance",
@@ -137,7 +130,7 @@
       "name": "Grain Buds",
       "attributeType": "One-time",
       "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+1</span>/<span class='green'>+2</span> stack to active [Yan] Alliance for every Operator obtained this round",
-      "tier": 1,
+      "tier": 2,
       "alliances": ["Yan", "Agile"]
     },
     {
