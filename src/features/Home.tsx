@@ -3,8 +3,8 @@ import { FaGithub, FaTwitter, FaFacebook } from "react-icons/fa";
 export default function Home() {
   return (
     <div className="px-10 flex flex-col items-center text-center gap-5 text-white">
-      <div className="w-[15vw] h-[15vw]">
-        <img src="/kelsey.png" className="w-[15vw]" />
+      <div className="w-[15vw] h-[15vw] min-w-37.5 min-h-37.5">
+        <img src="/kelsey.png" className="w-[15vw] min-w-37.5" />
       </div>
       <div className="text-xl md:text-3xl">Welcome to Stronghold Protocol Database</div>
       <div className="text-lg md:text-xl">
