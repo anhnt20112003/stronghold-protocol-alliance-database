@@ -797,7 +797,7 @@
       "attributeType": "Combat",
       "attribute": "&ltIn combat&gt <span class='green'>Grant all [Siracusa] Operators the following attribute:</span> For every 1 enemy defeated, +2 stacks to active [Siracusa] Operators.'",
       "tier": 6,
-      "alliances": ["Kazimierz", "Raid"]
+      "alliances": ["Siracusa"]
     },
     {
       "name": "Degenbrecher",
