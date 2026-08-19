@@ -438,7 +438,7 @@
     {
       "name": "Leonhardt",
       "attributeType": "Can stack",
-      "attribute": "<When Rest Phase Ends> <span class='blue'>+5</span>/<span class='green'>+10</span> stacks to own active Alliance(s)",
+      "attribute": "&ltWhen Rest Phase Ends&gt <span class='blue'>+5</span>/<span class='green'>+10</span> stacks to own active Alliance(s)",
       "tier": 4,
       "alliances": ["Swift", "Precision"]
     },
