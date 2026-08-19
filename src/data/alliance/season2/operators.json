@@ -451,7 +451,7 @@
     {
       "name": "Aroma",
       "attributeType": "Can stack",
-      "attribute": "&ltWhen Rest Phase Ends&gt <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to active [Siracusa] and [Arcane] Alliance for every refresh this round",
+      "attribute": "&ltWhen Rest Phase Ends&gt <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to active [Siracusa] and [Arcane] Alliance for every refresh this round (up to <span class='blue'>+6</span>/<span class='green'>+12</span> stacks each round)",
       "tier": 4,
       "alliances": ["Siracusa", "Arcane"]
     },
@@ -801,7 +801,7 @@
     },
     {
       "name": "Degenbrecher",
-      "attributeType": "Combat",
+      "attributeType": "Can stack",
       "attribute": "&ltWhen obtained&gt <span class='blue'>+8</span>/<span class='green'>+16</span> stacks to own Alliance(s) (Alliance does not need to be active)",
       "tier": 6,
       "alliances": ["Kjerag", "Kazimierz", "Swift"]

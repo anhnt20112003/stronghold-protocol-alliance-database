@@ -113,6 +113,13 @@
       "alliances": ["Kazimierz", "Swift"]
     },
     {
+      "name": "Liskarm",
+      "attributeType": "Can stack",
+      "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+1</span>/<span class='green'>+2</span> stacks to active [Resilient] Alliance",
+      "tier": 1,
+      "alliances": ["Resilient"]
+    },
+    {
       "name": "Executor",
       "attributeType": "Can stack",
       "attribute": "&ltIn battle&gt When defeating an enemy for the first time this round, <span class='blue'>+3</span>/<span class='green'>+6</span> stacks to active [Precision] and [Laterano] Alliance",
@@ -360,7 +367,7 @@
     {
       "name": "Archetto",
       "attributeType": "Can stack",
-      "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+3</span>/<span class='green'>+6</span> stacks each to active Alliance(s) of self and the Operator 1 tile behind",
+      "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+3</span>/<span class='green'>+6</span> stacks each to active Alliance(s) of self and the Operator in front",
       "tier": 3,
       "alliances": ["Laterano", "Agile"]
     },
@@ -410,7 +417,7 @@
     {
       "name": "Aroma",
       "attributeType": "Can stack",
-      "attribute": "&ltWhen Rest Phase Ends&gt <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to active [Siracusa] and [Arcane] Alliance for every refresh this round",
+      "attribute": "&ltWhen Rest Phase Ends&gt <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to active [Siracusa] and [Arcane] Alliance for every refresh this round (up to <span class='blue'>+6</span>/<span class='green'>+12</span> stacks each round)",
       "tier": 4,
       "alliances": ["Siracusa", "Arcane"]
     },
@@ -477,6 +484,13 @@
       "attribute": "&ltIn battle&gt Grants '&ltWhen deployed&gt <span class='blue'>+4</span>/<span class='green'>+8</span> stacks to active [Kazimierz] and [Precision] Alliance' to the rightmost Operator on the same row (up to <span class='blue'>24</span>/<span class='green'>48</span> stacks every battle)",
       "tier": 4,
       "alliances": ["Kazimierz", "Precision"]
+    },
+    {
+      "name": "Ptilopsis",
+      "attributeType": "Specialized",
+      "attribute": "If Operator ahead of self has a &ltWhen entering Rest Phase&gt Attribute, this Operator copies it",
+      "tier": 4,
+      "alliances": ["Aid", "Agile"]
     },
     {
       "name": "SilverAsh",
@@ -605,13 +619,7 @@
       "tier": 5,
       "alliances": ["Swift", "Marvel"]
     },
-    {
-      "name": "Ptilopsis",
-      "attributeType": "Specialized",
-      "attribute": "If Operator ahead of self has a &ltWhen entering Rest Phase&gt Attribute, this Operator copies it",
-      "tier": 5,
-      "alliances": ["Aid", "Agile"]
-    },
+
     {
       "name": "Mountain",
       "attributeType": "Can stack",
@@ -777,7 +785,7 @@
     },
     {
       "name": "Degenbrecher",
-      "attributeType": "Combat",
+      "attributeType": "Can stack",
       "attribute": "&ltWhen obtained&gt <span class='blue'>+8</span>/<span class='green'>+16</span> stacks to own Alliance(s) (Alliance does not need to be active)\n&ltWhen deployed&gt <span class='blue'>+8</span>/<span class='green'>+16</span> stacks to own active Alliance(s) (up to <span class='blue'>24</span>/<span class='green'>48</span> stacks every battle)",
       "tier": 6,
       "alliances": ["Kjerag", "Kazimierz", "Swift"]
