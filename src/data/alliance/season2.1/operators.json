@@ -31,7 +31,7 @@
     {
       "name": "Vendela",
       "attributeType": "Can stack",
-      "attribute": "&ltWhen Rest Phase ends&gt Obtain <span class='blue'>1</span>/<span class='green'>2</span> extra Fund next Rest Phase",
+      "attribute": "&ltWhen Rest Phase ends&gt Obtain <span class='blue'>+1</span>/<span class='green'>+2</span> stacks to active [Victoria] Alliance",
       "tier": 1,
       "alliances": ["Victoria", "Aid"]
     },
@@ -208,7 +208,7 @@
       "attributeType": "Can stack",
       "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to the most stacked active Alliance; takes effect even if the Operator is on Bench",
       "tier": 2,
-      "alliances": ["Foresight", "Assist_Operator"]
+      "alliances": ["Aid"]
     },
     {
       "name": "Lappland",
@@ -568,7 +568,7 @@
       "attributeType": "Can stack",
       "attribute": "&ltWhen deployed&gt <span class='blue'>+8</span>/<span class='green'>+16</span> stacks to active [Raid] Alliance (up to <span class='blue'>50</span>/<span class='green'>100</span> stacks every battle)",
       "tier": 5,
-      "alliances": ["Raid"]
+      "alliances": ["Raid", "Arcane"]
     },
     {
       "name": "Horn",
