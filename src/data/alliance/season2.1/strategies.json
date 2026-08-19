@@ -131,7 +131,7 @@
       "iconLink": "icon_yu",
       "initialHp": 27,
       "effectName": "Slow Simmer",
-      "effectDesc": "<span class=\"font-bold\">[Slow Simmer]</span> When Round 8 begins, if there is only 1 active Alliance, +36zzzz stacks to it; otherwise +12 stacks to all active Alliances"
+      "effectDesc": "<span class=\"font-bold\">[Slow Simmer]</span> When Round 8 begins, if there is only 1 active Alliance, +36 stacks to it; otherwise +12 stacks to all active Alliances"
     },
     {
       "name": "Dobermann",
@@ -215,7 +215,7 @@
       "iconLink": "icon_ioleta",
       "initialHp": 29,
       "effectName": "'Command and Order'",
-      "effectDesc": "<span class=\"font-bold\">['Command and Order']</span> "
+      "effectDesc": "<span class=\"font-bold\">['Command and Order']</span> At the start of each battle, for each promoted Operator on the field, they gain +10% ATK and HP"
     },
     {
       "name": "Matsukiri",
