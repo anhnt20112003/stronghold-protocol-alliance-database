@@ -582,7 +582,7 @@
       "attributeType": "Specialized",
       "attribute": "&ltWhen entering Rest Phase&gt Trigger the 'When obtained' Attributes of Operators <span class='blue'>in the tile ahead</span>/<span class='green'>two tiles ahead of self</span>",
       "tier": 5,
-      "alliances": ["Assist_Operator"]
+      "alliances": ["Siracusa", "Assist_Operator"]
     },
     {
       "name": "Saria",
