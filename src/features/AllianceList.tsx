@@ -1,6 +1,17 @@
 import type { OperatorDto } from "../dtos/operator.dto";
 import type { AllianceDto } from "../dtos/alliance.dto";
 import { getAlliancesBySeason, getOperatorsBySeason } from "../utils/getDataBySeason";
+import { useState } from "react";
+import {
+  useFloating,
+  offset,
+  flip,
+  shift,
+  autoUpdate,
+  useDismiss,
+  useInteractions,
+} from "@floating-ui/react";
+import OperatorAttributeTooltip from "../components/OperatorAttributeTooltip";
 
 const ROMAN_NUMERALS: Record<number, string> = {
   1: "I",
@@ -28,9 +39,26 @@ const AllianceList = ({ season }: AllianceListProps) => {
   const allianceData: AllianceDto[] = getAlliancesBySeason(season);
   const operatorData: OperatorDto[] = getOperatorsBySeason(season);
 
-  const navigateToTerraWiki = (opName: string) => {
-    window.open(`https://arknights.wiki.gg/wiki/${opName}`, "_blank");
-  };
+  const [isOpen, setIsOpen] = useState(false);
+
+  const { refs, floatingStyles, context } = useFloating({
+    open: isOpen,
+    onOpenChange: setIsOpen,
+    placement: "bottom-start",
+
+    whileElementsMounted: autoUpdate,
+
+    middleware: [offset(8), flip(), shift({ padding: 8 })],
+  });
+
+  const dismiss = useDismiss(context);
+
+  const { getFloatingProps } = useInteractions([dismiss]);
+
+  const [selectedOperatorTooltip, setSelectedOperatorTooltip] = useState<{
+    operator: OperatorDto;
+    alliance: AllianceDto;
+  } | null>(null);
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 mx-6 mb-6 gap-6">
@@ -74,9 +102,18 @@ const AllianceList = ({ season }: AllianceListProps) => {
             <div className="flex flex-row flex-wrap justify-center">
               {ops.map((operator) => {
                 return (
-                  <button
-                    className="relative mb-1 hover:-translate-y-1 transition-transform duration-300 cursor-pointer"
-                    onClick={() => navigateToTerraWiki(operator.name)}
+                  <div
+                    className="relative mb-1 cursor-pointer"
+                    onClick={(event) => {
+                      refs.setReference(event.currentTarget);
+
+                      setSelectedOperatorTooltip({
+                        operator,
+                        alliance,
+                      });
+
+                      setIsOpen(true);
+                    }}
                   >
                     <img
                       src={`/operatoricons/90px-${operator.name.replace(/\s+/g, "_")}_icon.webp`}
@@ -94,7 +131,26 @@ const AllianceList = ({ season }: AllianceListProps) => {
                     >
                       {ROMAN_NUMERALS[operator.tier]}
                     </div>
-                  </button>
+                    {isOpen &&
+                      selectedOperatorTooltip?.alliance === alliance &&
+                      selectedOperatorTooltip.operator === operator && (
+                        <div
+                          ref={refs.setFloating}
+                          style={floatingStyles}
+                          {...getFloatingProps()}
+                          className="
+                            z-100
+                            w-75
+                            rounded-xl
+                            border-2 border-[#00ffbb]
+                            bg-[#212121]
+                            px-4 py-3
+                          "
+                        >
+                          <OperatorAttributeTooltip operator={operator} />
+                        </div>
+                      )}
+                  </div>
                 );
               })}
             </div>
