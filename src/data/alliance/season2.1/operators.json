@@ -276,7 +276,7 @@
     {
       "name": "Philae",
       "attributeType": "Can stack",
-      "attribute": "&ltIn battle&gt On first skill activation, <span class='blue'>+6</span>/<span class='green'>+12</span> stacks to active [Sargon] alliance",
+      "attribute": "&ltIn battle&gt On skill activation, <span class='blue'>+6</span>/<span class='green'>+12</span> stacks to active [Sargon] alliance",
       "tier": 3,
       "alliances": ["Sargon"]
     },
