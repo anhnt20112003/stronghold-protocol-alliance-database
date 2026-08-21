@@ -41,6 +41,13 @@ export default function Home() {
           <FaFacebook />
         </div>
       </div>
+      <div className="text-lg md:text-xl">
+        What's new:
+        <ul>
+          <li>* Updated Second Season's desciptions to match the EN translation.</li>
+          <li>* Added a tooltip for Operator Attribute on the Alliance page.</li>
+        </ul>
+      </div>
     </div>
   );
 }
