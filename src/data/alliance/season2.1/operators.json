@@ -47,7 +47,7 @@
       "attributeType": "Prep",
       "attribute": "&ltWhen sold&gt Obtain <span class='blue'>1</span>/<span class='green'>2</span> free refresh(es)",
       "tier": 1,
-      "alliances": ["Solo", "Siracusa"]
+      "alliances": ["Siracusa", "Solo"]
     },
     {
       "name": "Caper",
@@ -75,7 +75,7 @@
       "attributeType": "Can stack",
       "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to the most stacked active Alliance; takes effect even if the Operator is on Bench",
       "tier": 1,
-      "alliances": ["Marvel", "Foresight"]
+      "alliances": ["Aid"]
     },
     {
       "name": "Greyy",
@@ -187,7 +187,7 @@
       "attributeType": "Combat",
       "attribute": "Only 2 copies of this Operator are needed for Elite promotion",
       "tier": 2,
-      "alliances": ["Marvel", "Resilient"]
+      "alliances": ["Marvel"]
     },
     {
       "name": "Gravel",
@@ -208,7 +208,7 @@
       "attributeType": "Can stack",
       "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to the most stacked active Alliance; takes effect even if the Operator is on Bench",
       "tier": 2,
-      "alliances": ["Aid"]
+      "alliances": ["Aid", "Assist_Operator"]
     },
     {
       "name": "Lappland",
@@ -334,7 +334,7 @@
       "attributeType": "Can stack",
       "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to active [Durable] Alliance for every Operator in the same row",
       "tier": 3,
-      "alliances": ["Durable"]
+      "alliances": ["Durable", "Resilient"]
     },
     {
       "name": "Meteor",
@@ -575,7 +575,7 @@
       "attributeType": "Can stack",
       "attribute": "&ltOn deployment&gt <span class='blue'>+8</span>/<span class='green'>+16</span> stacks to active [Raid] Alliance (Can stack up to <span class='blue'>50x</span>/<span class='green'>100x</span> every battle)",
       "tier": 5,
-      "alliances": ["Raid", "Arcane"]
+      "alliances": ["Arcane", "Raid"]
     },
     {
       "name": "Horn",
@@ -596,7 +596,7 @@
       "attributeType": "Specialized",
       "attribute": "If Operator ahead of self has a &ltWhen Rest Phase ends&gt Attribute, this Operator copies it",
       "tier": 5,
-      "alliances": ["Durable"]
+      "alliances": ["Durable", "Solo"]
     },
     {
       "name": "Dusk",
@@ -617,7 +617,7 @@
       "attributeType": "Can stack",
       "attribute": "&ltAt the start of battle&gt Grants 'Whenever an enemy within range is Frozen, 60% chance for <span class='blue'>+1</span>/<span class='green'>+2</span> stack to active [Kjerag] Alliance' to the [Kjerag] Alliance Operator on the tile ahead",
       "tier": 5,
-      "alliances": ["Kjerag", "Investor", "Swift"]
+      "alliances": ["Kjerag", "Swift", "Investor"]
     },
     {
       "name": "Thorns the Lodestar",
@@ -696,7 +696,7 @@
       "attributeType": "Combat",
       "attribute": "For every 3 stacks added to [Sargon], [Swift] or [Precision] Alliances, this Operator gains <span class='blue'>+2%</span>/<span class='green'>+4%</span> ATK",
       "tier": 6,
-      "alliances": ["Sargon", "Swift", "Precision"]
+      "alliances": ["Sargon", "Precision", "Swift"]
     },
     {
       "name": "Pepe",
@@ -767,7 +767,7 @@
       "attributeType": "Can stack",
       "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to active [Agile] and [Arcane] Alliances for every 3 Funds spent this round",
       "tier": 6,
-      "alliances": ["Arcane", "Agile"]
+      "alliances": ["Agile", "Arcane"]
     },
     {
       "name": "Nearl the Radiant Knight",
