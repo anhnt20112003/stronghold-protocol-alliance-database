@@ -19,12 +19,12 @@ const HeaderMobile = (props: HeaderProps) => {
       title: "First Season",
     },
     {
-      value: "2",
+      value: "2.1",
       title: "Second Season",
     },
     {
-      value: "2.1",
-      title: "Second Season (Patched)",
+      value: "2",
+      title: "Second Season (CN pre-patch)",
     },
   ];
   const [toggleMobileMenu, setToggleMobileMenu] = useState<boolean>(false);
