@@ -33,21 +33,21 @@
       "iconLink": "icon_orchid",
       "initialHp": 30,
       "effectName": "HR Consultant",
-      "effectDesc": "<span class=\"font-bold\">[HR Consultant]</span> Every manual refresh becomes a special refresh: 2 copies of the same Operator will appear with one Frozen; obtain 1 Dispatch Module on Round 10"
+      "effectDesc": "<span class=\"font-bold\">[HR Consultant]</span> Every manual refresh becomes a special refresh: 2 copies of the same Operator will appear with one Frozen; obtain 1 Dispatch Module on Round 10\n<span class='text-gray-500'>&ltDispatch Module&gt Destroyed when equipped and immediately refreshes Dispatch Center once, offering 3 Operators from the same Alliance as the equipping Operator. Pick one for free! (Operator tier cannot exceed the current Dispatch Center level)</span>"
     },
     {
       "name": "Justin Fitzroy Jr.",
       "iconLink": "icon_justin",
       "initialHp": 23,
       "effectName": "Private Equity Fund",
-      "effectDesc": "<span class=\"font-bold\">[Private Equity Fund]</span> Upon entering Rest Phase on Rounds 1, 4, 7, 10, obtain 1 Knight's Donation Box: Destroyed when equipped and grants 1-6 Funds"
+      "effectDesc": "<span class=\"font-bold\">[Private Equity Fund]</span> Upon entering Rest Phase on Rounds 1, 4, 7, 10, obtain 1 Knightly Savings\n<span class='text-gray-500'>&ltKnightly Savings&gt Destroyed when equipped and grants 1~6 Funds</span>"
     },
     {
       "name": "Ermengarde",
       "iconLink": "icon_ermengard",
       "initialHp": 27,
       "effectName": "Phylactery Secret",
-      "effectDesc": "<span class=\"font-bold\">[Phylactery Secret]</span> First 2 Operators defeated in battle will be revived immediately!"
+      "effectDesc": "<span class=\"font-bold\">[Phylactery Secret]</span> First 3 Operators defeated in battle will be revived immediately!"
     },
     {
       "name": "Lee",
@@ -68,7 +68,7 @@
       "iconLink": "icon_pepe",
       "initialHp": 23,
       "effectName": "Erudite and Versatile",
-      "effectDesc": "<span class=\"font-bold\">[Erudite and Versatile]</span> When Dispatch Center reaches Lv. 2, 4, and 6, obtain 1 special refresh: this refresh will prioritize offering <Sargon> Operators\n<span class=\"text-red-500\">Strategy may be flawed when some [Sargon] Operators are missing</span></>"
+      "effectDesc": "<span class=\"font-bold\">[Erudite and Versatile]</span> When Dispatch Center reaches Lv. 2, 4, and 6, obtain 1 special refresh: this refresh will prioritize offering &ltSargon&gt Operators\n<span class=\"text-red-500\">Strategy may be flawed when some [Sargon] Operators are missing</span></>"
     },
     {
       "name": "Harold",
@@ -103,14 +103,14 @@
       "iconLink": "icon_emperor",
       "initialHp": 26,
       "effectName": "Express Dispatch",
-      "effectDesc": "<span class=\"font-bold\">[Express Dispatch]</span> All allied Operators -50% Redeployment Time"
+      "effectDesc": "<span class=\"font-bold\">[Express Dispatch]</span> All allied Operators -50% Redeployment Time after each deployment"
     },
     {
       "name": "Mulberry",
       "iconLink": "icon_mberry",
       "initialHp": 28,
       "effectName": "Experimental Med. Sticks",
-      "effectDesc": "<span class=\"font-bold\">[Experimental Med. Sticks]</span> When the battle begins, all allied Operators in the rightmost column of the field gain the following effect: Every attack has a 20% chance to grant 1 Shield (max 1 stack)"
+      "effectDesc": "<span class=\"font-bold\">[Experimental Med. Sticks]</span> When the battle begins, all allied Operators in the rightmost column of the field gain the following effect: Every attack has a 25% chance to grant 1 Shield (max 1 stack)"
     },
     {
       "name": "Humus",
@@ -124,7 +124,7 @@
       "iconLink": "icon_quintus",
       "initialHp": 31,
       "effectName": "Unstable Element",
-      "effectDesc": "<span class=\"font-bold\">[Unstable Element]</span> In Round 3, obtain special equipment Mutated Cells: After the battle ends, equipped Operator changes to a random Operator 1 Tier higher (up to Tier 6)"
+      "effectDesc": "<span class=\"font-bold\">[Unstable Element]</span> In Round 3, obtain special equipment Mutated Cells\n<span class='text-gray-500'>&ltMutated Cells&gt After the battle ends, equipped Operator changes to a random Operator 1 Tier higher (up to Tier 6)</span>"
     },
     {
       "name": "Yu",
@@ -138,7 +138,7 @@
       "iconLink": "icon_doberm",
       "initialHp": 30,
       "effectName": "Extra Training!",
-      "effectDesc": "<span class=\"font-bold\">[Extra Training!]</span> Obtain 1 'Pointing Stick' special Arts every 2 rounds: When used, adds extra enemies to the field and grants extra funds if the battle is perfectly cleared on your own"
+      "effectDesc": "<span class=\"font-bold\">[Extra Training!]</span> Obtain 1 'Pointing Stick' special Arts every 2 rounds\n<span class='text-gray-500'>When used, adds extra enemies to the field and grants extra funds if the battle is perfectly cleared on your own"
     },
     {
       "name": "Catherine",
@@ -186,8 +186,8 @@
       "name": "Dusk",
       "iconLink": "icon_dusk",
       "initialHp": 28,
-      "effectName": "Painted into Reality",
-      "effectDesc": "<span class=\"font-bold\">[Painted into Reality]</span> In Round 1, obtain Special Arts Dusk's Scroll: On use, can copy 1 Operator within use range (Includes that Operator's Elite status and carried Equipment)"
+      "effectName": "Inky Visage",
+      "effectDesc": "<span class=\"font-bold\">[Inky Visage]</span> Duplicate Operators on the field have +30% ATK\n [Painted into Reality] In Round 1, obtain Special Arts Dusk's Scroll\n<span class='text-gray-500'>&ltDusk's Scroll&gt On use, can copy 1 Operator within use range (Includes that Operator's Elite status and carried Equipment)</span>"
     },
     {
       "name": "Cannot",
@@ -207,50 +207,50 @@
       "name": "Shamare",
       "iconLink": "icon_vodfox",
       "initialHp": 22,
-      "effectName": "'Voodoo Doll'",
-      "effectDesc": "<span class=\"font-bold\">['Voodoo Doll']</span> The first time you sell an Operator each round, exchange them for a random Operator instead."
+      "effectName": "Substitute Doll",
+      "effectDesc": "<span class=\"font-bold\">[Substitute Doll]</span> The first non-Elite Operator sold every round will instead switch into a random Operator from the Dispatch Center"
     },
     {
       "name": "Ioleta Russell",
       "iconLink": "icon_ioleta",
       "initialHp": 29,
-      "effectName": "'Command and Order'",
-      "effectDesc": "<span class=\"font-bold\">['Command and Order']</span> At the start of each battle, for each promoted Operator on the field, they gain +10% ATK and HP"
+      "effectName": "'Governing Order'",
+      "effectDesc": "<span class=\"font-bold\">[Governing Order]</span> When the battle begins, for every Elite Operator on the field, Elite Operators gain +10% ATK and HP"
     },
     {
       "name": "Matsukiri",
       "iconLink": "icon_makiri",
       "initialHp": 24,
-      "effectName": "'Well-connected'",
-      "effectDesc": "<span class=\"font-bold\">['Well-connected']</span> When entering Rest Phase in even-numbered rounds, randomly receive an Operator from the Dispatch Center"
+      "effectName": "Streetwise Ties",
+      "effectDesc": "<span class=\"font-bold\">[Streetwise Ties]</span> Obtain a random Operator from the Dispatch Center on even-numbered-rounds"
     },
     {
       "name": "Młynar",
       "iconLink": "icon_mlynar",
       "initialHp": 24,
-      "effectName": "'Business Metrics'",
-      "effectDesc": "<span class=\"font-bold\">['Business Metrics']</span> For every [Kazimierz] Operator purchased, gain 1 extra Fund next round (up to 3 each round)"
+      "effectName": "Work Quota",
+      "effectDesc": "<span class=\"font-bold\">[Work Quota]</span> Every &ltKazimierz&gt Operator purchased grants 1 extra Fund next round (Max 3 Funds per round)\n<span class=\"text-red-500\">Strategy may be flawed when some [Kazimierz] Operators are missing</span>"
     },
     {
       "name": "Chiave",
       "iconLink": "icon_chiave",
       "initialHp": 23,
       "effectName": "'Mystery Customer'",
-      "effectDesc": "<span class=\"font-bold\">['Gang Action']</span> After actively refreshing the Dispatch Center 6 times, obtain 1 random [Siracusa] Operator (up to 2 each round)"
+      "effectDesc": "<span class=\"font-bold\">[Gang Activity]</span> Every 6 active refreshes will grant you 1 &ltSiracusa&gt Operator from a Tier not exceeding the Dispatch Center level (Max 2 Operators per round)\n<span class=\"text-red-500\">Strategy may be flawed when some [Siracusa] Operators are missing</span>"
     },
     {
       "name": "Narantuya",
       "iconLink": "icon_narant",
       "initialHp": 26,
-      "effectName": "'Everyone Gets Their Cut'",
-      "effectDesc": "<span class=\"font-bold\">['Everyone Gets Their Cut']</span> When entering Rest Phase in even-numbered rounds, a special refresh occurs, offering a choice between 2 free equipments\nThe Sargon Alliance &ltWith <span class='green'>6</span> different [Sargon] Operators on field&gt will be replaced with \"When [Sargon] Operators activate their skills, Operators within the surrounding 8 tiles also gain the effects of that Operator's equipments (up to Tier V), lasting for 60 seconds.\""
+      "effectName": "Passing Down the Profit",
+      "effectDesc": "<span class=\"font-bold\">[Passing Down the Profit]</span> Dispatch Center will offer two equipments during even-numbered rounds, and you can pick one for free; Sargon Alliance's &ltWith 6 different Sargon Operators&gt effect changes to: After Sargon Operators use a skill, Operators in the surrounding 8 tiles will share the Operator's equipment effects (limited to tier V and below) for 60 seconds\n<span class=\"text-red-500\">Strategy may be flawed when some [Sargon] Operators are missing</span></>"
     },
     {
       "name": "Touch",
       "iconLink": "icon_amedic",
       "initialHp": 28,
-      "effectName": "'Field Medic'",
-      "effectDesc": "<span class=\"font-bold\">['Field Medic']</span> One Reserve Operator - Medic will appear on the field for every players; at the start of combat, if there are 2 upgraded Operators, Touch will appear instead."
+      "effectName": "Field Medic",
+      "effectDesc": "<span class=\"font-bold\">[Field Medic]</span> One Reserve Operator - Medic appears each player's battlefield; if there are at least 2 Elite Operators when the battle begins, Reserve Operator turns into &ltTouch&gt"
     },
     {
       "name": "Suzuran",
