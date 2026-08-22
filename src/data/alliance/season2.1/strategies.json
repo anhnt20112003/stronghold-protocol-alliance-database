@@ -150,9 +150,9 @@
     {
       "name": "Malkiewicz",
       "iconLink": "icon_malkie",
-      "initialHp": 30,
+      "initialHp": 28,
       "effectName": "Commercial Packaging",
-      "effectDesc": "<span class=\"font-bold\">[Commercial Packaging]</span> Start with 1 Commercial Packaging Plan: For every 7 Operators sold, obtain 1 copy of the equipped Operator"
+      "effectDesc": "<span class=\"font-bold\">[Commercial Packaging]</span> Start with 1 Commercial Packaging Plan: For every 8 Operators sold, obtain 1 non-Elite Operator fron the same Alliance as the equipped Operator"
     },
     {
       "name": "Qalaiša",
@@ -222,7 +222,7 @@
       "iconLink": "icon_makiri",
       "initialHp": 24,
       "effectName": "Streetwise Ties",
-      "effectDesc": "<span class=\"font-bold\">[Streetwise Ties]</span> Obtain a random Operator from the Dispatch Center on even-numbered-rounds"
+      "effectDesc": "<span class=\"font-bold\">[Streetwise Ties]</span> Obtain a random Operator from the Dispatch Center on even-numbered rounds"
     },
     {
       "name": "Młynar",
