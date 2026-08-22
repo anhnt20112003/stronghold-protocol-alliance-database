@@ -66,28 +66,28 @@
     {
       "iconLink": "trap_1113_acarm113",
       "itemName": "Economical Plush",
-      "effectDesc": "Destroyed when equipped and gain <span class='blue'>1</span>/<span class='green'>2</span> additional Fund(s) at the start of each round.",
+      "effectDesc": "Destroyed when equipped; gains an extra <span class='blue'>1</span>/<span class='green'>2</span> extra Fund(s) at the start of each subsequent round.",
       "cost": 3,
       "tier": 2
     },
     {
       "iconLink": "trap_1114_acarm114",
-      "itemName": "Simple Comms Device",
-      "effectDesc": "Destroyed when equipped and obtain <span class='blue'>1</span>/<span class='green'>2</span> random Operator(s) from the same Alliance",
+      "itemName": "Simple Communicator",
+      "effectDesc": "Destroyed when equipped and obtain <span class='blue'>1</span>/<span class='green'>2</span> random Operator(s) from the same Alliance as the equipped Operator",
       "cost": 2,
       "tier": 2
     },
     {
       "iconLink": "trap_1116_acarm116",
-      "itemName": "Money-hungry Plush",
-      "effectDesc": "Destroyed when equipped and gain <span class='blue'>2</span>/<span class='green'>4</span> additional Fund(s) at the start of next round.",
+      "itemName": "Money-Grubbing Doll",
+      "effectDesc": "Destroyed when equipped and gain <span class='blue'>2</span>/<span class='green'>4</span> Funds next round",
       "cost": 1,
       "tier": 2
     },
     {
       "iconLink": "trap_1121_acarm121",
-      "itemName": "Siracusan Formal Attire",
-      "effectDesc": "<span class='blue'>+15</span>/<span class='green'>+25</span> ATKSPD, <span class='blue'>+10</span>/<span class='green'>+15</span> to allies on the left and right of this Operator's direction",
+      "itemName": "Siracusan Formalwear",
+      "effectDesc": "ASPD <span class='blue'>+15</span>/<span class='green'>+25</span>, allies on the left and right of the equipped Operator's deployment direction <span class='blue'>+10</span>/<span class='green'>+15</span> ASPD",
       "cost": 2,
       "tier": 3
     },
@@ -164,7 +164,7 @@
     },
     {
       "iconLink": "trap_1123_acarm123",
-      "itemName": "Knight's Donation Box",
+      "itemName": "Knightly Savings",
       "effectDesc": "Destroyed when equipped and grants <span class='blue'>1~6</span>/<span class='green'>2~12</span> Funds",
       "cost": 3,
       "tier": 3
@@ -172,7 +172,7 @@
     {
       "iconLink": "trap_1075_acarm075",
       "itemName": "Dispatch Module",
-      "effectDesc": "Destroyed when equipped and immediately refreshes shop once, offering 3 Operators from the same Alliance as the Operator equipped with it, and you may obtain 1 of them for free (Operator's tier will not exceed Dispatch Center level)",
+      "effectDesc": "Destroyed when equipped and immediately refreshes shop once, offering 3 Operators from the same Alliance as the equipping Operator. Pick one for free! (Operator's tier will not exceed Dispatch Center level)",
       "cost": 4,
       "tier": 4
     },
@@ -213,8 +213,8 @@
     },
     {
       "iconLink": "trap_1119_acarm119",
-      "itemName": "Kazimierz Stadium Flag",
-      "effectDesc": "When deployed, increase damage dealt to <span class='blue'>135%</span>/<span class='green'>160%</span>, decaying over 15 seconds",
+      "itemName": "Kazimierz Knightclub Pennant",
+      "effectDesc": "Damage dealt for 15s after deployment is increased to <span class='blue'>135%</span>/<span class='green'>160%</span>, effect gradually decays",
       "cost": 1,
       "tier": 4
     },
@@ -277,7 +277,7 @@
     {
       "iconLink": "trap_1109_acarm109",
       "itemName": "Transmitter",
-      "effectDesc": "Destroys itself along with the Operator when equipped; a special refresh occurs, offering two Operators of the same tier as the equipped Operator.\nAutomatically chooses a Teammate with the most members in the corresponding Alliance, and dispatches a same-quality copy of the equipped Operator to the Teammate during the next Rest Phase.\nIf two or more teammates have the same highest number of Operators from that Alliance, the receipient is chosen at random.\nCannot be equipped by Custom Operators",
+      "effectDesc": "Destroys itself along with the Operator when equipped, then refreshes the Dispatch Center, offering two Operators of the same Tier as the equipped Operator; one can be picked for free\nIf there are Teammates present within the Team Simulation, a copy of the original Operator would be sent to the Teammate with the most corresponding Alliance members during the next Rest Phase\nIf multiple teammates fufill this condition, the copy will be sent to a random teammate\nCannot be equipped by Custom Operators",
       "cost": 1,
       "tier": 5
     },
@@ -311,14 +311,14 @@
     },
     {
       "iconLink": "trap_1118_acarm118",
-      "itemName": "Silverlance Pegasus' Helmet",
+      "itemName": "Pegasian Helm",
       "effectDesc": "<span class='blue'>+50%</span>/<span class='green'>+75%</span> HP, if the bearer has \"Silverlance Pegasus' Spear\", recovers 8% Max HP per second",
       "cost": 3,
       "tier": 5
     },
     {
       "iconLink": "trap_1117_acarm117",
-      "itemName": "Silverlance Pegasus' Helmet",
+      "itemName": "Pegasian Lance",
       "effectDesc": "<span class='blue'>+40%</span>/<span class='green'>+60%</span> ATK, attacks deal an additional 30% damage as True damage",
       "cost": 5,
       "tier": 6
@@ -341,7 +341,7 @@
     {
       "iconLink": "trap_1078_acarm078",
       "itemName": "Trench Test Subject",
-      "effectDesc": "Damage taken <span class='blue'>-180</span>/<span class='green'>-300</span>; If equipped by an [Ægir] Operator, when taking damage, deal 50% of ATK as Arts damage to the attacker (once every 0.5 second)\n<span class='text-yellow-500'>If 'Ægirian Blade' is also equipped by the [Ægir] Operator, trigger the aforementioned effect an additional time</span>",
+      "effectDesc": "Gain <span class='blue'>180</span>/<span class='green'>300</span> Damage Reduction; If equipped by an [Ægir] Operator, deals 50% of equipped Operator's ATK as Arts damage to damage source when damage is taken (Triggers up to once every 0.5s)\n<span class='text-yellow-500'>If 'Ægirian Blade' is also equipped by the [Ægir] Operator, trigger the aforementioned effect an additional time</span>",
       "cost": 4,
       "tier": 6
     },
@@ -362,7 +362,7 @@
     {
       "iconLink": "trap_1103_acarm103",
       "itemName": "Desert Compass",
-      "effectDesc": "<span class='blue'>+30</span>/<span class='green'>+40</span> Starting SP; If equipped by a [Sargon] Operator, the Operator recovers 30 SP when skill ends for the first time\n<span class='text-yellow-500'>If 'Sargonian Teaspresso' is also equipped by the [Sargon] Operator, every skill activation grants 3 SP to all [Sargon] Operators</span>",
+      "effectDesc": "At the start of battle, <span class='blue'>+30</span>/<span class='green'>+40</span> Starting SP; If equipped by a [Sargon] Operator, the Operator recovers 30 SP when skill ends for the first time\n<span class='text-yellow-500'>If 'Sargonian Teaspresso' is also equipped by the [Sargon] Operator, every skill activation grants 3 SP to all [Sargon] Operators</span>",
       "cost": 4,
       "tier": 6
     },
@@ -383,14 +383,14 @@
     {
       "iconLink": "trap_1120_acarm120",
       "itemName": "Chivalric Commandments",
-      "effectDesc": "<span class='blue'>-40%</span>/<span class='green'>-60%</span> ATKSPD; If equipped by a [Kazimierz] Operator, for 20 seconds after skill activation, reduce the ATKSPD and MSPD of enemies in range by 35%\nIf the [Kazimierz] Operator is also equipped with \"Kazimierz Stadium Flag\", they gain +100% ATK while skill is active, and will not retreat when taking lethal damage. Retreats after skill ends.",
+      "effectDesc": "Redeployment Time <span class='blue'>-40%</span>/<span class='green'>-60%</span>; If equipped by a [Kazimierz] Operator, enemies within Attack Range have -35% ASPD and -35% Movement Speed for 20s after skill activation\nIf \"Kazimierz Knightclub Pennant\" is also equipped by the [Kazimierz] Operator, Operator has ATK +100% ATK, and will not retreat when taking lethal damage, instead retreating once skill ends",
       "cost": 4,
       "tier": 6
     },
     {
       "iconLink": "trap_1122_acarm122",
       "itemName": "Famiglia Crest",
-      "effectDesc": "Natural SP recovery <span class='blue'>+0.2</span>/<span class='green'>+0.35</span> SP/second; If equipped by a [Siracusa] Operator, their ATK gradually increases to 200% while in Camauflage, lasting until dealing damage for the first time after Camauflage ends or the Operator leaves the field\nIf the [Siracusa] Operator is also equipped with \"Siracusan Formal Attire\" they deal an additional 800% of ATK as True damage when damaging enemies for the first time after losing Camauflage.",
+      "effectDesc": "Natural SP recovery <span class='blue'>+0.2</span>/<span class='green'>+0.35</span> SP/second; If equipped by a [Siracusa] Operator, their ATK gradually increases to 200% when equipped Operator is Invisible, until the first instance of damage dealt after Invisibility ends or the Operator leaves the field\nIf \"Siracusan Formalwear\" is also equipped by the [Siracusa] Operator, the first instance of damage dealt after Invisibility ends deals an additional 800% ATK as True damage",
       "cost": 4,
       "tier": 6
     },
