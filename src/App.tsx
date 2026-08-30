@@ -2,6 +2,7 @@ import "./App.css";
 import { AiOutlineUp } from "react-icons/ai";
 import AttributeList from "./features/AttributeList";
 import AllianceList from "./features/AllianceList";
+import OperatorList from "./features/OperatorList";
 import StrategyList from "./features/StrategyList";
 import ShopItemList from "./features/ShopItemList";
 import { useSearchParams } from "react-router-dom";
@@ -16,7 +17,7 @@ function App() {
   const season = searchParams.get("season");
   const currentSeason = seasons.includes(season ?? "0") ? season! : "2.1";
 
-  const tabs = ["Home", "Attributes", "Alliances", "Strategies", "Items"];
+  const tabs = ["Home", "Attributes", "Alliances", "Operators", "Strategies", "Items"];
   const page = searchParams.get("tab");
   const currentPage = tabs.includes(page ?? "") ? page! : "Home";
 
@@ -51,6 +52,7 @@ function App() {
         {currentPage === "Home" && <Home />}
         {currentPage === "Attributes" && <AttributeList season={currentSeason} />}
         {currentPage === "Alliances" && <AllianceList season={currentSeason} />}
+        {currentPage === "Operators" && <OperatorList season={currentSeason} />}
         {currentPage === "Strategies" && <StrategyList season={currentSeason} />}
         {currentPage === "Items" && <ShopItemList season={currentSeason} />}
       </div>
