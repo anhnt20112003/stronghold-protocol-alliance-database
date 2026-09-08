@@ -367,7 +367,7 @@
     {
       "name": "Archetto",
       "attributeType": "Can stack",
-      "attribute": "&ltWhen Rest Phase ends&gt <span class='blue'>+3</span>/<span class='green'>+6</span> stacks each to active Alliance(s) of self and the Operator 1 tile ahead",
+      "attribute": "&ltWhen entering Rest Phase&gt <span class='blue'>+3</span>/<span class='green'>+6</span> stacks each to active Alliance(s) of self and the Operator 1 tile ahead",
       "tier": 3,
       "alliances": ["Laterano", "Agile"]
     },
