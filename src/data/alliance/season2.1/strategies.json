@@ -173,7 +173,7 @@
       "iconLink": "icon_damaztic",
       "initialHp": 29,
       "effectName": "Damazti Isomorphism",
-      "effectDesc": "<span class=\"font-bold\">[Damazti Isomorphism]</span> In Round 5, obtain Damazti Isomorph: When equipped together with certain other equipment, the equipped Operator is treated as a member of a specific Alliance"
+      "effectDesc": "<span class=\"font-bold\">[Damazti Isomorphism]</span> Obtain 1 special equipment Damazti Isomorph every 5 rounds: When equipped together with certain other equipment, the equipped Operator is treated as a member of a specific Alliance"
     },
     {
       "name": "Pith",
@@ -256,29 +256,29 @@
       "name": "Suzuran",
       "iconLink": "icon_lisa",
       "initialHp": 20,
-      "effectName": "'Protective Power'",
-      "effectDesc": "<span class=\"font-bold\">[Protective Power]</span> At the start of each round, trigger the &ltWhen obtained&gt effect of one Operator on field (Prioritizes Operators deployed on upper right tiles)"
+      "effectName": "'Omamori's Blessing'",
+      "effectDesc": "<span class=\"font-bold\">[Omamori's Blessing]</span> When a round begins, trigger an Operator's &ltWhen obtained&gt Attribute once (prioritizes the bottom-right-most Operator on map)"
     },
     {
       "name": "Jessica",
       "iconLink": "icon_jesica",
       "initialHp": 22,
-      "effectName": "'Rendezvous Orders'",
-      "effectDesc": "<span class=\"font-bold\">[Rendezvous Orders]</span> Upon entering Rest Phase on Rounds 4, 7, 10 and 13, obtain 1 Dispatch Module"
+      "effectName": "'Rally Directive'",
+      "effectDesc": "<span class=\"font-bold\">[Rally Directive]</span> Upon entering Rest Phase on Rounds 4, 7, 10 and 13, obtain 1 Dispatch Module"
     },
     {
       "name": "Muelsyse",
       "iconLink": "icon_mlyss",
       "initialHp": 28,
-      "effectName": "'Pure Drop'",
-      "effectDesc": "<span class=\"font-bold\">[Pure Drop]</span> At the start of round 1, obtain 1 upgraded Doctor Hologram"
+      "effectName": "'Purified Condensation'",
+      "effectDesc": "<span class=\"font-bold\">[Purified Condensation]</span> Obtain 1 upgraded Doctor Hologram on Round 1"
     },
     {
       "name": "Fang",
       "iconLink": "icon_fang",
       "initialHp": 24,
-      "effectName": "'Teamwork'",
-      "effectDesc": "<span class=\"font-bold\">[Teamwork]</span> Upon entering Rest Phase on Rounds 8, 10, 12 and 14, obtain 1 Transmitter"
+      "effectName": "'Joint Advance'",
+      "effectDesc": "<span class=\"font-bold\">[Joint Advance]</span> Obtain 1 Transmitter on rounds 8, 10, 12, and 14"
     }
   ]
 }
