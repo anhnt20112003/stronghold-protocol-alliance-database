@@ -74,10 +74,7 @@ const AllianceList = ({ season }: AllianceListProps) => {
         );
         return (
           <div className="w-full flex flex-col items-center justify-start">
-            <div
-              className="
-            w-full flex flex-row items-start justify-start px-4 gap-4"
-            >
+            <div className="w-full flex flex-row items-start justify-start px-4 gap-4">
               <div
                 className="
                 w-18 shrink-0 flex flex-col justify-start

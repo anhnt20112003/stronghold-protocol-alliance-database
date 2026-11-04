@@ -257,28 +257,28 @@
       "iconLink": "icon_lisa",
       "initialHp": 20,
       "effectName": "'Protective Power'",
-      "effectDesc": "<span class=\"font-bold\">['Protective Power']</span> At the start of each round, trigger the &ltWhen obtained&gt effect of one Operator on field (Prioritizes Operators deployed on upper right tiles)"
+      "effectDesc": "<span class=\"font-bold\">[Protective Power]</span> At the start of each round, trigger the &ltWhen obtained&gt effect of one Operator on field (Prioritizes Operators deployed on upper right tiles)"
     },
     {
       "name": "Jessica",
       "iconLink": "icon_jesica",
       "initialHp": 22,
       "effectName": "'Rendezvous Orders'",
-      "effectDesc": "<span class=\"font-bold\">['Rendezvous Orders']</span> Upon entering Rest Phase on Rounds 4, 7, 10 and 13, obtain 1 Dispatch Module"
+      "effectDesc": "<span class=\"font-bold\">[Rendezvous Orders]</span> Upon entering Rest Phase on Rounds 4, 7, 10 and 13, obtain 1 Dispatch Module"
     },
     {
       "name": "Muelsyse",
       "iconLink": "icon_mlyss",
       "initialHp": 28,
       "effectName": "'Pure Drop'",
-      "effectDesc": "<span class=\"font-bold\">['Pure Drop']</span> At the start of round 1, obtain 1 upgraded Doctor Hologram"
+      "effectDesc": "<span class=\"font-bold\">[Pure Drop]</span> At the start of round 1, obtain 1 upgraded Doctor Hologram"
     },
     {
       "name": "Fang",
       "iconLink": "icon_fang",
       "initialHp": 24,
       "effectName": "'Teamwork'",
-      "effectDesc": "<span class=\"font-bold\">['Teamwork']</span> Upon entering Rest Phase on Rounds 8, 10, 12 and 14, obtain 1 Transmitter"
+      "effectDesc": "<span class=\"font-bold\">[Teamwork]</span> Upon entering Rest Phase on Rounds 8, 10, 12 and 14, obtain 1 Transmitter"
     }
   ]
 }
