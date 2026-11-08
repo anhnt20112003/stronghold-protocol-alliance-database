@@ -23,6 +23,10 @@ export function getBondImage(type: string) {
     Victoria: "victoriaship",
     Foresight: "visiship",
     Yan: "yanship",
+    Ursus: "ursusship",
+    Iberia: "iberiaship",
+    Leithanien: "lethaniaship",
+    Aggregation: "docship",
   };
   // return `https://github.com/ArknightsAssets/ArknightsAssets2/blob/cn/assets/dyn/ui/autochess/%5Buc%5Dautochesscommon/arts/bondicon/icon_${table[type]}.png?raw=true`;
   return `/bondicons/icon_${table[type]}.png`;

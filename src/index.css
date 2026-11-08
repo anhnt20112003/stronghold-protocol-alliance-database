@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+@theme {
+  --color-alliance-light: #00ffbb;
+  --color-alliance-medium: #25be97;
+}
+
 @utility blue {
   @apply text-blue-500;
 }

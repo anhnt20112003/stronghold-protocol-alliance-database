@@ -82,8 +82,8 @@ const AllianceList = ({ season }: AllianceListProps) => {
                 leading-4.5 text-[14px] md:text-[18px] gap-2"
               >
                 <div
-                  className="w-18 h-18 border-3 border-[#25be97] flex justify-center items-center rounded-full"
-                  style={{ background: "radial-gradient(#25be97, #212121 80%)" }}
+                  className="w-18 h-18 border-3 border-alliance-medium flex justify-center items-center rounded-full"
+                  style={{ background: "radial-gradient(var(--color-alliance-medium), #212121 80%)" }}
                 >
                   <img src={`/bondicons/icon_${alliance.bondId}.png`} className="w-12 h-12" />
                 </div>
@@ -163,7 +163,7 @@ const AllianceList = ({ season }: AllianceListProps) => {
                             z-100
                             w-75
                             rounded-xl
-                            border-2 border-[#00ffbb]
+                            border-2 border-alliance-light
                             bg-[#212121]
                             px-4 py-3
                           "
