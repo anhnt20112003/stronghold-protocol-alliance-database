@@ -59,7 +59,7 @@
     {
       "bondId": "siracusaship",
       "name": "Siracusa",
-      "desc": "[Siracusa] Operators gain +ASPD <span class='text-gray-500'>(affected by stacks)</span> on deployment for a certain duration <span class='text-gray-500'>(affected by stacks)</span>.\n&ltWith <span class='green'>6</span> different Siracusa Operators on the field&gt [Siracusa] Operators also gain Invisibility for the same amount of time; and have a 3% chance to deal (5000 + 50 × stacks) True damage, and Fear the target for 3 seconds when Invisible, or 10 seconds after losing Invisibility",
+      "desc": "[Siracusa] Operators gain +ASPD <span class='text-gray-500'>(affected by stacks)</span> on deployment for a certain duration <span class='text-gray-500'>(affected by stacks)</span>.\n&ltWith <span class='green'>6</span> different Siracusa Operators on the field&gt Each attack has a chance to randomly inflict one Negative Status on an enemy for a certain duration (affected by stacks); when an enemy has 2 or more Negative Status, they deal true damage to themselves and surrounding enemies once per second (affected by stacks).",
       "activeCount": 3,
       "core": true
     },
