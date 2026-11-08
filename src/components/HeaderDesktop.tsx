@@ -14,15 +14,19 @@ const HeaderDesktop = (props: HeaderProps) => {
   const seasonSelectOptions = [
     {
       value: "1",
-      title: "First Season",
+      title: "Alliance - 1st Season",
     },
     {
       value: "2.1",
-      title: "Second Season",
+      title: "Alliance - 2nd Season",
     },
+    // {
+    //   value: "2",
+    //   title: "Second Season (CN pre-patch)",
+    // },
     {
-      value: "2",
-      title: "Second Season (CN pre-patch)",
+      value: "3",
+      title: "Regulation - 1st Season",
     },
   ];
 

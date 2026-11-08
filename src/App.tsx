@@ -12,7 +12,7 @@ import Home from "./features/Home";
 function App() {
   const [searchParams, setSearchParams] = useSearchParams();
 
-  const seasons = ["1", "2", "2.1"];
+  const seasons = ["1", "2.1", "3"];
   const season = searchParams.get("season");
   const currentSeason = seasons.includes(season ?? "0") ? season! : "2.1";
 
