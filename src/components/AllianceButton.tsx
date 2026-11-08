@@ -11,7 +11,7 @@ function AllianceButton(props: AllianceButtonProps) {
   return (
     <button
       className="
-        flex flex-row justify-start items-center w-28 md:w-36
+        flex flex-row justify-start items-center w-24 md:w-36
         gap-1 md:gap-3 px-2 py-1 md:px-3 md:py-1.5 shrink-0
         border-2 rounded-xl text-[10px] md:text-[14px]
       "
