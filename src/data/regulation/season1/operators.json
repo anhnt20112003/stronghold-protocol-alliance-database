@@ -899,7 +899,7 @@
     {
       "name": "Logos",
       "attributeType": "Can stack",
-      "attribute": "&lt;When obtained&gt; <span class='blue'>+10</span>/<span class='green'>+20</span> stacks to [Yan] Alliance and <span class='blue'>+5</span>/<span class='green'>+10</span> stacks to [Foresight] Alliance &lt;In battle&gt; For every 3 stacks added to [Arcane] or [Foresight] Alliance, this Operator gains <span class='blue'>+1%</span>/<span class='green'>+2%</span> ASPD",
+      "attribute": "&lt;When obtained&gt; <span class='blue'>+10</span>/<span class='green'>+20</span> stacks to [Arcane] Alliance and <span class='blue'>+5</span>/<span class='green'>+10</span> stacks to [Foresight] Alliance &lt;In battle&gt; For every 3 stacks added to [Arcane] or [Foresight] Alliance, this Operator gains <span class='blue'>+1</span>/<span class='green'>+2</span> ASPD",
       "tier": 6,
       "alliances": ["Arcane", "Foresight"]
     },
