@@ -14,7 +14,7 @@ function App() {
 
   const seasons = ["1", "2.1", "3"];
   const season = searchParams.get("season");
-  const currentSeason = seasons.includes(season ?? "0") ? season! : "2.1";
+  const currentSeason = seasons.includes(season ?? "0") ? season! : "3";
 
   const tabs = ["Home", "Attributes", "Alliances", "Strategies", "Items"];
   const page = searchParams.get("tab");
