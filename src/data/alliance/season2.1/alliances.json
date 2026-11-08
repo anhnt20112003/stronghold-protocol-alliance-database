@@ -17,7 +17,7 @@
     {
       "bondId": "victoriaship",
       "name": "Victoria",
-      "desc": "[Victoria] Operators carrying equipment deal <span class='blue'>(120 + 0.8 × stacks)%</span> damage\n&ltFvery <span class='green'>25</span> stacks&gt Obtain 1 random Victorian Hammer\n&ltWith <span class='green'>6</span> different [Victoria] Operators on field&gt All [Victoria] Operators gain <span class='blue'>+50%</span> ATK for each piece of equipment; or <span class='blue'>+80%</span> ATK if equipment is upgraded*\n<span class='text-red-300'>* In-game translation says 'All [Victoria] Operators carrying equipment gain +50% ATK; or +80% ATK if equipment is upgraded', which is inaccurate. Thank you Yostar.</span>",
+      "desc": "[Victoria] Operators carrying equipment deal <span class='blue'>(120 + 0.8 × stacks)%</span> damage\n&ltEvery <span class='green'>25</span> stacks&gt Obtain 1 random Victorian Hammer\n&ltWith <span class='green'>6</span> different [Victoria] Operators on field&gt All [Victoria] Operators gain <span class='blue'>+50%</span> ATK for each piece of equipment; or <span class='blue'>+80%</span> ATK if equipment is upgraded*\n<span class='text-red-300'>* In-game translation says 'All [Victoria] Operators carrying equipment gain +50% ATK; or +80% ATK if equipment is upgraded', which is inaccurate. Thank you Yostar.</span>",
       "activeCount": 3,
       "core": true
     },

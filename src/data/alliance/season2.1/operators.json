@@ -608,7 +608,7 @@
     {
       "name": "Specter the Unchained",
       "attributeType": "Can stack",
-      "attribute": "&ltIn battle&gt When defeated or switched to Substitute, <span class='blue'>+5</span>/<span class='green'>+10</span> [Ægir] amd [Resilient] stacks if Alliances are active",
+      "attribute": "&ltIn battle&gt When defeated or switched to Substitute, <span class='blue'>+5</span>/<span class='green'>+10</span> [Ægir] and [Resilient] stacks if Alliances are active",
       "tier": 5,
       "alliances": ["Ægir", "Resilient"]
     },
