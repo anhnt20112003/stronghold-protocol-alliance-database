@@ -129,7 +129,7 @@
     {
       "iconLink": "trap_1046_acarm046",
       "itemName": "Ægirian Blade",
-      "effectDesc": "ATK <span class='blue'>+40%</span>/<span class='green'>+60%</span>, ASPD -10",
+      "effectDesc": "ATK <span class='blue'>+40%</span>/<span class='green'>+60%</span>, ASPD <span class='text-red-500'>-10</span>",
       "cost": 1,
       "tier": 3
     },

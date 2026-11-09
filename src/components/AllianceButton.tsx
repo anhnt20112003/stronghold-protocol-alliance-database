@@ -35,6 +35,7 @@ function AllianceButton(props: AllianceButtonProps) {
           className="
             w-[60%] h-[60%]
             md:w-[65%] md:h-[65%]
+            object-contain
           "
           src={getBondImage(allianceName)}
         />

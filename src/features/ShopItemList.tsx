@@ -1,3 +1,4 @@
+import MumuBallSection from "../components/MumuBallSection";
 import { getItemsBySeason } from "../utils/getDataBySeason";
 
 type ShopItemDto = {
@@ -48,7 +49,7 @@ const ShopItemList = ({ season }: ShopItemListProps) => {
               leading-4.5 text-[14px] md:text-[18px] gap-2"
             >
               <div
-                className="w-18 h-18 border-3 border-[#25be97] relative"
+                className="w-18 h-18 border-3 border-alliance-medium relative"
                 // style={{ background: "radial-gradient(#25be97, #212121 80%)" }}
               >
                 <div className="flex justify-center items-center w-full h-full">
@@ -91,6 +92,7 @@ const ShopItemList = ({ season }: ShopItemListProps) => {
           </div>
         ))}
       </div>
+      {MumuBallSection(season)}
     </>
   );
 };

@@ -31,13 +31,42 @@ const mumuballCombinationsSeason2: Record<string, string[]> = {
     "trap_1045_acarm045",
   ],
   egirship: ["trap_1046_acarm046"],
-  steadship: ["trap_1047_acarm047"],
   sargonship: ["trap_1050_acarm050"],
   siracusaship: ["trap_1121_acarm121"],
   kazimierzship: ["trap_1119_acarm119"],
+  steadship: ["trap_1047_acarm047"],
   indomship: ["trap_1056_acarm056"],
   lateranoship: ["trap_1057_acarm057"],
   kjeragship: ["trap_1062_acarm062"],
+  preciship: ["trap_1063_acarm063"],
+  raidship: ["trap_1064_acarm064"],
+  swiftship: ["trap_1051_acarm051"],
+  arcaneship: ["trap_1048_acarm048"],
+};
+
+const mumuballCombinationsSeason3: Record<string, string[]> = {
+  ursusship: ["trap_1138_acarm138"],
+  iberiaship: ["trap_1133_acarm133"],
+  lethaniaship: ["trap_1134_acarm134"],
+  yanship: ["trap_1040_acarm040"],
+  victoriaship: [
+    "trap_1041_acarm041",
+    "trap_1042_acarm042",
+    "trap_1043_acarm043",
+    "trap_1044_acarm044",
+    "trap_1045_acarm045",
+    "trap_1140_acarm140",
+    "trap_1155_acarm155",
+  ],
+  egirship: ["trap_1046_acarm046"],
+  sargonship: ["trap_1050_acarm050"],
+  siracusaship: ["trap_1121_acarm121"],
+  kazimierzship: ["trap_1119_acarm119"],
+  kjeragship: ["trap_1062_acarm062"],
+  docship: ["trap_1136_acarm136"],
+  skillfulship: ["trap_1132_acarm132"],
+  steadship: ["trap_1047_acarm047"],
+  indomship: ["trap_1056_acarm056"],
   preciship: ["trap_1063_acarm063"],
   raidship: ["trap_1064_acarm064"],
   swiftship: ["trap_1051_acarm051"],
@@ -52,13 +81,17 @@ type ShopItemDto = {
   tier: number | null;
 };
 
-export default function MumuBallSection(season: string) {
+const MumuBallSection = (season: string) => {
   const [victorianHammerIndex, setvictorianHammerIndex] = useState(0);
 
   const items: ShopItemDto[] = getItemsBySeason(season);
 
   const mumuballCombinations =
-    season !== "1" ? mumuballCombinationsSeason2 : mumuballCombinationsSeason1;
+    season == "1"
+      ? mumuballCombinationsSeason1
+      : season == "2"
+        ? mumuballCombinationsSeason2
+        : mumuballCombinationsSeason3;
 
   useEffect(() => {
     const id = setInterval(() => {
@@ -78,7 +111,7 @@ export default function MumuBallSection(season: string) {
             [];
           return (
             <div className="flex flex-row justify-center items-center gap-6 text-white text-2xl">
-              <div className="w-18 h-18 border-3 border-[#25be97] flex justify-center items-center">
+              <div className="w-18 h-18 border-3 border-alliance-medium flex justify-center items-center">
                 <div className="w-4/5 h-4/5">
                   <img
                     src={`/shopitemicons/trap_1073_acgarm073.png`}
@@ -88,7 +121,7 @@ export default function MumuBallSection(season: string) {
               </div>
               +
               {item.length === 1 ? (
-                <div className="w-18 h-18 border-3 border-[#25be97] flex justify-center items-center">
+                <div className="w-18 h-18 border-3 border-alliance-medium flex justify-center items-center">
                   <div className="w-4/5 h-4/5">
                     <img
                       src={`/shopitemicons/${item[0].iconLink}.png`}
@@ -97,7 +130,7 @@ export default function MumuBallSection(season: string) {
                   </div>
                 </div>
               ) : (
-                <div className="w-18 h-18 border-3 border-[#25be97] flex justify-center items-center">
+                <div className="w-18 h-18 border-3 border-alliance-medium flex justify-center items-center">
                   <div className="w-4/5 h-4/5">
                     <img
                       src={`/shopitemicons/${item[victorianHammerIndex]?.iconLink}.png`}
@@ -107,7 +140,7 @@ export default function MumuBallSection(season: string) {
                 </div>
               )}
               =
-              <div className="w-18 h-18 border-3 border-[#25be97] flex justify-center items-center">
+              <div className="w-18 h-18 border-3 border-alliance-medium flex justify-center items-center">
                 <div className="w-4/5 h-4/5">
                   <img
                     src={`/bondicons/icon_${key}.png`}
@@ -121,4 +154,6 @@ export default function MumuBallSection(season: string) {
       </div>
     </div>
   );
-}
+};
+
+export default MumuBallSection;

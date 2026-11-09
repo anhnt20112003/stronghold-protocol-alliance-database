@@ -1,284 +1,426 @@
 {
   "bandInfo": [
     {
-      "name": "Warfarin",
-      "iconLink": "icon_bldsk",
-      "initialHp": 28,
-      "effectName": "Intensive Monitoring",
-      "effectDesc": "<span class=\"font-bold\">[Intensive Monitoring]</span> When the battle starts, +2 Alliance Stacks to 1 random Operator of each different Tier on the field"
-    },
-    {
       "name": "Amiya",
       "iconLink": "icon_amiya",
       "initialHp": 25,
       "effectName": "Wills As One",
-      "effectDesc": "<span class=\"font-bold\">[Wills As One]</span> When there are 3/4/5 different active Alliances, all Operators +20/30/40% ATK and HP respectively"
-    },
-    {
-      "name": "Du Yaoye",
-      "iconLink": "icon_duyaoy",
-      "initialHp": 29,
-      "effectName": "Heroes All Around",
-      "effectDesc": "<span class=\"font-bold\">[Heroes All Around]</span> The first two manual refreshes in every round become a special refresh: This refresh will prioritize offering 1 Yan Operator\n<span class=\"text-red-500\">Strategy may be flawed when some [Yan] Operators are missing</span></>"
+      "passiveDesc": "When there are 3/4/5 different active Alliances, all Operators +20/30/40% ATK and HP respectively"
     },
     {
       "name": "Goliath",
       "iconLink": "icon_sarkazb",
-      "initialHp": 45,
+      "initialHp": 40,
       "effectName": "Indestructible",
-      "effectDesc": "<span class=\"font-bold\">[Indestructible]</span> Start with 45 Life Points"
-    },
-    {
-      "name": "Orchid",
-      "iconLink": "icon_orchid",
-      "initialHp": 30,
-      "effectName": "HR Consultant",
-      "effectDesc": "<span class=\"font-bold\">[HR Consultant]</span> Every manual refresh becomes a special refresh: 2 copies of the same Operator will appear with one Frozen; obtain 1 Dispatch Module on Round 10\n<span class='text-gray-500'>&ltDispatch Module&gt Destroyed when equipped and immediately refreshes Dispatch Center once, offering 3 Operators from the same Alliance as the equipping Operator. Pick one for free! (Operator tier cannot exceed the current Dispatch Center level)</span>"
-    },
-    {
-      "name": "Justin Fitzroy Jr.",
-      "iconLink": "icon_justin",
-      "initialHp": 23,
-      "effectName": "Private Equity Fund",
-      "effectDesc": "<span class=\"font-bold\">[Private Equity Fund]</span> Upon entering Rest Phase on Rounds 1, 4, 7, 10, obtain 1 Knightly Savings\n<span class='text-gray-500'>&ltKnightly Savings&gt Destroyed when equipped and grants 1~6 Funds</span>"
-    },
-    {
-      "name": "Ermengarde",
-      "iconLink": "icon_ermengard",
-      "initialHp": 27,
-      "effectName": "Phylactery Secret",
-      "effectDesc": "<span class=\"font-bold\">[Phylactery Secret]</span> First 3 Operators defeated in battle will be revived immediately!"
-    },
-    {
-      "name": "Lee",
-      "iconLink": "icon_lmlee",
-      "initialHp": 27,
-      "effectName": "Idle Teatime",
-      "effectDesc": "<span class=\"font-bold\">[Idle Teatime]</span> Funds from Rounds 1 and 2 are temporarily held and released on Round 3; randomly obtain 1 Tier 2 Operator and 1 Tier 4 Operator during Round 3's Rest Phase"
-    },
-    {
-      "name": "Kirara",
-      "iconLink": "icon_kirara",
-      "initialHp": 26,
-      "effectName": "Completion Reward",
-      "effectDesc": "<span class=\"font-bold\">[Completion Reward]</span> For every 20 Funds spent, gain a random Operator from a Tier not exceeding the current Dispatch Center Level"
-    },
-    {
-      "name": "Pepe",
-      "iconLink": "icon_pepe",
-      "initialHp": 23,
-      "effectName": "Erudite and Versatile",
-      "effectDesc": "<span class=\"font-bold\">[Erudite and Versatile]</span> When Dispatch Center reaches Lv. 2, 4, and 6, obtain 1 special refresh: this refresh will prioritize offering &ltSargon&gt Operators\n<span class=\"text-red-500\">Strategy may be flawed when some [Sargon] Operators are missing</span></>"
-    },
-    {
-      "name": "Harold",
-      "iconLink": "icon_harold",
-      "initialHp": 23,
-      "effectName": "Talent Blind Box",
-      "effectDesc": "<span class=\"font-bold\">[Talent Blind Box]</span> Starting from Round 4, obtain 1 [Victoria] Operator every 2 rounds\n<span class=\"text-red-500\">Strategy may be flawed when some [Victoria] Operators are missing</span></>"
-    },
-    {
-      "name": "Sciurus",
-      "iconLink": "icon_sciurus",
-      "initialHp": 24,
-      "effectName": "Snowfield's Gift",
-      "effectDesc": "<span class=\"font-bold\">[Snowfield's Gift]</span> The first <Kjerag> Operator purchased every round costs 1 Funds\n<span class=\"text-red-500\">Strategy may be flawed when some [Kjerag] Operators are missing</span></>"
-    },
-    {
-      "name": "Panganini",
-      "iconLink": "icon_paganini",
-      "initialHp": 24,
-      "effectName": "Customized Firearm",
-      "effectDesc": "<span class=\"font-bold\">[Customized Firearm]</span> After spending a total of 55 Funds, obtain 1 Tier 4 or above Elite Laterano Operator\n<span class=\"text-red-500\">Strategy may be flawed when some [Laterano] Operators are missing</span></>"
-    },
-    {
-      "name": "Clementia",
-      "iconLink": "icon_clementia",
-      "initialHp": 26,
-      "effectName": "Noble Sacrifice",
-      "effectDesc": "<span class=\"font-bold\">[Noble Sacrifice]</span> When an <Ægir> Operator is defeated, grants Ægir Alliance stacks equivalent to that Operator's Tier\n<span class=\"text-red-500\">Strategy may be flawed when some [Ægir] Operators are missing</span></>"
+      "passiveDesc": "Start with 40 Life Points"
     },
     {
       "name": "Emperor",
       "iconLink": "icon_emperor",
       "initialHp": 26,
       "effectName": "Express Dispatch",
-      "effectDesc": "<span class=\"font-bold\">[Express Dispatch]</span> All allied Operators -50% Redeployment Time after each deployment"
-    },
-    {
-      "name": "Mulberry",
-      "iconLink": "icon_mberry",
-      "initialHp": 28,
-      "effectName": "Experimental Med. Sticks",
-      "effectDesc": "<span class=\"font-bold\">[Experimental Med. Sticks]</span> When the battle begins, all allied Operators in the rightmost column of the field gain the following effect: Every attack has a 25% chance to grant 1 Shield (max 1 stack)"
-    },
-    {
-      "name": "Humus",
-      "iconLink": "icon_humus",
-      "initialHp": 24,
-      "effectName": "Recycling",
-      "effectDesc": "<span class=\"font-bold\">[Recycling]</span> When a Ground Operator's skill ends, they grant 3 SP to 1 random Operator in the adjacent 4 tiles"
-    },
-    {
-      "name": "Quintus",
-      "iconLink": "icon_quintus",
-      "initialHp": 31,
-      "effectName": "Unstable Element",
-      "effectDesc": "<span class=\"font-bold\">[Unstable Element]</span> In Round 3, obtain special equipment Mutated Cells\n<span class='text-gray-500'>&ltMutated Cells&gt After the battle ends, equipped Operator changes to a random Operator 1 Tier higher (up to Tier 6)</span>"
-    },
-    {
-      "name": "Yu",
-      "iconLink": "icon_yu",
-      "initialHp": 27,
-      "effectName": "Slow Simmer",
-      "effectDesc": "<span class=\"font-bold\">[Slow Simmer]</span> When Round 8 begins, if there is only 1 active Alliance, +36 stacks to it; otherwise +12 stacks to all active Alliances"
-    },
-    {
-      "name": "Dobermann",
-      "iconLink": "icon_doberm",
-      "initialHp": 30,
-      "effectName": "Extra Training!",
-      "effectDesc": "<span class=\"font-bold\">[Extra Training!]</span> Obtain 1 'Pointing Stick' special Arts every 2 rounds\n<span class='text-gray-500'>When used, adds extra enemies to the field and grants extra funds if the battle is perfectly cleared on your own"
-    },
-    {
-      "name": "Catherine",
-      "iconLink": "icon_cathy",
-      "initialHp": 26,
-      "effectName": "Targeted Drop",
-      "effectDesc": "<span class=\"font-bold\">[Targeted Drop]</span> Whenever the Dispatch Center is upgraded, the shop offers 1 free Equipment with 3 options to choose from"
-    },
-    {
-      "name": "Malkiewicz",
-      "iconLink": "icon_malkie",
-      "initialHp": 30,
-      "effectName": "Commercial Packaging",
-      "effectDesc": "<span class=\"font-bold\">[Commercial Packaging]</span> Start with 1 Commercial Packaging Plan: For every 7 Operators sold, obtain 1 copy of the equipped Operator"
+      "passiveDesc": "All allied Operators -50% Redeployment Time"
     },
     {
       "name": "Qalaiša",
       "iconLink": "icon_qalaisa",
       "initialHp": 26,
       "effectName": "Scavenger Butterfly",
-      "effectDesc": "<span class=\"font-bold\">[Scavenger Butterfly]</span> When an allied Operator is defeated, other allied units on the field gain +20% ATK (Max 200%, and lasts until Operators are defeated or the battle ends)"
+      "passiveDesc": "When an allied Operator is defeated, other allied units on the field gain +20% ATK (Max 200%, and lasts until Operators are defeated or the battle ends)"
     },
     {
-      "name": "Ch'en",
-      "iconLink": "icon_chen",
-      "initialHp": 22,
-      "effectName": "Personal Power",
-      "effectDesc": "<span class=\"font-bold\">[Personal Power]</span> All Operators deal Weakness damage (When dealing Physical or Arts damage, change damage type depending on the target's DEF and RES)"
-    },
-    {
-      "name": "Damazti Cluster",
-      "iconLink": "icon_damaztic",
+      "name": "Ioleta Russell",
+      "iconLink": "icon_ioleta",
       "initialHp": 29,
-      "effectName": "Damazti Isomorphism",
-      "effectDesc": "<span class=\"font-bold\">[Damazti Isomorphism]</span> In Round 5, obtain Damazti Isomorph: When equipped together with certain other equipment, the equipped Operator is treated as a member of a specific Alliance"
+      "effectName": "Governing Order",
+      "passiveDesc": "When the battle begins, for every Elite Operator on the field, Elite Operators gain +10% ATK and HP"
     },
     {
-      "name": "Pith",
-      "iconLink": "icon_pith",
-      "initialHp": 24,
-      "effectName": "Top Student",
-      "effectDesc": "<span class=\"font-bold\">[Top Student]</span> In Round 1, gain 1 special Operator that can deal Nervous Impairment, Burn, or Necrosis. This Operator also belongs to the Harmony Alliance: +1 Operator count to some Alliances"
+      "name": "Gavial the Invincible",
+      "iconLink": "icon_gvial2",
+      "initialHp": 27,
+      "effectName": "Inspiring Will",
+      "activeDesc": "Drag to use (Cost 0): Choose an allied Operator to be instantly revived when defeated in battle, and grant 2 additional revives."
+    },
+    {
+      "name": "Skybox",
+      "iconLink": "icon_skybx",
+      "initialHp": 28,
+      "effectName": "Internal resources",
+      "activeDesc": "Click to use (Cost 0): Reduce the cost of the next purchased equipment by 1 (Min cost 0)"
+    },
+    {
+      "name": "Kazemaru",
+      "iconLink": "icon_kazema",
+      "initialHp": 25,
+      "effectName": "Paper Double",
+      "activeDesc": "Drag to use (Cost 0): Choose an Operator in the Dispatch Center to be replaced by a random Operator of the same Tier. (2 times per Round)"
+    },
+    {
+      "name": "Nymph",
+      "iconLink": "icon_nymph",
+      "initialHp": 28,
+      "effectName": "Domain of Despair",
+      "activeDesc": "Drag to use (Cost 0): Select a deployable tile: When the battle starts, enemies entering into the selected tile for the first time gain Fear for 3s. (Can be used 2 times starting from Round 4, 3 times from Round 8, 4 times from Round 12)"
     },
     {
       "name": "Dusk",
       "iconLink": "icon_dusk",
       "initialHp": 28,
       "effectName": "Inky Visage",
-      "effectDesc": "<span class=\"font-bold\">[Inky Visage]</span> Duplicate Operators on the field have +30% ATK\n [Painted into Reality] In Round 1, obtain Special Arts Dusk's Scroll\n<span class='text-gray-500'>&ltDusk's Scroll&gt On use, can copy 1 Operator within use range (Includes that Operator's Elite status and carried Equipment)</span>"
+      "activeDesc": "Drag to use (Cost 0): Choose 1 Operator to be copied, including that Operator's Elite status and carried Equipment. (Once per simulation)"
     },
     {
-      "name": "Cannot",
-      "iconLink": "icon_cannot",
-      "initialHp": 27,
-      "effectName": "Compound Interest",
-      "effectDesc": "<span class=\"font-bold\">[Compound Interest]</span> Leftover Funds can be saved for the next round. When there are at least 5 Funds left, gain 1 extra Funds per round"
-    },
-    {
-      "name": "Duck Lord",
-      "iconLink": "icon_ducklord",
-      "initialHp": 29,
-      "effectName": "'Mystery Customer'",
-      "effectDesc": "<span class=\"font-bold\">['Mystery Customer']</span> From Round 5 onwards, some enemies you and your teammates encounter may be replaced with &ltDuck Lord&gt, &ltGopnik&gt, &ltCrying Thief&gt, or &ltFatty&gt. Defeating them (even during Unite Phases) will grant 1 Funds"
-    },
-    {
-      "name": "Shamare",
-      "iconLink": "icon_vodfox",
-      "initialHp": 22,
-      "effectName": "Substitute Doll",
-      "effectDesc": "<span class=\"font-bold\">[Substitute Doll]</span> The first non-Elite Operator sold every round will instead switch into a random Operator from the Dispatch Center"
-    },
-    {
-      "name": "Ioleta Russell",
-      "iconLink": "icon_ioleta",
-      "initialHp": 29,
-      "effectName": "'Governing Order'",
-      "effectDesc": "<span class=\"font-bold\">[Governing Order]</span> When the battle begins, for every Elite Operator on the field, Elite Operators gain +10% ATK and HP"
-    },
-    {
-      "name": "Matsukiri",
-      "iconLink": "icon_makiri",
-      "initialHp": 24,
-      "effectName": "Streetwise Ties",
-      "effectDesc": "<span class=\"font-bold\">[Streetwise Ties]</span> Obtain a random Operator from the Dispatch Center on even-numbered-rounds"
-    },
-    {
-      "name": "Młynar",
-      "iconLink": "icon_mlynar",
-      "initialHp": 24,
-      "effectName": "Work Quota",
-      "effectDesc": "<span class=\"font-bold\">[Work Quota]</span> Every &ltKazimierz&gt Operator purchased grants 1 extra Fund next round (Max 3 Funds per round)\n<span class=\"text-red-500\">Strategy may be flawed when some [Kazimierz] Operators are missing</span>"
-    },
-    {
-      "name": "Chiave",
-      "iconLink": "icon_chiave",
-      "initialHp": 23,
-      "effectName": "'Mystery Customer'",
-      "effectDesc": "<span class=\"font-bold\">[Gang Activity]</span> Every 6 active refreshes will grant you 1 &ltSiracusa&gt Operator from a Tier not exceeding the Dispatch Center level (Max 2 Operators per round)\n<span class=\"text-red-500\">Strategy may be flawed when some [Siracusa] Operators are missing</span>"
-    },
-    {
-      "name": "Narantuya",
-      "iconLink": "icon_narant",
+      "name": "Proviso",
+      "iconLink": "icon_provs",
       "initialHp": 26,
-      "effectName": "Passing Down the Profit",
-      "effectDesc": "<span class=\"font-bold\">[Passing Down the Profit]</span> Dispatch Center will offer two equipments during even-numbered rounds, and you can pick one for free; Sargon Alliance's &ltWith 6 different Sargon Operators&gt effect changes to: After Sargon Operators use a skill, Operators in the surrounding 8 tiles will share the Operator's equipment effects (limited to tier V and below) for 60 seconds\n<span class=\"text-red-500\">Strategy may be flawed when some [Sargon] Operators are missing</span></>"
+      "effectName": "Article Amendment",
+      "activeDesc": "Drag to use (Unlocked on Round 4) (Cost 0): Choose 1 Operator, +9 Alliance stacks to its active Alliances"
+    },
+    {
+      "name": "\"Greatmouth\" Mob",
+      "iconLink": "icon_mob",
+      "initialHp": 26,
+      "effectName": "Spotlight Focus",
+      "activeDesc": "Drag to use (Cost 1): Choose 1 allied Operator: When the battle starts, selected Operator gains Elite Status until the end of combat"
+    },
+    {
+      "name": "Jessica",
+      "iconLink": "icon_jesica",
+      "initialHp": 22,
+      "effectName": "Rally Directive",
+      "passiveDesc": "Upon entering Rest Phase on Rounds 4, 7, 10 and 13, obtain 1 Dispatch Module"
+    },
+    {
+      "name": "Warfarin",
+      "iconLink": "icon_bldsk",
+      "initialHp": 24,
+      "effectName": "Intensive Monitoring",
+      "passiveDesc": "When the battle starts, +1 Alliance Stacks to 1 random Operator of each different Tier on the field.(When Dispatch Center reaches Level 3/5, Applied Alliance Stacks per Round +1)"
+    },
+    {
+      "name": "Mulberry",
+      "iconLink": "icon_mberry",
+      "initialHp": 24,
+      "effectName": "Experimental Med. Sticks",
+      "activeDesc": "Drag to use (Cost 0): Choose 1 allied Operator, When the battle starts, that operator gains the following effect:Every attack has a 20% chance to grant 1 Shield (max 1 stack) (Upgraded on round 7, chance to grant shield increases to 35%)"
+    },
+    {
+      "name": "Odda",
+      "iconLink": "icon_odda",
+      "initialHp": 26,
+      "effectName": "Forceful Forging",
+      "passiveDesc": "Upon entering Rest Phase on Rounds 3,6,9,12,14, gain a random equipment from a Tier not exceeding the current Dispatch Center Level."
+    },
+    {
+      "name": "Ch'en",
+      "iconLink": "icon_chen",
+      "initialHp": 26,
+      "effectName": "Personal Power",
+      "passiveDesc": "All Operators deal Weakness damage (When dealing Physical or Arts damage, change damage type depending on the target's DEF and RES), Elite Operators gain +16% ATK and16 ASPD"
+    },
+    {
+      "name": "Lee",
+      "iconLink": "icon_lmlee",
+      "initialHp": 27,
+      "effectName": "Idle Teatime",
+      "passiveDesc": "Funds from Rounds 1 and 2 are temporarily held and released on Round 3; randomly obtain 1 Tier 2 Operator and 1 Tier 4 Operator during Round 3's Rest Phase"
+    },
+    {
+      "name": "Fang",
+      "iconLink": "icon_fang",
+      "initialHp": 24,
+      "effectName": "Joint Advance",
+      "passiveDesc": "Obtain 1 Transmitter on rounds 8, 10, 12, and 14"
     },
     {
       "name": "Touch",
       "iconLink": "icon_amedic",
       "initialHp": 28,
       "effectName": "Field Medic",
-      "effectDesc": "<span class=\"font-bold\">[Field Medic]</span> One Reserve Operator - Medic appears each player's battlefield; if there are at least 2 Elite Operators when the battle begins, Reserve Operator turns into &ltTouch&gt"
+      "passiveDesc": "1 Reserve Operator - Medic appears on each player's battlefield; if there are at least 2 Elite Operators when the battle begins, Reserve Operator turns into &ltTouch&gt"
     },
     {
-      "name": "Suzuran",
-      "iconLink": "icon_lisa",
-      "initialHp": 20,
-      "effectName": "'Protective Power'",
-      "effectDesc": "<span class=\"font-bold\">[Protective Power]</span> At the start of each round, trigger the &ltWhen obtained&gt effect of one Operator on field (Prioritizes Operators deployed on upper right tiles)"
-    },
-    {
-      "name": "Jessica",
-      "iconLink": "icon_jesica",
+      "name": "The Treasure Hunter",
+      "iconLink": "icon_trsrhuntr",
       "initialHp": 22,
-      "effectName": "'Rendezvous Orders'",
-      "effectDesc": "<span class=\"font-bold\">[Rendezvous Orders]</span> Upon entering Rest Phase on Rounds 4, 7, 10 and 13, obtain 1 Dispatch Module"
+      "effectName": "Raging Ironhide",
+      "passiveDesc": "In Round 1, gain 1 &ltRaging Ironhide&gt special Operator that can equip 4 equipments"
     },
     {
       "name": "Muelsyse",
       "iconLink": "icon_mlyss",
       "initialHp": 28,
-      "effectName": "'Pure Drop'",
-      "effectDesc": "<span class=\"font-bold\">[Pure Drop]</span> At the start of round 1, obtain 1 upgraded Doctor Hologram"
+      "effectName": "Treasure Detector",
+      "activeDesc": "Drag to use(Cost 1): Select one deployable tile and deploy a &ltSimulated Treasure&gt (3 Round cooldown) &ltSimulateed Treasure&gt: Disappears when touched by an enemy, obtain 1 additional funds if it remains until after the battle ends"
     },
     {
-      "name": "Fang",
-      "iconLink": "icon_fang",
+      "name": "Misery",
+      "iconLink": "icon_acspec",
+      "initialHp": 27,
+      "effectName": "Purified Condensation",
+      "activeDesc": "Drag to use (Cost 0): Choose 1 allied Operator and immedialely promote it to an Elite Operator. (Once per simulation)"
+    },
+    {
+      "name": "\"Damazti Cluster\"",
+      "iconLink": "icon_damaztic",
+      "initialHp": 22,
+      "effectName": "Damazti Isomorphism",
+      "passiveDesc": "Obtain 1 special equipment &ltDamazti Isomorph&gt every 5 rounds: When equipped together with certain other equipment, the equipped Operator is treated as a member of a specific Alliance"
+    },
+    {
+      "name": "Justin Jr.",
+      "iconLink": "icon_justin",
+      "initialHp": 23,
+      "effectName": "Private Equity Fund",
+      "activeDesc": "Tap to use (Cost 0): Grants 1-6 Funds (Cooldown equal to Funds granted)"
+    },
+    {
+      "name": "Suzuran",
+      "iconLink": "icon_lisa",
+      "initialHp": 20,
+      "effectName": "Omamori's Blessing",
+      "activeDesc": "Drag to use (Cost 0): Choose 1 allied Operator, trigger said Operator's 'When obtained' Attribute once"
+    },
+    {
+      "name": "Sussuro",
+      "iconLink": "icon_susuro",
+      "initialHp": 21,
+      "effectName": "Mandatory Rest",
+      "activeDesc": "Drag to use (Cost 0): Choose 1 allied Operator, trigger said Operator's 'When Rest Phase ends' Attribute once"
+    },
+    {
+      "name": "Quintus",
+      "iconLink": "icon_quintus",
       "initialHp": 24,
-      "effectName": "'Teamwork'",
-      "effectDesc": "<span class=\"font-bold\">[Teamwork]</span> Upon entering Rest Phase on Rounds 8, 10, 12 and 14, obtain 1 Transmitter"
+      "effectName": "Unstable Element",
+      "activeDesc": "Drag to use (Unlocked on Round 4) (Cost 0): Choose 1 allied Operator, that Operator changes to a random Operator 1 Tier higher (up to Tier 6)"
+    },
+    {
+      "name": "Sankta Miksaparato",
+      "iconLink": "icon_rmixer",
+      "initialHp": 27,
+      "effectName": "Dedicated Guardian",
+      "activeDesc": "Tap to use (Unlocked on Round 4) (Cost 0): Reduces Life Points of Self to that of the player with the least Life Points and grants funds equal to Life Points lost (max 10), said player gains the same amount of Life Points when Rest Phase ends."
+    },
+    {
+      "name": "\"Followers\"",
+      "iconLink": "icon_ayaji",
+      "initialHp": 21,
+      "effectName": "So many Requests!",
+      "passiveDesc": "When entering Rest Phase, pick 1 command from 2 randonly selected commands and replace the existing command."
+    },
+    {
+      "name": "Cannot",
+      "iconLink": "icon_cannot",
+      "initialHp": 27,
+      "effectName": "Compound Interest",
+      "passiveDesc": "Leftover Funds can be saved for the next round. When there are at least 5 Funds left, gain 1 extra Funds per round"
+    },
+    {
+      "name": "Duck Lord",
+      "iconLink": "icon_ducklord",
+      "initialHp": 29,
+      "effectName": "\"Mystery Customer\"",
+      "passiveDesc": "From Round 5 onwards, some enemies you and your teammates encounter may be replaced with &ltDuck Lord&gt, &ltGopnik&gt, &ltCrying Thief&gt, or &ltFatty&gt. Defeating them (even during Unite Phases) will grant 1 Funds"
+    },
+    {
+      "name": "Swire the Elegant Wit",
+      "iconLink": "icon_swire2",
+      "initialHp": 24,
+      "effectName": "Best Tastes",
+      "activeDesc": "Tap to use (Unlocked after spending a total of 60 Funds) (Cost 0): Gain 1 random Operator from the Dispatch Center. (Upgraded to Level 2 after spending a total of 120 Funds): Gain 2 random Operators from the Dispatch Center"
+    },
+    {
+      "name": "Shamare",
+      "iconLink": "icon_vodfox",
+      "initialHp": 25,
+      "effectName": "Substitute Doll",
+      "passiveDesc": "The first non-Elite Operator sold every round will instead switch into a random Operator from the Dispatch Center"
+    },
+    {
+      "name": "Kouhei Mifune",
+      "iconLink": "icon_ymgscm",
+      "initialHp": 22,
+      "effectName": "Yakuza of the Orient",
+      "activeDesc": "Drag to use (Cost 0): Choose 1 operator, + Alliance stacks to all active Alliances equal to said Operator's Tier"
+    },
+    {
+      "name": "Jara",
+      "iconLink": "icon_yara",
+      "initialHp": 24,
+      "effectName": "Headhunting",
+      "activeDesc": "Tap to use (Cost 1): Refresh the Dispatch Center, guarenteed to contain 1 Operator 1 Tier higher than the current Dispatch Centre Level (Max Tier 6) (3 times per Round)"
+    },
+    {
+      "name": "Mitm",
+      "iconLink": "icon_mitm",
+      "initialHp": 30,
+      "effectName": "Exclusive Intel",
+      "activeDesc": "Tap to use (Cost 3): Perform a special refresh: Prioritizes offering operators already deployed on the field (Once per simulation)"
+    },
+    {
+      "name": "Mechanist",
+      "iconLink": "icon_acfend",
+      "initialHp": 29,
+      "effectName": "Intricate Design",
+      "passiveDesc": "On first equipment upgrade per Round, pick 1 out of 3 random equipment offered in the Dispatch Center (equipment of 1 Tier higher may appear)",
+      "activeDesc": "Tap to use (Cost 0): Offers 1 new equipment and exchange"
+    },
+    {
+      "name": "Pudding",
+      "iconLink": "icon_pudd",
+      "initialHp": 23,
+      "effectName": "Electrify!",
+      "activeDesc": "Drag to use (Cost 1): Select 1 equipment from the Dispatch Center and immediately destroy it, when the battle starts, all allied Operators with available equipment slots temporarily gain said equipment until the battle ends. (Cannot be used on &ltDestroyed when equipped&gt items)"
+    },
+    {
+      "name": "Bison",
+      "iconLink": "icon_bison",
+      "initialHp": 23,
+      "effectName": "Package Express",
+      "activeDesc": "Tap to use (Cost 9): Obtain all operators currently in the Dispatch Center, Fund cost -1 each time the Prep Phase of a Round ends, cost resets after use and may be used again."
+    },
+    {
+      "name": "Pith",
+      "iconLink": "icon_pith",
+      "initialHp": 24,
+      "effectName": "Top Student",
+      "passiveDesc": "In Round 1, gain 1 special Operator that can deal Nervous Impairment, Burn, or Necrosis. This Operator also belongs to the Harmony Alliance: +1 Operator count to some Alliances"
+    },
+    {
+      "name": "Dur-nar",
+      "iconLink": "icon_durnar",
+      "initialHp": 25,
+      "effectName": "Upright Instructor",
+      "activeDesc": "Drag to use (Cost 0): Choose 1 allied Operator, raise said operator's Alliance Stacking capacity when the battle begins, cap raised is equal to the current Round number."
+    },
+    {
+      "name": "Ripresa",
+      "iconLink": "icon_liesel",
+      "initialHp": 24,
+      "effectName": "Duetto",
+      "passiveDesc": "On first promotion to Elite Operator, recieve the promotion reward one more time"
+    },
+    {
+      "name": "Wang",
+      "iconLink": "icon_wang",
+      "initialHp": 23,
+      "effectName": "Black and White Intertwine",
+      "activeDesc": "Drag to use (Cost 1): Select an allied Operator to be removed, obtain 1 [Yan] operator from a Tier not exceedng the removed Operator's. &ltWith 6 different [Yan] Operators on field&gt effect changes to: At the start of battle, 'Yan's Protection' is summoned with ATK and HP equal to a portion of the total ATK and HP of all [Yan] Operators on the field;&ltWith 9 different [Yan] Operators on field&gt Summons 2 'Yan's Protection' instead."
+    },
+    {
+      "name": "Du Yaoye",
+      "iconLink": "icon_duyaoy",
+      "initialHp": 26,
+      "effectName": "Heros All Around",
+      "passiveDesc": "The first two manual refreshes in every round become a special refresh: This refresh will prioritize offering 1 Yan Operator"
+    },
+    {
+      "name": "Narantuya",
+      "iconLink": "icon_narant",
+      "initialHp": 24,
+      "effectName": "Nightmare of the Oasis",
+      "passiveDesc": "Cost to upgrade Dispatch Center -3 after obtaining 3 [Sargonian] operators, once per Dsipatch Center Level. &ltWith 6 different [Sargon] Operators on field&gt effect is changed to: [Sargon] Operators Skill activations will also cause all [Sargon] Operators to gain ATK"
+    },
+    {
+      "name": "Pepe",
+      "iconLink": "icon_pepe",
+      "initialHp": 23,
+      "effectName": "Erudite and Versatile",
+      "passiveDesc": "When Dispatch Center reaches Lv. 2, 4, and 6, obtain 1 special refresh: this refresh will prioritize offering &ltSargon&gt Operators"
+    },
+    {
+      "name": "Rockrock",
+      "iconLink": "icon_rockr",
+      "initialHp": 25,
+      "effectName": "Self-manufactured",
+      "passiveDesc": "For every 3 [Victoria] Operators purchased, obtain 1 random equipment from a Tier not exceeding the Dispatch Center Level. &ltWith 6 different [Victoria] Operators on field&gt effect changes to: After [Victoria] Operators use a skill, Operators in the surrounding 8 tiles will share the Operator's equipment effects for a limited period of time"
+    },
+    {
+      "name": "Harold",
+      "iconLink": "icon_harold",
+      "initialHp": 23,
+      "effectName": "Talent Blind Box",
+      "passiveDesc": "Starting from Round 4, obtain 1 &ltVictoria&gt Operator every 2 rounds"
+    },
+    {
+      "name": "Gladiia",
+      "iconLink": "icon_glady",
+      "initialHp": 23,
+      "effectName": "Hunter's Tactics",
+      "activeDesc": "Tap to use (Unlocked on Dispatch Center Level 4) (Cost 1): Obtain 1 [Ægir] Operator. &ltWith 6 different [Ægir] Operators on the field&gt effect changes to: the first 3 defeated [Ægir] Operators will immediately summon the rightmost deployable [Ægir] Operator from the Preperation Zone."
+    },
+    {
+      "name": "Clementia",
+      "iconLink": "icon_clementia",
+      "initialHp": 26,
+      "effectName": "Noble Sacrifice",
+      "passiveDesc": "When an &ltÆgir&gt Operator is defeated, grants Ægir Alliance stacks equivalent to that Operator's Tier"
+    },
+    {
+      "name": "Flametail",
+      "iconLink": "icon_flamtl",
+      "initialHp": 25,
+      "effectName": "Knightclub Leader",
+      "passiveDesc": "Kazimierz Alliance's &ltWith 6 different Kazimierz Operators on the field&gt changes to: [Kazimierz] Operators blocking enemies deal True Damage and inflict Stun on nearby enemies every 2 seconds (within a radius of 0.8); otherwise, dealing damage also deals extra True damage when not blocking an enemy",
+      "activeDesc": "Tap to use (Cost 6): Obtain 1 &ltKazimierz&gt Operator not exceeding the current Dispatch Center Level, every round reduce Command Cost by 2, and the Command is reset and can be used again after usage"
+    },
+    {
+      "name": "Młynar",
+      "iconLink": "icon_mlynar",
+      "initialHp": 28,
+      "effectName": "Work Quota",
+      "passiveDesc": "Every &ltKazimierz&gt Operator purchased grants 1 extra Fund next round (Max 3 Funds per round)"
+    },
+    {
+      "name": "Kjera",
+      "iconLink": "icon_kjera",
+      "initialHp": 23,
+      "effectName": "Unmelting Will",
+      "passiveDesc": "Obtain 1 Kjeragi Nevermeltice on rounds 4, 7, 10, 13, Kjerag Alliance's &ltWith 6 different [Kjerag] Operators on field&gt changes to: A chill gust blows on the battlefield every 25 seconds, inflicting Cold on enemies"
+    },
+    {
+      "name": "Sciurus",
+      "iconLink": "icon_sciurus",
+      "initialHp": 23,
+      "effectName": "Snowfield's Gift",
+      "passiveDesc": "The first &ltKjerag&gt Operator purchased every round costs 1 Funds"
+    },
+    {
+      "name": "Figurino",
+      "iconLink": "icon_talr",
+      "initialHp": 26,
+      "effectName": "Measured Tailoring",
+      "passiveDesc": "First active refresh grants 1 Fund, Siracusa Alliance's &ltWith 6 different Siracusa Operators on the field&gt changes to: [Siracusa] Operators also gain Invisibility; and have a 3% chance to deal True damage, and Fear the target for 3 seconds when Invisible, or 10 seconds after losing Invisibility"
+    },
+    {
+      "name": "Chiave",
+      "iconLink": "icon_chiave",
+      "initialHp": 24,
+      "effectName": "Gang Activity",
+      "passiveDesc": "Every 6 active refreshes will grant you 1 &ltSiracusa&gt Operator from a Tier not exceeding the Dispatch Center level (Max 2 Operators per round)"
+    },
+    {
+      "name": "Czerny",
+      "iconLink": "icon_pianst",
+      "initialHp": 24,
+      "effectName": "Flowing Movement",
+      "activeDesc": "Tap to use (Cost 1): Obtain 1 &ltLeithanien&gt Operator not exceeding the current Dispatch Center Level, and Command Cost permanently +1"
+    },
+    {
+      "name": "Zima the Raging Tide",
+      "iconLink": "icon_headb2",
+      "initialHp": 26,
+      "effectName": "Unafraid of Wind and Snow",
+      "activeDesc": "Tap to use (Cost 5): Obtain 1 &ltUrsus&gt Operator not exceeding the current Dispatch Center Level, every &ltUrsus&gt Operator purchased reduce Command Cost by 1, and the Command is reset and can be used again after usage"
+    },
+    {
+      "name": "Thorns the Lodestar",
+      "iconLink": "icon_thorn2",
+      "initialHp": 23,
+      "effectName": "Moment of Voyage",
+      "activeDesc": "Drag to use (Cost 1): Choose 1 Operator in the Dispatch Center, and switch it to 1 &ltIberia&gt Operator not exceeding the Tier of that Operator (2 times per Round)"
     }
   ]
 }

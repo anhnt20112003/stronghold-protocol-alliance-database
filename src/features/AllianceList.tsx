@@ -83,9 +83,14 @@ const AllianceList = ({ season }: AllianceListProps) => {
               >
                 <div
                   className="w-18 h-18 border-3 border-alliance-medium flex justify-center items-center rounded-full"
-                  style={{ background: "radial-gradient(var(--color-alliance-medium), #212121 80%)" }}
+                  style={{
+                    background: "radial-gradient(var(--color-alliance-medium), #212121 80%)",
+                  }}
                 >
-                  <img src={`/bondicons/icon_${alliance.bondId}.png`} className="w-12 h-12" />
+                  <img
+                    src={`/bondicons/icon_${alliance.bondId}.png`}
+                    className="w-12 h-12 object-contain"
+                  />
                 </div>
                 {alliance.name.replace("_", " ")}
               </div>

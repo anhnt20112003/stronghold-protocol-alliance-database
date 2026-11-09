@@ -5,7 +5,8 @@ type StrategyDto = {
   iconLink: string;
   initialHp: number;
   effectName: string;
-  effectDesc: string;
+  passiveDesc?: string;
+  activeDesc?: string;
 };
 
 type StrategyListProps = {
@@ -28,7 +29,7 @@ const StrategyList = ({ season }: StrategyListProps) => {
 						leading-4.5 text-[14px] md:text-[18px] gap-2"
           >
             <div
-              className="w-18 h-18 border-3 border-[#25be97] flex justify-center items-center"
+              className="w-18 h-18 border-3 border-alliance-medium flex justify-center items-center"
               // style={{ background: "radial-gradient(#25be97, #212121 80%)" }}
             >
               <img src={`/bandicons/${strategy.iconLink}.png`} className="w-full h-full" />
@@ -45,7 +46,7 @@ const StrategyList = ({ season }: StrategyListProps) => {
             <div
               className="text-sm text-white text-left whitespace-pre-wrap text-[12px] md:text-[15px]"
               dangerouslySetInnerHTML={{
-                __html: strategy.effectDesc,
+                __html: `<span class='font-bold'>&lt${strategy.effectName}&gt</span> ${strategy.passiveDesc ?? ""}${strategy.activeDesc ? `\n<span class='font-bold underline'>Active:</span> ${strategy.activeDesc}` : ""}`,
               }}
             />
           </div>

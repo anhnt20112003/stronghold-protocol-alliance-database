@@ -72,7 +72,7 @@ function OperatorCard(props: OperatorCardProps) {
             <div
               id={alliance}
               className={`
-              w-7 h-7 border-[#25be97] border rounded-full
+              w-7 h-7 border-alliance-medium border rounded-full
               flex justify-center items-center
             `}
               style={{ background: "radial-gradient(#25be97, #212121 80%)" }}
@@ -81,6 +81,7 @@ function OperatorCard(props: OperatorCardProps) {
                 className="
                 w-[60%] h-[60%]
                 md:w-[65%] md:h-[65%]
+                object-contain
               "
                 src={getBondImage(alliance)}
               />
