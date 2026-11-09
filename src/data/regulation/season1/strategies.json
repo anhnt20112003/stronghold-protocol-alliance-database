@@ -117,7 +117,7 @@
       "iconLink": "icon_chen",
       "initialHp": 26,
       "effectName": "Personal Power",
-      "passiveDesc": "All Operators deal Weakness damage (When dealing Physical or Arts damage, change damage type depending on the target's DEF and RES), Elite Operators gain +16% ATK and16 ASPD"
+      "passiveDesc": "All Operators deal Weakness damage (When dealing Physical or Arts damage, change damage type depending on the target's DEF and RES), Elite Operators gain +16% ATK and 16 ASPD"
     },
     {
       "name": "Lee",
@@ -141,25 +141,32 @@
       "passiveDesc": "1 Reserve Operator - Medic appears on each player's battlefield; if there are at least 2 Elite Operators when the battle begins, Reserve Operator turns into &ltTouch&gt"
     },
     {
-      "name": "The Treasure Hunter",
-      "iconLink": "icon_trsrhuntr",
+      "name": "Eunectes",
+      "iconLink": "icon_zumama",
       "initialHp": 22,
       "effectName": "Raging Ironhide",
       "passiveDesc": "In Round 1, gain 1 &ltRaging Ironhide&gt special Operator that can equip 4 equipments"
     },
     {
-      "name": "Muelsyse",
-      "iconLink": "icon_mlyss",
+      "name": "The Treasure Hunter",
+      "iconLink": "icon_trsrhuntr",
       "initialHp": 28,
       "effectName": "Treasure Detector",
       "activeDesc": "Drag to use(Cost 1): Select one deployable tile and deploy a &ltSimulated Treasure&gt (3 Round cooldown) &ltSimulateed Treasure&gt: Disappears when touched by an enemy, obtain 1 additional funds if it remains until after the battle ends"
     },
     {
-      "name": "Misery",
-      "iconLink": "icon_acspec",
+      "name": "Muelsyse",
+      "iconLink": "icon_mlyss",
       "initialHp": 27,
       "effectName": "Purified Condensation",
       "activeDesc": "Drag to use (Cost 0): Choose 1 allied Operator and immedialely promote it to an Elite Operator. (Once per simulation)"
+    },
+    {
+      "name": "Misery",
+      "iconLink": "icon_acspec",
+      "initialHp": 27,
+      "effectName": "Space Dissolution",
+      "activeDesc": "Drag to use (Cost 0): Select an allied Operator, when this Operator takes damage for the first time in battle, they are defeated immediately and the rightmost Operator on Bench will be deployed in their place."
     },
     {
       "name": "\"Damazti Cluster\"",
