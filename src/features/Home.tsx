@@ -9,11 +9,11 @@ export default function Home() {
       <div className="text-xl md:text-3xl">Welcome to Stronghold Protocol Database</div>
       <div className="text-lg md:text-xl">
         This page is dedicated to documenting relevant data regarding the Stronghold Protocol
-        Alliance seasons for the EN community. CN content are tentatively translated and may not
-        reflect the official translations.
+        seasons for the EN community. CN content are tentatively translated and may not reflect the
+        official translations.
       </div>
       <div className="text-lg md:text-xl">
-        Great thanks to PRTS and AK Terra Wiki for their work and supports.
+        Great thanks to PRTS, Closure wiki and AK Terra Wiki for their work and supports.
       </div>
       <div className="text-lg md:text-xl">
         If any issue arises (i.e. bugs, incorrect data, typo, etc), please contact me using methods
@@ -41,13 +41,13 @@ export default function Home() {
           <FaFacebook />
         </div>
       </div>
-      <div className="text-lg md:text-xl">
+      {/* <div className="text-lg md:text-xl">
         What's new:
         <ul>
           <li>* Updated Second Season's desciptions to match the EN translation.</li>
           <li>* Added a tooltip for Operator Attribute on the Alliance page.</li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 }
