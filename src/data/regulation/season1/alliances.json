@@ -38,14 +38,14 @@
     {
       "bondId": "victoriaship",
       "name": "Victoria",
-      "desc": "[Victoria] Operators carrying equipment deal <span class='blue'>(125 + 0.8 x stacks)</span> damage.\n&ltEvery <span class='green'>25</span> stacks&gt Obtain 1 random Victorian Hammer\n&ltWith <span class='green'>6</span> different [Victoria] Operators on field&gt All [Victoria] Operators gain <span class='blue'>+40%</span> ATK for each piece of equipment; <span class='blue'>+80%</span> ATK if equipment is upgraded*",
+      "desc": "[Victoria] Operators carrying equipment deal <span class='blue'>(125 + 0.8 x stacks)%</span> damage.\n&ltEvery <span class='green'>25</span> stacks&gt Obtain 1 random Victorian Hammer\n&ltWith <span class='green'>6</span> different [Victoria] Operators on field&gt All [Victoria] Operators gain <span class='blue'>+40%</span> ATK for each piece of equipment; <span class='blue'>+80%</span> ATK if equipment is upgraded*",
       "activeCount": 3,
       "core": true
     },
     {
       "bondId": "kjeragship",
       "name": "Kjerag",
-      "desc": "[Kjerag] Operators deal <span class='blue'>125%</span> damage, and deal <span class='blue'>(135 + 1 x stacks)%</span> to Cold and Frozen enemies \n&ltEvery <span class='green'>100</span> stacks&gt Obtain 1 'Kjeragi Nevermeltice\"\n&ltWith <span class='green'>6</span> different [Kjerag] Operators on field&gt At the start of battle, summon a Snow Mountain Giant that acts independently (ATK and HP affected by stacks). The Snow Mountain Giant will switch between Snow Mountain and Giant forms.\nSnow Mountain Form: Can block enemies and deal splash damage, deals high Arts damage to Frozen enemies and removes the Frozen status.\nGiant Form: Can move and deals ranged splash damage to enemies.",
+      "desc": "[Kjerag] Operators deal <span class='blue'>125%</span> damage, and deal <span class='blue'>(135 + 1 x stacks)%</span> damage to Cold and Frozen enemies \n&ltEvery <span class='green'>100</span> stacks&gt Obtain 1 'Kjeragi Nevermeltice\"\n&ltWith <span class='green'>6</span> different [Kjerag] Operators on field&gt At the start of battle, summon a Snow Mountain Giant that acts independently (ATK and HP affected by stacks). The Snow Mountain Giant will switch between Snow Mountain and Giant forms.\nSnow Mountain Form: Can block enemies and deal splash damage, deals high Arts damage to Frozen enemies and removes the Frozen status.\nGiant Form: Can move and deals ranged splash damage to enemies.",
       "activeCount": 3,
       "core": true
     },
