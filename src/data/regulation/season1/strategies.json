@@ -307,7 +307,7 @@
       "iconLink": "icon_liesel",
       "initialHp": 24,
       "effectName": "Duetto",
-      "passiveDesc": "On first promotion to Elite Operator, recieve the promotion reward one more time"
+      "passiveDesc": "Each round, on first promotion to Elite Operator, recieve the promotion reward one more time"
     },
     {
       "name": "Wang",
@@ -406,7 +406,7 @@
       "iconLink": "icon_chiave",
       "initialHp": 24,
       "effectName": "Gang Activity",
-      "passiveDesc": "Every 6 active refreshes will grant you 1 &ltSiracusa&gt Operator from a Tier not exceeding the Dispatch Center level (Max 2 Operators per round)"
+      "passiveDesc": "Every 4 active refreshes will grant you 1 &ltSiracusa&gt Operator from a Tier not exceeding the Dispatch Center level (Max 2 Operators per round)"
     },
     {
       "name": "Czerny",

@@ -131,7 +131,7 @@
       "attributeType": "Can stack",
       "attribute": "&lt;In battle&gt; Each defeated enemy in range grants <span class='blue'>+1</span>/<span class='green'>+2</span> stacks to active [Leithanien] Alliance (Can stack up to <span class='blue'>1x</span>/<span class='green'>2x</span> per round)",
       "tier": 1,
-      "alliances": ["Leithanien"]
+      "alliances": ["Leithanien", "Solo"]
     },
     {
       "name": "Diamante",
@@ -388,7 +388,7 @@
     {
       "name": "Vulpisfoglia",
       "attributeType": "Prep",
-      "attribute": "&lt;When obtained&gt; Obtain 1 free refresh (upgrades when triggered, up to 3x)",
+      "attribute": "&lt;When obtained&gt; Obtain 1 free refresh (upgrades for every 2 times triggered, up to 3x)",
       "tier": 3,
       "alliances": ["Siracusa", "Swift"]
     },
