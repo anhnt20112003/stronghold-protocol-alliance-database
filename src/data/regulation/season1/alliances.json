@@ -5,68 +5,68 @@
       "core": true,
       "name": "Ursus",
       "activeCount": 3,
-      "desc": "[Ursus] Operators gain +ATK% and +DEF% <span class='text-gray-500'>(affected by stacks)</span>. When [Ursus] Operators defeat an enemy, +2 temporary stacks to [Ursus] alliance.\n&ltWith <span class='green'>6</span> different [Ursus] Operators on field&gt A portion of damage taken by [Ursus] ops <span class='text-gray-500'>(affected by stacks)</span> is converted to a bleed effect over 10 seconds; HP bleed effect will stop when the damage source is defeated. When blocking enemies, enemies take a portion of the blocker's ATK as Arts damage every second <span class='text-gray-500'>(affected by stacks)</span>. The amount of temporary [Ursus] stacks gained increases to 4."
+      "desc": "[Ursus] Operators gain <span class='blue'>+(35 + 0.75 x stacks)%</span> ATK and <span class='blue'>+(10 + 0.3 x stacks)%</span> HP. When [Ursus] Operators defeat an enemy, +2 temporary stacks to [Ursus] alliance.\n&ltWith <span class='green'>6</span> different [Ursus] Operators on field&gt <span class='blue'>(15 + 0.05 x stacks)%</span> of damage taken by [Ursus] ops is converted to a bleed effect over 10 seconds; HP bleed effect will stop when the damage source is defeated. When blocking enemies, enemies take <span class='blue'>(50 + 0.25 x stacks)%</span> of the blocker's ATK as Arts damage every second. The amount of temporary [Ursus] stacks gained increases to 4."
     },
     {
       "bondId": "iberiaship",
       "core": true,
       "name": "Iberia",
       "activeCount": 3,
-      "desc": "When [Iberia] Operators or Alchemical Units deal damage, the enemy takes additional Arts damage every second equal to a percentage of ATK <span class='text-gray-500'>(affected by stacks)</span> for 10 seconds, stacking up to 10 times.\n&ltWith <span class='green'>6</span> different [Iberia] Operators on field&gt The DoT effect is doubled, and reduces the enemy's move speed by 4% (stacking up to 80%). When [Iberia] Operators or Alchemical Units deal damage, there is a chance to deal Arts damage equals to 300% ATK (chance affected by stacks) to nearby enemies."
+      "desc": "When [Iberia] Operators or Alchemical Units deal damage, the enemy takes additional Arts damage every second equal to <span class='blue'>(11 + 0.06 x stacks)%</span> of ATK  for 10 seconds, stacking up to 10 times.\n&ltWith <span class='green'>6</span> different [Iberia] Operators on field&gt The DoT effect is doubled, and reduces the enemy's move speed by <span class='blue'>4%</span> (stacking up to <span class='blue'>80%</span>). When [Iberia] Operators or Alchemical Units deal damage, there is a chance to deal Arts damage equals to <span class='blue'>300%</span> ATK to nearby enemies."
     },
     {
       "bondId": "lethaniaship",
       "core": true,
       "name": "Leithanien",
       "activeCount": 3,
-      "desc": "[Leithanien] Operators and summons gain +ATK% <span class='text-gray-500'>(affected by stacks)</span>. When an enemy is defeated, summon a \"Section\" on that tile (up to 10 on field).\n&ltWith <span class='green'>6</span> different [Leithanien] Operators on field&gt There is a chance to summon a \"Band\" instead of a \"Section\" <span class='text-gray-500'>(affected by stacks)</span>. While a \"Band\" is present on field, [Leithanien] Operators gain ASPD, and increase the \"Section\" limit to 20. When an ally is defeated, summon a \"Band\" at their place."
+      "desc": "[Leithanien] Operators and summons gain <span class='blue'>+(30 + 1 x stacks)%</span> ATK. When an enemy is defeated, summon a \"Section\" on that tile (up to 10 on field).\n&ltWith <span class='green'>6</span> different [Leithanien] Operators on field&gt There is a <span class='blue'>(30 + 1 x stacks)%</span> chance to summon a \"Band\" instead of a \"Section\" . While a \"Band\" is present on field, [Leithanien] Operators gain <span class='blue'>+20</span> ASPD, and increase the \"Section\" limit to 20. When an ally is defeated, summon a \"Band\" at their place."
     },
     {
       "bondId": "yanship",
       "name": "Yan",
-      "desc": "[Yan] Operators gain +ATK% <span class='text-gray-500'>(affected by stacks)</span>.\n&ltWith <span class='green'>6</span> different [Yan] Operators on field&gt [Yan] Operators' attacks inflict a portion of ATK as Elemental Injury of a random type. All enemies have increased Elemental Injury rcovery rate <span class='text-gray-500'>(affected by stacks)</span>.",
+      "desc": "[Yan] Operators gain <span class='blue'>+(23 + 0.9 × stacks)% ATK</span>\n&ltWith <span class='green'>6</span> different [Yan] Operators on field&gt [Yan] Operators' attacks inflict <span class='blue'>6%</span> ATK as Elemental Injury of a random type. All enemies have their Elemental Injury rcovery rate increased by <span class='blue'>(40 + 0.3 x stacks)%</span>.",
       "activeCount": 3,
       "core": true
     },
     {
       "bondId": "sargonship",
       "name": "Sargon",
-      "desc": "When any [Sargon] Operator activates a skill, all [Sargon] Operators temporarily gain +ASPD (up to a cap) for a duration <span class='text-gray-500'>(affected by stacks)</span>.\n&ltWith <span class='green'>6</span> different [Yan] Operators on field&gt When any [Sargon] Operator activates a skill, they create a quicksand area within their attack range. Enemies inside quicksand have reduced movement speed <span class='text-gray-500'>(affected by stacks)</span>, take Arts damage per second <span class='text-gray-500'>(affected by stacks)</span> and are Bound for 1 second. While a [Sargon] Operator's skill is active, the quicksand's slowing effect is doubled, and deals Arts damage per second <span class='text-gray-500'>(affected by stacks)</span>.",
+      "desc": "When any [Sargon] Operator activates a skill, all [Sargon] Operators temporarily gain <span class='blue'>+12</span> ASPD (up to <span class='blue'>+300</span>) for <span class='blue'>(5 + 0.22 x stacks)</span> seconds.\n&ltWith <span class='green'>6</span> different [Yan] Operators on field&gt When any [Sargon] Operator activates a skill, they create a quicksand area within their attack range. Enemies inside quicksand have their movement speed reduced by <span class='blue'>(20 + 0.025 x stacks)%</span>, take <span class='blue'>(5000 + 25 x stacks)</span> Arts damage per second and are Bound for 1 second. While a [Sargon] Operator's skill is active, the quicksand's slowing effect is doubled, and deals <span class='blue'>(800 + 4 x stacks)</span> Arts damage per second.",
       "activeCount": 3,
       "core": true
     },
     {
       "bondId": "victoriaship",
       "name": "Victoria",
-      "desc": "[Victoria] Operators carrying equipment deal increased damage <span class='text-gray-500'>(affected by stacks)</span>.\n&ltEvery 25 stacks&gt Obtain 1 random Victorian Hammer\n&ltWith <span class='green'>6</span> different [Victoria] Operators on field&gt All [Victoria] Operators gain increased ATK for each piece of equipment; ATK increased further if equipment is upgraded*",
+      "desc": "[Victoria] Operators carrying equipment deal <span class='blue'>(125 + 0.8 x stacks)</span> damage.\n&ltEvery <span class='green'>25</span> stacks&gt Obtain 1 random Victorian Hammer\n&ltWith <span class='green'>6</span> different [Victoria] Operators on field&gt All [Victoria] Operators gain <span class='blue'>+40%</span> ATK for each piece of equipment; <span class='blue'>+80%</span> ATK if equipment is upgraded*",
       "activeCount": 3,
       "core": true
     },
     {
       "bondId": "kjeragship",
       "name": "Kjerag",
-      "desc": "[Kjerag] Operators deal increased damage, and deal even more damage <span class='text-gray-500'>(affected by stacks)</span> to Cold and Frozen enemies \n&ltEvery 100 stacks&gt Obtain 1 'Kjeragi Nevermeltice\"\n&ltWith <span class='green'>6</span> different [Kjerag] Operators on field&gt At the start of battle, summon a Snow Mountain Giant that acts independently (ATK and HP affected by stacks). The Snow Mountain Giant will switch between Snow Mountain and Giant forms.\nSnow Mountain Form: Can block enemies and deal splash damage, deals high Arts damage to Frozen enemies and removes the Frozen status.\nGiant Form: Can move and deals ranged splash damage to enemies.",
+      "desc": "[Kjerag] Operators deal <span class='blue'>125%</span> damage, and deal <span class='blue'>(135 + 1 x stacks)%</span> to Cold and Frozen enemies \n&ltEvery <span class='green'>100</span> stacks&gt Obtain 1 'Kjeragi Nevermeltice\"\n&ltWith <span class='green'>6</span> different [Kjerag] Operators on field&gt At the start of battle, summon a Snow Mountain Giant that acts independently (ATK and HP affected by stacks). The Snow Mountain Giant will switch between Snow Mountain and Giant forms.\nSnow Mountain Form: Can block enemies and deal splash damage, deals high Arts damage to Frozen enemies and removes the Frozen status.\nGiant Form: Can move and deals ranged splash damage to enemies.",
       "activeCount": 3,
       "core": true
     },
     {
       "bondId": "egirship",
       "name": "Ægir",
-      "desc": "[Ægir] Operators gain increased HP <span class='text-gray-500'>(affected by stacks)</span> \nWhen the battle begins, [Ægir] Operators will devour the Operator on the tile in front of them, dealing <span class='text-red-500'>5000</span> Physical damage to the Operator and gaining their base ATK and Block, while adding [Ægir] stacks equal to the devoured Operator's Tier <span class='text-gray-500'>(among [Ægir] Operators, those positioned further up or to the left are prioritised to start a devour)</span>\n&ltWith <span class='green'>5</span> different [Ægir] Operators on the field&gt The first <span class='blue'>3</span> defeated will immediately revive",
+      "desc": "[Ægir] Operators <span class='blue'>+(35 + 1 x stacks)%</span> HP \nWhen the battle begins, [Ægir] Operators will devour the Operator on the tile in front of them, dealing <span class='text-red-500'>5000</span> Physical damage to the Operator and gaining their base ATK and Block, while adding [Ægir] stacks equal to the devoured Operator's Tier <span class='text-gray-500'>(among [Ægir] Operators, those positioned further up or to the left are prioritised to start a devour)</span>\n&ltWith <span class='green'>5</span> different [Ægir] Operators on the field&gt The first <span class='blue'>3</span> defeated will immediately revive",
       "activeCount": 3,
       "core": true
     },
     {
       "bondId": "siracusaship",
       "name": "Siracusa",
-      "desc": "[Siracusa] Operators gain +ASPD <span class='text-gray-500'>(affected by stacks)</span> on deployment for a certain duration <span class='text-gray-500'>(affected by stacks)</span>.\n&ltWith <span class='green'>6</span> different Siracusa Operators on the field&gt Each attack has a chance to randomly inflict one Negative Status on an enemy for a certain duration (affected by stacks); when an enemy has 2 or more Negative Status, they deal true damage to themselves and surrounding enemies once per second (affected by stacks).",
+      "desc": "[Siracusa] Operators gain <span class='blue'>+(25 + 0.8 x stacks)</span> ASPD on deployment for <span class='blue'>(32 + 0.4 x stacks)</span> seconds\n&ltWith <span class='green'>6</span> different Siracusa Operators on the field&gt Each attack has a chance to randomly inflict one Negative Status on an enemy for a certain duration (affected by stacks); when an enemy has 2 or more Negative Status, they deal true damage to themselves and surrounding enemies once per second (affected by stacks).",
       "activeCount": 3,
       "core": true
     },
     {
       "bondId": "kazimierzship",
       "name": "Kazimierz",
-      "desc": "On every Operator deployment, [Kazimierz] Operators gain increased ATK (up to a certain limit, affected by stacks).\n&ltWith <span class='green'>6</span> [Kazimierz] Operators on the field&gt When [Kazimierz] Operators is defeated, they will leave the field, and the [Kazimierz] operator on the rightmost slot of the support area is deployed to the field (does not affect alliance active status); [Kazimierz] Operators deal an additional 65% ATK as True damage for 30 seconds after deployment or when their skill is active.",
+      "desc": "On every Operator deployment, [Kazimierz] Operators gain <span class='blue'>+20%</span> ATK (up to <span class='blue'>+(50 + 1 x stacks)%</span>).\n&ltWith <span class='green'>6</span> [Kazimierz] Operators on the field&gt When [Kazimierz] Operators is defeated, they will leave the field, and the [Kazimierz] operator on the rightmost slot of the support area is deployed to the field (does not affect alliance active status); [Kazimierz] Operators deal an additional <span class='blue'>65%</span> ATK as True damage for 30 seconds after deployment or when their skill is active.",
       "activeCount": 3,
       "core": true
     },
@@ -75,12 +75,12 @@
       "core": false,
       "name": "Aggregation",
       "activeCount": 2,
-      "desc": "Operators in the range of [Aggregation] Operators recover HP and Elemental Injury equals to a percentage of the [Aggregation] Operator's ATK <span class='text-gray-500'>(affected by stacks)</span>.\n&ltWith <span class='green'>3</span> [Aggregation] Operators on field&gt All Operators in range of [Aggregation] Operators gain Sanctuary <span class='text-gray-500'>(affected by stacks)</span>."
+      "desc": "Operators in the range of [Aggregation] Operators recover HP equals <span class='blue'>(16 + 0.12 x stacks)%</span> and Elemental Injury equals to <span class='blue'>(8 + 0.06 x stacks)%</span> of the [Aggregation] Operator's ATK .\n&ltWith <span class='green'>3</span> [Aggregation] Operators on field&gt All Operators in range of [Aggregation] Operators gain  <span class='blue'>(15 + 0.08 x stacks)%</span> Sanctuary."
     },
     {
       "bondId": "investship",
       "name": "Investor",
-      "desc": "Operators' 'When obtained' Attributes trigger twice\n&ltAt 100 stacks&gt 'When obtained' Attributes trigger 3 times instead",
+      "desc": "Operators' 'When obtained' Attributes trigger twice\n&ltAt <span class='green'>100</span> stacks&gt 'When obtained' Attributes trigger 3 times instead",
       "activeCount": 2
     },
     {
@@ -92,79 +92,79 @@
     {
       "bondId": "visiship",
       "name": "Foresight",
-      "desc": "&ltFor every 10 stacks added&gt Gain +2 Funds\n&ltAt 80 stacks (first-time only)&gt [Foresight] Operators cost 1 less Fund permanently\n&ltAt 150 stacks (first-time only)&gt [Foresight] Operators cost an additional 1 less Fund permanently\n[Foresight] Operators on Bench can also count toward activating this Alliance",
+      "desc": "&ltFor every <span class='blue'>10</span> stacks added&gt Gain <span class='blue'>+2</span> Funds\n&ltAt <span class='green'>80</span> stacks (first-time only)&gt [Foresight] Operators cost 1 less Fund permanently\n&ltAt <span class='green'>150</span> stacks (first-time only)&gt [Foresight] Operators cost an additional 1 less Fund permanently\n[Foresight] Operators on Bench can also count toward activating this Alliance",
       "activeCount": 2
     },
     {
       "bondId": "preciship",
       "name": "Precision",
-      "desc": "[Precision] Operators gain increased ATK <span class='text-gray-500'>(affected by stacks)</span>\n&ltWith <span class='green'>3</span> different [Precision] Operators on field&gt Buff affects all [Precision] and Ranged Operators, and attacks ignore a certain portion of DEF and RES",
+      "desc": "[Precision] Operators <span class='blue'>+(10 + 1.2 x stacks)%</span> ATK \n&ltWith <span class='green'>3</span> different [Precision] Operators on field&gt Buff affects all [Precision] and Ranged Operators, and attacks ignore <span class='blue'>30%</span> DEF and RES",
       "activeCount": 2
     },
     {
       "bondId": "steadship",
       "name": "Durable",
-      "desc": "All Operators gain +HP <span class='text-gray-500'>(affected by stacks)</span>\n&ltWith <span class='green'>3</span> different [Durable] Operators on the field&gt Whenever a non-[Durable] Operator takes damage, 40% of that damage is split among all [Durable] Operators on field. Durable Operators taking damage inflicts Arts damage (affected by stacks, once every 0.2 seconds) and 40% Fragile to the attacker",
+      "desc": "All Operators gain <span class='blue'>+(25 + 1.2 x stacks)%</span> HP \n&ltWith <span class='green'>3</span> different [Durable] Operators on the field&gt Whenever a non-[Durable] Operator takes damage, <span class='blue'>40%</span> of that damage is split among all [Durable] Operators on field. Durable Operators taking damage inflicts <span class='blue'>(850 + 10 x stacks)%</span> Arts damage (once every 0.2 seconds) and <span class='blue'>40%</span> Fragile to the attacker",
       "activeCount": 2
     },
     {
       "bondId": "raidship",
       "name": "Raid",
-      "desc": "If a [Raid] Operator's skill is ready or has not attacked for 10 seconds, and has no enemies in their attack range, they will redeploy near a ground enemy, use their skill without losing SP, and gain +(25 + 1 × stacks)% ATK and HP\n&ltAt 50 stacks&gt All Operators +50 ATKSPD",
+      "desc": "If a [Raid] Operator's skill is ready or has not attacked for 10 seconds, and has no enemies in their attack range, they will redeploy near a ground enemy, use their skill without losing SP, and gain <span class='blue'>+(25 + 1 × stacks)%</span> ATK and HP\n&ltAt <span class='green'>50</span> stacks&gt All Operators <span class='blue'>+50</span> ATKSPD",
       "activeCount": 2
     },
     {
       "bondId": "miraship",
       "name": "Marvel",
-      "desc": "On Dispatch Center refresh, there is a chance <span class='text-gray-500'>(affected by stacks)</span> the next refresh will be free\n&ltAt 100 stacks (first-time only)&gt When refreshing the Dispatch Center, at least one Operator with tier equal to the Dispatch Center level will appear\n[Marvel] Operators on Bench can also count toward activating this Alliance",
+      "desc": "On Dispatch Center refresh, there is a <span class='blue'>(18 + 0.25 x stacks)%</span> chance the next refresh will be free\n&ltAt <span class='green'>100</span> stacks (first-time only)&gt When refreshing the Dispatch Center, at least one Operator with tier equal to the Dispatch Center level will appear\n[Marvel] Operators on Bench can also count toward activating this Alliance",
       "activeCount": 2
     },
     {
       "bondId": "indomship",
       "name": "Resilient",
-      "desc": "When a Ground Operator is defeated, there is a chance they will immediately redeploy <span class='text-gray-500'>(affected by stacks)</span>\n&ltWith <span class='green'>3</span> different [Resilient] Operators on field&gt When defeated, Ground Operators grant +5 SP to all Operators on the field",
+      "desc": "When a Ground Operator is defeated, there is a <span class='blue'>(18 + 0.4 x stacks)%</span> chance they will immediately redeploy\n&ltWith <span class='green'>3</span> different [Resilient] Operators on field&gt When defeated, Ground Operators grant +5 SP to all Operators on the field",
       "activeCount": 2
     },
     {
       "bondId": "swiftship",
       "name": "Swift",
-      "desc": "[Swift] Operators have a chance <span class='text-gray-500'>(affected by stacks)</span> when their skill ends to immediately recover 12 SP\n&ltAt 40 stacks&gt All Operators have the same chance to recover 15 SP when their skill ends",
+      "desc": "[Swift] Operators have a <span class='blue'>(20 + 0.35 x stacks)%</span> chance when their skill ends to immediately recover 12 SP\n&ltAt <span class='green'>40</span> stacks&gt All Operators have the same chance to recover 15 SP when their skill ends",
       "activeCount": 2
     },
     {
       "bondId": "deputship",
       "name": "Aid",
-      "desc": "All Operators gain +DEF <span class='text-gray-500'>(affected by stacks)</span> and -30% Redeployment Time\nWhen Rest Phase ends, +2 stacks to all active Alliances\n&ltWith <span class='green'>3</span> different [Aid] Operators on field&gt +4 stacks instead",
+      "desc": "All Operators gain <span class='blue'>+(15 + 1.2 x stacks)%</span> DEF and -30% Redeployment Time\nWhen Rest Phase ends, <span class='blue'>+2</span> stacks to all active Alliances\n&ltWith <span class='green'>3</span> different [Aid] Operators on field&gt <span class='blue'>+4</span> stacks instead",
       "activeCount": 2
     },
     {
       "bondId": "skillfulship",
       "name": "Agile",
-      "desc": "[Agile] Operators and Operators in the 4 adjacent tiles around them gain +ASPD <span class='text-gray-500'>(affected by stacks)</span>\n&ltAt 40 stacks&gt Effect range increased to 8 tiles surrounding [Agile] Operators",
+      "desc": "[Agile] Operators and Operators in the 4 adjacent tiles around them gain <span class='blue'>+(10 + 1 x stacks)</span> ASPD \n&ltAt <span class='green'>40</span> stacks&gt Effect range increased to 8 tiles surrounding [Agile] Operators",
       "activeCount": 2
     },
     {
       "bondId": "arcaneship",
       "name": "Arcane",
-      "desc": "When [Arcane] Operators deal damage, deal an additional instance of Arts damage equal to a percentage of ATK <span class='text-gray-500'>(affected by stacks)</span>\n&ltWith <span class='green'>3</span> different [Arcane] Operators on field&gt All enemies on field have reduced RES every time they take damage (maximum amount of RES shred affected by stacks); Enemies lose Invisibility when entering [Arcane] Operators' ranges.",
+      "desc": "When [Arcane] Operators deal damage, deal an additional instance of Arts damage equal to <span class='blue'>(20 + 0.4 x stacks)%</span> ATK\n&ltWith <span class='green'>3</span> different [Arcane] Operators on field&gt All enemies on field have <span class='blue'>-1</span> RES every time they take damage (up to <span class='blue'>(-30 - 0.05 x stacks</span>)); Enemies lose Invisibility when entering [Arcane] Operators' ranges.",
       "activeCount": 2
     },
     {
       "bondId": "soloship",
       "name": "Solo",
-      "desc": "&ltWith <span class='green'>1</span> [Solo] Operator on field&gt The [Solo] Operator gains +60% ATK and HP, and +15 SP on deployment.\nEffect disabled with 2 or more different [Solo] Operators on the field",
+      "desc": "&ltWith <span class='green'>1</span> [Solo] Operator on field&gt The [Solo] Operator gains <span class='blue'>+60%</span> ATK and HP, and <span class='blue'>+15</span> SP on deployment.\nEffect disabled with 2 or more different [Solo] Operators on the field",
       "activeCount": 1
     },
     {
       "bondId": "emptyship",
       "name": "Assist_Operator",
-      "desc": "All Operators take -20% Physical and Arts damage\n [Assist Operators] deal 120% more damage; Elite [Assist Operators] deal 140% more damage\n",
+      "desc": "All Operators take <span class='blue'>-20%</span> Physical and Arts damage\n [Assist Operators] deal <span class='blue'>120%</span> more damage; Elite [Assist Operators] deal <span class='blue'>140%</span> more damage\n",
       "activeCount": 2
     },
     {
       "bondId": "suntship",
       "name": "Elite",
-      "desc": "&ltWith <span class='green'>2</span> Elite Operators on field&gt Elite Operators +30% ATK\n&ltWith <span class='green'>5</span> Elite Operators on field&gt Elite Operators -30% SP cost\nAll Elite Operators can activate this Alliance",
+      "desc": "&ltWith <span class='green'>2</span> Elite Operators on field&gt Elite Operators <span class='blue'>+30%</span> ATK\n&ltWith <span class='green'>5</span> Elite Operators on field&gt Elite Operators <span class='blue'>-30%</span> SP cost\nAll Elite Operators can activate this Alliance",
       "activeCount": 2,
       "noFilter": true
     }
