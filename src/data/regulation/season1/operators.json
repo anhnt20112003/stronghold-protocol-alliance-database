@@ -362,7 +362,7 @@
       "attributeType": "Can stack",
       "attribute": "&lt;In battle&gt; Whenever an enemy within range is Frozen, <span class='blue'>+1</span>/<span class='green'>+2</span> stack to active [Kjerag] Alliance (Can stack up to 24x)",
       "tier": 3,
-      "alliances": ["Kjerag", "Assist Operator"]
+      "alliances": ["Kjerag", "Assist_Operator"]
     },
     {
       "name": "Underflow",
@@ -635,7 +635,7 @@
       "attributeType": "Can stack",
       "attribute": "&lt;When battle ends&gt; For every Operator survived, <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to own active Alliances",
       "tier": 4,
-      "alliances": ["Aggregation", "Assist Operator"]
+      "alliances": ["Aggregation", "Assist_Operator"]
     },
     {
       "name": "Qiubai",
@@ -789,7 +789,7 @@
       "attributeType": "Specialized",
       "attribute": "If Operator ahead of self has a &lt;When Rest Phase ends&gt; Attribute, this Operator copies it",
       "tier": 5,
-      "alliances": ["Durable", "Assist Operator"]
+      "alliances": ["Durable", "Assist_Operator"]
     },
     {
       "name": "Astgenne the Lightchaser",
@@ -810,7 +810,7 @@
       "attributeType": "Can stack",
       "attribute": "&lt;In battle&gt; Operators on 8 surrounding tiles have <span class='blue'>+30%</span>/<span class='green'>+60%</span> Stack limit per round",
       "tier": 5,
-      "alliances": ["Assist Operator"]
+      "alliances": ["Assist_Operator"]
     },
     {
       "name": "Closure",
@@ -950,14 +950,14 @@
       "attributeType": "Prep",
       "attribute": "&lt;When entering Rest Phase&gt; <span class='blue'>If there are 3 Operators in the same row, obtain 1 Operator from the Alliance with most members in your current squad</span> /\n<span class='green'>Obtain 1 random Operator from the Alliance from the Alliance with most members in your current squad</span>",
       "tier": 6,
-      "alliances": ["Assist Operator", "Durable"]
+      "alliances": ["Assist_Operator", "Durable"]
     },
     {
       "name": "Talulah",
       "attributeType": "Can stack",
       "attribute": "&lt;In battle&gt; The effect of the [Ursus] Alliance is enhanced: When [Ursus] Operators defeat an enemy, <span class='blue'>+4</span>/<span class='green'>6</span> temporary stacks to [Ursus] alliance.\n&lt;With 6 different [Ursus] Operators on field&gt;, <span class='blue'>+6</span>/<span class='green'>8</span> temporary stacks to [Ursus] alliance.",
       "tier": 6,
-      "alliances": ["Ursus", "Arcane", "Assist Operator"]
+      "alliances": ["Ursus", "Arcane", "Assist_Operator"]
     },
     {
       "name": "Dusk",
@@ -978,7 +978,7 @@
       "attributeType": "Prep",
       "attribute": "&lt;When obtained&gt; Gain <span class='blue'>1</span>/<span class='green'>2</span> piece(s) of 'Damazti Isomorph'",
       "tier": 6,
-      "alliances": ["Assist Operator"]
+      "alliances": ["Assist_Operator"]
     },
     {
       "name": "Pallas",
