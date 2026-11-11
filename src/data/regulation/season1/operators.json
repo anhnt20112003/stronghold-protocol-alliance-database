@@ -10,21 +10,21 @@
     {
       "name": "Estelle",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; On skill activation, <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to active [Sargon] Alliance (Can stack up to <span class='blue'>2x</span>/<span class='green'>4x</span> per round)",
+      "attribute": "&lt;In battle&gt; On skill activation, <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to active [Sargon] Alliance (Can stack up to <span class='blue'>2</span>/<span class='green'>4</span> stacks per round)",
       "tier": 1,
       "alliances": ["Sargon", "Solo"]
     },
     {
       "name": "Specter",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; On deployment, <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to active [Ægir] stacks (Can stack up to <span class='blue'>1x</span>/<span class='green'>2x</span> per round)",
+      "attribute": "&lt;In battle&gt; On deployment, <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to active [Ægir] Alliance (Can stack up to <span class='blue'>1</span>/<span class='green'>2</span> stack(s) per round)",
       "tier": 1,
       "alliances": ["Ægir"]
     },
     {
       "name": "Wild Mane",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; On deployment, <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to active [Kazimierz] stacks (Can stack up to <span class='blue'>2x</span>/<span class='green'>4x</span> per round)",
+      "attribute": "&lt;In battle&gt; On deployment, <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to active [Kazimierz] Alliance (Can stack up to <span class='blue'>2</span>/<span class='green'>4</span> stacks per round)",
       "tier": 1,
       "alliances": ["Kazimierz", "Aid"]
     },
@@ -66,7 +66,7 @@
     {
       "name": "Varkáris",
       "attributeType": "One-time",
-      "attribute": "&lt;When obtained&gt; <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to [Durable] and [Resilient] Alliances",
+      "attribute": "&lt;When obtained&gt; <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to [Durable] and [Resilient] Alliances",
       "tier": 1,
       "alliances": ["Durable", "Resilient"]
     },
@@ -115,7 +115,7 @@
     {
       "name": "Meteorite",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; On skill activation, <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to active [Swift] alliance (Can stack up to <span class='blue'>2x</span>/<span class='green'>4x</span> per round)",
+      "attribute": "&lt;In battle&gt; On skill activation, <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to active [Swift] Alliance (Can stack up to <span class='blue'>2</span>/<span class='green'>4</span> stacks per round)",
       "tier": 1,
       "alliances": ["Swift"]
     },
@@ -129,7 +129,7 @@
     {
       "name": "Earthspirit",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; Each defeated enemy in range grants <span class='blue'>+1</span>/<span class='green'>+2</span> stacks to active [Leithanien] Alliance (Can stack up to <span class='blue'>1x</span>/<span class='green'>2x</span> per round)",
+      "attribute": "&lt;In battle&gt; Each defeated enemy in range grants <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to active [Leithanien] Alliance (Can stack up to <span class='blue'>1</span>/<span class='green'>2</span> stack(s) per round)",
       "tier": 1,
       "alliances": ["Leithanien", "Solo"]
     },
@@ -150,7 +150,7 @@
     {
       "name": "Bubble",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; On skill activation, <span class='blue'>+2</span>/<span class='green'>4</span> stacks to active [Sargon] and [Durable] alliances (Can stack up to <span class='blue'>4x</span>/<span class='green'>8x</span> per round)",
+      "attribute": "&lt;In battle&gt; On skill activation, <span class='blue'>+2</span>/<span class='green'>4</span> stacks to active [Sargon] and [Durable] Alliances (Can stack up to <span class='blue'>4</span>/<span class='green'>8</span> stacks per round)",
       "tier": 2,
       "alliances": ["Sargon", "Durable"]
     },
@@ -171,7 +171,7 @@
     {
       "name": "Gravel",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; On deployment, <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to active [Kazimierz] and [Resilient] stacks (Can stack up to <span class='blue'>12x</span>/<span class='green'>24x</span> per round)",
+      "attribute": "&lt;In battle&gt; On deployment, <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to active [Kazimierz] and [Resilient] Alliances (Can stack up to <span class='blue'>12</span>/<span class='green'>24</span> stacks per round)",
       "tier": 2,
       "alliances": ["Kazimierz", "Resilient"]
     },
@@ -206,7 +206,7 @@
     {
       "name": "Contrail",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; On skill activation, <span class='blue'>+3</span>/<span class='green'>+6</span> stacks to own active Alliances (Can stack up to <span class='blue'>6x</span>/<span class='green'>12x</span> per round)",
+      "attribute": "&lt;In battle&gt; On skill activation, <span class='blue'>+3</span>/<span class='green'>+6</span> stacks to own active Alliances (Can stack up to <span class='blue'>6</span>/<span class='green'>12</span> stacks per round)",
       "tier": 2,
       "alliances": ["Swift", "Marvel"]
     },
@@ -255,7 +255,7 @@
     {
       "name": "Ju",
       "attributeType": "One-time",
-      "attribute": "&lt;When obtained&gt; Gain [Yan] Alliance stacks equivalent to <span class='blue'>the Dispatch Center level</span>/<span class='green'>2x Dispatch Center level</span>  (Alliance does not need to be active)",
+      "attribute": "&lt;When obtained&gt; Gain [Yan] Alliance stacks equivalent to <span class='blue'>the Dispatch Center level</span>/<span class='green'>2x Dispatch Center level</span> (Alliance does not need to be active)",
       "tier": 2,
       "alliances": ["Yan"]
     },
@@ -271,7 +271,7 @@
       "attributeType": "Combat",
       "attribute": "&lt;In battle&gt; For every 3 stacks added to [Iberia] Alliance, this Operator gains <span class='blue'>+1%</span>/<span class='green'>+2%</span> ATK",
       "tier": 2,
-      "alliances": ["Marvel"]
+      "alliances": ["Iberia", "Aggregation"]
     },
     {
       "name": "Istina",
@@ -297,7 +297,7 @@
     {
       "name": "Andreana",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; For every enemy or ally defeated, <span class='blue'>+3</span>/<span class='green'>+6</span> stack(s) to active [Ægir] and [Aid] Alliances (Can stack up to <span class='blue'>9x</span>/<span class='green'>18x</span> per round)",
+      "attribute": "&lt;In battle&gt; For every enemy or ally defeated, <span class='blue'>+3</span>/<span class='green'>+6</span> stack(s) to active [Ægir] and [Aid] Alliances (Can stack up to <span class='blue'>9</span>/<span class='green'>18</span> stacks per round)",
       "tier": 2,
       "alliances": ["Ægir", "Aid"]
     },
@@ -325,7 +325,7 @@
     {
       "name": "Highmore",
       "attributeType": "Prep",
-      "attribute": "&lt;When Rest Phase ends&gt; Gain <span class='blue'>+1</span>/<span class='green'>+2</span> Fund when sold (up to 8)",
+      "attribute": "&lt;When Rest Phase ends&gt; Gain <span class='blue'>+1</span>/<span class='green'>+2</span> Fund(s) when sold (up to 8)",
       "tier": 3,
       "alliances": ["Iberia", "Resilient"]
     },
@@ -339,14 +339,14 @@
     {
       "name": "Taraxacum",
       "attributeType": "Can stack",
-      "attribute": "&lt;When Rest Phase ends&gt; <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to active [Yan] and [Aggregation] Alliance for every Operator obtained during this Rest Phase (Can stack up to <span class='blue'>16x</span>/<span class='green'>32x</span>)",
+      "attribute": "&lt;When Rest Phase ends&gt; <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to active [Yan] and [Aggregation] Alliances for every Operator obtained during this Rest Phase (Can stack up to <span class='blue'>16</span>/<span class='green'>32</span> stacks per round)",
       "tier": 3,
       "alliances": ["Yan", "Aggregation"]
     },
     {
       "name": "Aurora",
       "attributeType": "One-time",
-      "attribute": "&lt;When obtained&gt; +1 stack to [Kjerag] Alliance(s) (upgrades when triggered, up to 12x)",
+      "attribute": "&lt;When obtained&gt; +1 stack to [Kjerag] Alliance (upgrades when triggered, up to 12 stacks)",
       "tier": 3,
       "alliances": ["Kjerag"]
     },
@@ -360,7 +360,7 @@
     {
       "name": "Pramanix",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; Whenever an enemy within range is Frozen, <span class='blue'>+1</span>/<span class='green'>+2</span> stack to active [Kjerag] Alliance (Can stack up to 24x)",
+      "attribute": "&lt;In battle&gt; Whenever an enemy within range is Frozen, <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to active [Kjerag] Alliance (Can stack up to <span class='blue'>16</span>/<span class='green'>32</span> stacks per round)",
       "tier": 3,
       "alliances": ["Kjerag", "Assist_Operator"]
     },
@@ -374,28 +374,28 @@
     {
       "name": "Skadi",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; On deployment, <span class='blue'>+4</span>/<span class='green'>+8</span> stacks to active [Ægir] stacks (Can stack up to <span class='blue'>8x</span>/<span class='green'>16x</span> per round)",
+      "attribute": "&lt;In battle&gt; On deployment, <span class='blue'>+4</span>/<span class='green'>+8</span> stacks to active [Ægir] Alliance (Can stack up to <span class='blue'>8</span>/<span class='green'>16</span> stacks per round)",
       "tier": 3,
       "alliances": ["Ægir", "Raid"]
     },
     {
       "name": "Blemishine",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; On deployment, <span class='blue'>+3</span>/<span class='green'>+6</span> stacks to own active Alliance(s) (can stack up to <span class='blue'>9x</span>/<span class='green'>18x</span> per battle)",
+      "attribute": "&lt;In battle&gt; On deployment, <span class='blue'>+3</span>/<span class='green'>+6</span> stacks to own active Alliance(s) (can stack up to <span class='blue'>9</span>/<span class='green'>18</span> stacks per round)",
       "tier": 3,
       "alliances": ["Kazimierz", "Raid"]
     },
     {
       "name": "Vulpisfoglia",
       "attributeType": "Prep",
-      "attribute": "&lt;When obtained&gt; Obtain 1 free refresh (upgrades for every 2 times triggered, up to 3x)",
+      "attribute": "&lt;When obtained&gt; Obtain 1 free refresh (upgrades when triggered twice, up to 3 refreshes)",
       "tier": 3,
       "alliances": ["Siracusa", "Swift"]
     },
     {
       "name": "Vigil",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; Deal Weakness damage (changes damage type to either Physical or Arts depending on the target's DEF and RES); each enemy defeated grants <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to active [Siracusa] and [Precision] Alliances (up to <span class='blue'>8x</span>/<span class='green'>16x</span>)",
+      "attribute": "&lt;In battle&gt; Deal Weakness damage (changes damage type to either Physical or Arts depending on the target's DEF and RES); each enemy defeated grants <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to active [Siracusa] and [Precision] Alliances (up to <span class='blue'>8</span>/<span class='green'>16</span> stacks per round)",
       "tier": 3,
       "alliances": ["Siracusa", "Precision"]
     },
@@ -404,7 +404,7 @@
       "attributeType": "Combat",
       "attribute": "&lt;In battle&gt; Deal Weakness damage (changes damage type to either Physical or Arts depending on the target's DEF and RES)",
       "tier": 3,
-      "alliances": ["Victoria", "Solo", "Swift"]
+      "alliances": ["Victoria", "Solo", "Agile"]
     },
     {
       "name": "Archetto",
@@ -444,21 +444,21 @@
     {
       "name": "Fang the Fire-Sharpened",
       "attributeType": "Combat",
-      "attribute": "&lt;In battle&gt; When defeated, summon a [Kazimierz] Operator from the Preparation Zone (prioritize at the right-most position), and Redeployment Time of that Operator <span class='blue'>-30%</span>/<span class='green'>60%</span>",
+      "attribute": "&lt;In battle&gt; When defeated, summon a [Kazimierz] Operator from the Bench (prioritize at the right-most position), and Redeployment Time of that Operator <span class='blue'>-30%</span>/<span class='green'>60%</span>",
       "tier": 3,
       "alliances": ["Kazimierz", "Foresight"]
     },
     {
       "name": "Catherine",
       "attributeType": "Prep",
-      "attribute": "&lt;When obtained&gt; Obtain <span class='blue'>1 Victorian Hammer</span>/<span class='green'>Special Victorian Hammer</span>, with a low chance to get <span class='blue'>special Victorian Hammer</span>/<span class='blue'>ultimate Victorian Hammer</span>",
+      "attribute": "&lt;When obtained&gt; Obtain <span class='blue'>1 Victorian Hammer</span>/<span class='green'>special Victorian Hammer</span>, with a low chance to get <span class='blue'>special Victorian Hammer</span>/<span class='blue'>Ultimate Victorian Hammer</span>",
       "tier": 3,
       "alliances": ["Victoria", "Foresight"]
     },
     {
       "name": "Kazemaru",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; When defeated or switched to Substitute, <span class='blue'>+2</span>/<span class='green'>+4</span> [Resilient] stacks if Alliances are active (Can stack up to <span class='blue'>10x</span>/<span class='green'>20x</span>)",
+      "attribute": "&lt;In battle&gt; When defeated or switched to Substitute, <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to active [Resilient] Alliance (Can stack up to <span class='blue'>10</span>/<span class='green'>20</span> stacks per round)",
       "tier": 3,
       "alliances": ["Resilient"]
     },
@@ -486,7 +486,7 @@
     {
       "name": "Ebenholz",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; Each defeated enemy in range grant <span class='blue'>+1</span>/<span class='green'>+2</span> stacks to active [Leithanien] Alliance (Can stack up to <span class='blue'>8x</span>/<span class='green'>16x</span> per round)",
+      "attribute": "&lt;In battle&gt; Each defeated enemy in range grant <span class='blue'>+1</span>/<span class='green'>+2</span> stacks to active [Leithanien] Alliance (Can stack up to <span class='blue'>8</span>/<span class='green'>16</span> stacks per round)",
       "tier": 4,
       "alliances": ["Leithanien", "Precision"]
     },
@@ -500,7 +500,7 @@
     {
       "name": "Hellagur",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; On deployment, <span class='blue'>+4</span>/<span class='green'>+8</span> stacks to active [Ursus] and [Raid] stacks (Can stack up to <span class='blue'>12x</span>/<span class='green'>24x</span> per round)",
+      "attribute": "&lt;In battle&gt; On deployment, <span class='blue'>+4</span>/<span class='green'>+8</span> stacks to active [Ursus] and [Raid] stacks (Can stack up to <span class='blue'>12</span>/<span class='green'>24</span> stacks per round)",
       "tier": 4,
       "alliances": ["Ursus", "Raid"]
     },
@@ -528,14 +528,14 @@
     {
       "name": "Yu",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; Each enemy on 8 surrounding tiles that suffers Elemental Injury burst grants <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to own active Alliance(s) (Can stack up to <span class='blue'>8x</span>/<span class='green'>16x</span> per round)",
+      "attribute": "&lt;In battle&gt; Each enemy on 8 surrounding tiles that suffers Elemental Injury burst grants <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to own active Alliance(s) (Can stack up to <span class='blue'>8</span>/<span class='green'>16</span> stacks per round)",
       "tier": 4,
       "alliances": ["Yan", "Durable"]
     },
     {
       "name": "Eunectes",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; On deployment, <span class='blue'>+4</span>/<span class='green'>+8</span> stacks to active [Sargon] and [Resilient] stacks (Can stack up to <span class='blue'>8x</span>/<span class='green'>16x</span> per round)",
+      "attribute": "&lt;In battle&gt; On deployment, <span class='blue'>+4</span>/<span class='green'>+8</span> stacks to active [Sargon] and [Resilient] Alliances (Can stack up to <span class='blue'>8</span>/<span class='green'>16</span> stacks per round)",
       "tier": 4,
       "alliances": ["Sargon", "Resilient"]
     },
@@ -556,21 +556,21 @@
     {
       "name": "Mizuki",
       "attributeType": "Combat",
-      "attribute": "&lt;In battle&gt; For every <span class='blue'>20</span>/<span class='green'>10</span> stacks added to [Ægir] Alliance, this Operator and Operators on 4 adjacent tiles will apply Movement Speed -1% when hit, last for 3 seconds",
+      "attribute": "&lt;In battle&gt; For every <span class='blue'>20</span>/<span class='green'>10</span> stacks added to [Ægir] Alliance, this Operator and Operators on 4 adjacent tiles will apply Movement Speed -1% to enemies hit, last for 3 seconds",
       "tier": 4,
       "alliances": ["Ægir", "Agile"]
     },
     {
       "name": "Fartooth",
       "attributeType": "Combat",
-      "attribute": "&lt;In battle&gt; Each defeated enemy in range grants <span class='blue'>-3</span>/<span class='green'>-6</span> seconds of redeployment time to Operators in attack range or Preparation Zone",
+      "attribute": "&lt;In battle&gt; Each defeated enemy in range grants <span class='blue'>-3</span>/<span class='green'>-6</span> seconds of redeployment time to Operators in attack range or Bench",
       "tier": 4,
       "alliances": ["Kazimierz", "Precision"]
     },
     {
       "name": "Młynar",
       "attributeType": "Combat",
-      "attribute": "&lt;In battle&gt; Each enemy in range that got Feared grants <span class='blue'>+4</span>/<span class='green'>+8</span> stack(s) to active [Swift] Alliance (Can stack up to <span class='blue'>20x</span>/<span class='green'>40x</span> per round)",
+      "attribute": "For every 5 stacks added to [Kazimierz] Alliance, this Operator gains <span class='blue'>+10</span>/<span class='green'>+20</span> base ATK and <span class='blue'>+50</span>/<span class='green'>+100</span> base HP for 100 seconds",
       "tier": 4,
       "alliances": ["Kazimierz"]
     },
@@ -605,7 +605,7 @@
     {
       "name": "Ho'olheyak",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; On skill activation, <span class='blue'>+4</span>/<span class='green'>+8</span> stacks to own active Alliances (Can stack up to <span class='blue'>12x</span>/<span class='green'>24x</span> per round)",
+      "attribute": "&lt;In battle&gt; On skill activation, <span class='blue'>+4</span>/<span class='green'>+8</span> stacks to own active Alliances (Can stack up to <span class='blue'>12</span>/<span class='green'>24</span> stacks per round)",
       "tier": 4,
       "alliances": ["Arcane", "Precision"]
     },
@@ -626,7 +626,7 @@
     {
       "name": "Hoederer",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; On deployment, <span class='blue'>+4</span>/<span class='green'>+8</span> stacks to active [Raid] stacks (Can stack up to <span class='blue'>16x</span>/<span class='green'>32x</span> per round)",
+      "attribute": "&lt;In battle&gt; On deployment, <span class='blue'>+4</span>/<span class='green'>+8</span> stacks to active [Raid] stacks (Can stack up to <span class='blue'>16</span>/<span class='green'>32</span> stacks per round)",
       "tier": 4,
       "alliances": ["Raid"]
     },
@@ -647,35 +647,35 @@
     {
       "name": "Passenger",
       "attributeType": "Prep",
-      "attribute": "&lt;When entering Rest Phase&gt; Obtain 1 Lucky Coin or Sargon Teapresso, <span class='green'>repeats twice</span>; with a low chance to find 'Mimic Matter'",
+      "attribute": "&lt;When entering Rest Phase&gt; Obtain 1 Lucky Coin or Sargon Teapresso; <span class='green'>repeats twice</span> with a low chance to find 'Mimic Matter'",
       "tier": 4,
       "alliances": ["Sargon", "Arcane"]
     },
     {
       "name": "Angelina",
       "attributeType": "Can stack",
-      "attribute": "&lt;When Rest Phase Ends&gt; <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to active [Siracusa] Alliance (Can stack up to <span class='blue'>8x</span>/<span class='green'>16x</span> each round) and <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to active [Marvel] Alliance for every refresh this round (Can stack up to <span class='blue'>4x</span>/<span class='green'>8x</span> each round)",
+      "attribute": "&lt;When Rest Phase Ends&gt; <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to active [Siracusa] Alliance (Can stack up to <span class='blue'>8</span>/<span class='green'>16</span> stacks per round) and <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to active [Marvel] Alliance for every refresh this round (Can stack up to <span class='blue'>4</span>/<span class='green'>8</span> stacks per round)",
       "tier": 4,
       "alliances": ["Siracusa", "Marvel"]
     },
     {
       "name": "Warfarin",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; Grants '<span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to own active Alliance(s) on skill activation' to the Operator in the tile ahead (Can stack up to <span class='blue'>7x</span>/<span class='green'>14x</span> every battle)",
+      "attribute": "&lt;In battle&gt; Grants '<span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to own active Alliance(s) on skill activation' to the Operator in the tile ahead (Can stack up to <span class='blue'>7</span>/<span class='green'>14</span> stacks per round)",
       "tier": 4,
       "alliances": ["Agile", "Aggregation"]
     },
     {
       "name": "Santalla",
       "attributeType": "Can stack",
-      "attribute": "&lt;When entering Rest Phase&gt; &lt;when Rest Phase ends&gt; <span class='blue'>+3</span>/<span class='green'>+6</span> stacks to active [Foresight] Alliance",
+      "attribute": "&lt;When entering Rest Phase&gt; &lt;When Rest Phase ends&gt; <span class='blue'>+3</span>/<span class='green'>+6</span> stacks to active [Foresight] Alliance",
       "tier": 4,
       "alliances": ["Foresight"]
     },
     {
       "name": "Eyjafjalla the Hvít Aska",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; Each defeated enemy in range grants <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to active [Leithanien] and [Aggregation] Alliances (Can stack up to <span class='blue'>20x</span>/<span class='green'>40x</span> per round)",
+      "attribute": "&lt;In battle&gt; Each defeated enemy in range grants <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to active [Leithanien] and [Aggregation] Alliances (Can stack up to <span class='blue'>20</span>/<span class='green'>40</span> stacks per round)",
       "tier": 5,
       "alliances": ["Aggregation", "Leithanien", "Foresight"]
     },
@@ -696,7 +696,7 @@
     {
       "name": "Thorns",
       "attributeType": "Can stack",
-      "attribute": "&lt;When Rest Phase ends&gt; Gain active Alliance(s) stacks of total selling price/2x total selling price of all Operators on field (Can stack up to <span class='blue'>12x</span>/<span class='green'>24x</span>)",
+      "attribute": "&lt;When Rest Phase ends&gt; Gain active Alliance(s) stacks of total selling price/2x total selling price of all Operators on field (Can stack up to <span class='blue'>12</span>/<span class='green'>24</span> stacks per round)",
       "tier": 5,
       "alliances": ["Iberia", "Arcane"]
     },
@@ -710,21 +710,21 @@
     {
       "name": "Pepe",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; Each enemy on 8 surrounding tiles that got Stunned or Slept grants <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to active Alliance(s) of self and ally 1 tile behind (Can stack up to <span class='blue'>9x</span>/<span class='green'>18x</span> per round)",
+      "attribute": "&lt;In battle&gt; Each enemy on 8 surrounding tiles that got Stunned or Slept grants <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to active Alliance(s) of self and ally 1 tile behind (Can stack up to <span class='blue'>9</span>/<span class='green'>18</span> stacks per round)",
       "tier": 5,
       "alliances": ["Sargon", "Agile"]
     },
     {
       "name": "Pramanix the Prerita",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; Each enemy in range that got Frozen restores <span class='blue'>1</span>/<span class='green'>2</span> SP and grants <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to active [Kjerag] Alliance (Can stack up to <span class='blue'>24x</span>/<span class='green'>48x</span> per round)",
+      "attribute": "&lt;In battle&gt; Each enemy in range that got Frozen restores <span class='blue'>1</span>/<span class='green'>2</span> SP and grants <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to active [Kjerag] Alliance (Can stack up to <span class='blue'>24</span>/<span class='green'>48</span> stacks per round)",
       "tier": 5,
       "alliances": ["Kjerag", "Arcane"]
     },
     {
       "name": "SilverAsh the Reignfrost",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; The [Kjerag] or [Agile] Operator on the tile ahead have <span class='blue'>+75%</span>/<span class='green'>+150%</span> Stack limit per round",
+      "attribute": "&lt;In battle&gt; The [Kjerag] or [Agile] Operator on the tile ahead have <span class='blue'>+75%</span>/<span class='green'>+150%</span> Stack limit in battles",
       "tier": 5,
       "alliances": ["Kjerag", "Agile", "Investor"]
     },
@@ -745,7 +745,7 @@
     {
       "name": "Viviana",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; Operators of same Alliances as self have <span class='blue'>+7</span>/<span class='green'>+14</span> Stack limit for this round",
+      "attribute": "&lt;In battle&gt; Operators of same Alliances as self have <span class='blue'>+7</span>/<span class='green'>+14</span> Stack limit for this battle",
       "tier": 5,
       "alliances": ["Leithanien", "Kazimierz", "Arcane"]
     },
@@ -766,7 +766,7 @@
     {
       "name": "Vina Victoria",
       "attributeType": "Can stack",
-      "attribute": "&lt;When Rest Phase ends&gt; <span class='blue'>+2</span>/<span class='green'>+4</span> stacks respectively to active [Victoria] Alliance for every [Victoria] Operator of a different Tier on the field",
+      "attribute": "&lt;When Rest Phase ends&gt; <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to active [Victoria] and [Marvel] Alliances for every [Victoria] Operator of a different Tier on the field",
       "tier": 5,
       "alliances": ["Victoria", "Marvel"]
     },
@@ -780,7 +780,7 @@
     {
       "name": "Entelechia",
       "attributeType": "Combat",
-      "attribute": "&lt;In battle&gt; For every 3 stacks added to [Agile] and [Resilient], this Operator gains <span class='blue'>+1%</span>/<span class='green'>+2%</span> ATK",
+      "attribute": "&lt;In battle&gt; For every 3 stacks added to [Agile] and [Resilient] Alliances, this Operator gains <span class='blue'>+1%</span>/<span class='green'>+2%</span> ATK",
       "tier": 5,
       "alliances": ["Agile", "Resilient"]
     },
@@ -794,35 +794,35 @@
     {
       "name": "Astgenne the Lightchaser",
       "attributeType": "Can stack",
-      "attribute": "&lt;When Rest Phase ends&gt; <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to active [Arcane] Alliance for every 3 Funds spent this round (Can stack up to <span class='blue'>18x</span>/<span class='green'>36x</span> per round)",
+      "attribute": "&lt;When Rest Phase ends&gt; <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to active [Arcane] Alliance for every 3 Funds spent this round (Can stack up to <span class='blue'>18</span>/<span class='green'>36</span> stacks per round)",
       "tier": 5,
       "alliances": ["Arcane"]
     },
     {
       "name": "Lee",
       "attributeType": "Combat",
-      "attribute": "&lt;In battle&gt; For every 3 stacks added to [Yan] and [Investor], this Operator gains <span class='blue'>+1%</span>/<span class='green'>+2%</span> ATK",
+      "attribute": "&lt;In battle&gt; For every 3 stacks added to [Yan] and [Investor] Alliances, this Operator gains <span class='blue'>+1%</span>/<span class='green'>+2%</span> ATK",
       "tier": 5,
       "alliances": ["Investor", "Yan"]
     },
     {
       "name": "Mon3tr",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; Operators on 8 surrounding tiles have <span class='blue'>+30%</span>/<span class='green'>+60%</span> Stack limit per round",
+      "attribute": "&lt;In battle&gt; Operators on 8 surrounding tiles have <span class='blue'>+30%</span>/<span class='green'>+60%</span> Stack limit in battles",
       "tier": 5,
       "alliances": ["Assist_Operator"]
     },
     {
       "name": "Closure",
       "attributeType": "Can stack",
-      "attribute": "&lt;When Rest Phase ends&gt; <span class='blue'>+2</span>/<span class='green'>+4</span> to active [Investor] Alliance for every Operator obtained this round (Can stack up to <span class='blue'>16x</span>/<span class='green'>32x</span> per round)",
+      "attribute": "&lt;When Rest Phase ends&gt; <span class='blue'>+2</span>/<span class='green'>+4</span> to active [Investor] Alliance for every Operator obtained this round (Can stack up to <span class='blue'>16</span>/<span class='green'>32</span> stacks per round)",
       "tier": 5,
       "alliances": ["Investor"]
     },
     {
       "name": "Pozëmka",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; On skill activation, <span class='blue'>+4</span>/<span class='green'>+8</span> stacks to active [Sargon] and [Precision] Alliances (Can stack up to <span class='blue'>16x</span>/<span class='green'>32x</span> per round)",
+      "attribute": "&lt;In battle&gt; On skill activation, <span class='blue'>+4</span>/<span class='green'>+8</span> stacks to active [Sargon] and [Precision] Alliances (Can stack up to <span class='blue'>16</span>/<span class='green'>32</span> stacks per round)",
       "tier": 5,
       "alliances": ["Sargon", "Precision"]
     },
@@ -836,7 +836,7 @@
     {
       "name": "Toska",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; Each defeated enemy in range grants <span class='blue'>+1</span>/<span class='green'>+2</span> stacks to active [Ursus] and [Swift] Alliances (Can stack up to <span class='blue'>16x</span>/<span class='green'>32x</span> per round)",
+      "attribute": "&lt;In battle&gt; Each defeated enemy in range grants <span class='blue'>+1</span>/<span class='green'>+2</span> stacks to active [Ursus] and [Swift] Alliances (Can stack up to <span class='blue'>16</span>/<span class='green'>32</span> stacks per round)",
       "tier": 5,
       "alliances": ["Ursus", "Swift"]
     },
@@ -857,28 +857,28 @@
     {
       "name": "Blaze the Igniting Spark",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; Each enemy in range that suffers Elemental Injury burst grants <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to active [Yan] and [Victoria] Alliances (Can stack up to <span class='blue'>12x</span>/<span class='green'>24x</span> per round)",
+      "attribute": "&lt;In battle&gt; Each enemy in range that suffers Elemental Injury burst grants <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to active [Yan] and [Victoria] Alliances (Can stack up to <span class='blue'>12</span>/<span class='green'>24</span> stacks per round)",
       "tier": 6,
       "alliances": ["Yan", "Victoria", "Swift"]
     },
     {
       "name": "Skadi the Corrupting Heart",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; For every [Ægir] Operator deployed, <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to active [Ægir] Alliance (Can stack up to <span class='blue'>20x</span>/<span class='green'>40x</span>)",
+      "attribute": "&lt;In battle&gt; For every [Ægir] Operator deployed in range, <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to active [Ægir] Alliance (Can stack up to <span class='blue'>20</span>/<span class='green'>40</span> stacks per round)",
       "tier": 6,
       "alliances": ["Ægir", "Aggregation"]
     },
     {
       "name": "Clementia",
       "attributeType": "Combat",
-      "attribute": "&lt;In battle&gt; On deployment, for every <span class='blue'>20</span>/<span class='green'>10</span> stacks added to [Ægir] Alliance, Corrosion cooldown recovery rate of enemies +1%",
+      "attribute": "&lt;In battle&gt; For every <span class='blue'>20</span>/<span class='green'>10</span> stacks added to [Ægir] Alliance, Corrosion cooldown recovery rate of enemies +1%",
       "tier": 6,
       "alliances": ["Ægir"]
     },
     {
       "name": "Nearl the Radiant Knight",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; When defeated, summon a [Kazimierz] or [Raid] Operator from the Preparation Zone at the right-most position, and <span class='blue'>+6</span>/<span class='green'>+12</span> stacks of active Alliance(s) of self and that Operator (Can stack up to <span class='blue'>12x</span>/<span class='green'>24x</span> per round)",
+      "attribute": "&lt;In battle&gt; When defeated, summon a [Kazimierz] or [Raid] Operator from the Bench at the right-most position, and <span class='blue'>+6</span>/<span class='green'>+12</span> stacks of active Alliance(s) of self and that Operator (Can stack up to <span class='blue'>12</span>/<span class='green'>24</span> stacks per round)",
       "tier": 6,
       "alliances": ["Kazimierz", "Raid"]
     },
@@ -913,14 +913,14 @@
     {
       "name": "Nymph",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; Each enemy in range that got Feared grants <span class='blue'>+4</span>/<span class='green'>+8</span> stack(s) to active [Swift] Alliance (Can stack up to <span class='blue'>20x</span>/<span class='green'>40x</span> per round)",
+      "attribute": "&lt;In battle&gt; Each enemy in range that got Feared grants <span class='blue'>+4</span>/<span class='green'>+8</span> stack(s) to active [Swift] Alliance (Can stack up to <span class='blue'>20</span>/<span class='green'>40</span> stacks per round)",
       "tier": 6,
       "alliances": ["Swift", "Foresight"]
     },
     {
       "name": "Haruka",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; Each defeated enemy in range grants <span class='blue'>+1</span>/<span class='green'>+2</span> stacks to active [Aggregation] and [Marvel] Alliances (Can stack up to <span class='blue'>12x</span>/<span class='green'>24x</span> per round)",
+      "attribute": "&lt;In battle&gt; Each defeated enemy in range grants <span class='blue'>+1</span>/<span class='green'>+2</span> stack(s) to active [Aggregation] and [Marvel] Alliances (Can stack up to <span class='blue'>12</span>/<span class='green'>24</span> stacks per round)",
       "tier": 6,
       "alliances": ["Aggregation", "Marvel"]
     },
@@ -934,21 +934,21 @@
     {
       "name": "Surtr",
       "attributeType": "Can stack",
-      "attribute": "&lt;In battle&gt; When defeating an enemy, <span class='blue'>+4</span>/<span class='green'>+8</span> stacks to active [Raid] and [Resilient] Alliances. (Can stack up to <span class='blue'>16x</span>/<span class='green'>32x</span> per round)",
+      "attribute": "&lt;In battle&gt; When defeating an enemy, <span class='blue'>+4</span>/<span class='green'>+8</span> stacks to active [Raid] and [Resilient] Alliances (Can stack up to <span class='blue'>16</span>/<span class='green'>32</span> stacks per round)",
       "tier": 6,
       "alliances": ["Raid", "Resilient"]
     },
     {
       "name": "Degenbrecher",
       "attributeType": "Combat",
-      "attribute": "&lt;In battle&gt; For every <span class='blue'>6</span>/<span class='green'>3</span> stacks added to [Kazimierz], [Kjerag] and [Leithanien] Alliances, this Operator gains +0.01SP/s and +1% HP",
+      "attribute": "&lt;In battle&gt; For every <span class='blue'>6</span>/<span class='green'>3</span> stacks added to [Kazimierz], [Kjerag] and [Leithanien] Alliances, this Operator gains +0.01 SP/s and +1% HP",
       "tier": 6,
       "alliances": ["Kazimierz", "Kjerag", "Leithanien"]
     },
     {
       "name": "Mechanist",
       "attributeType": "Prep",
-      "attribute": "&lt;When entering Rest Phase&gt; <span class='blue'>If there are 3 Operators in the same row, obtain 1 Operator from the Alliance with most members in your current squad</span> /\n<span class='green'>Obtain 1 random Operator from the Alliance from the Alliance with most members in your current squad</span>",
+      "attribute": "&lt;When entering Rest Phase&gt; <span class='blue'>If there are 3 Operators in the same row, obtain 1 Operator from the Alliance with most members in your current squad</span>/\n<span class='green'>Obtain 1 random Operator from the Alliance from the Alliance with most members in your current squad</span>",
       "tier": 6,
       "alliances": ["Assist_Operator", "Durable"]
     },
@@ -962,7 +962,7 @@
     {
       "name": "Dusk",
       "attributeType": "Can stack",
-      "attribute": "&lt;When Rest Phase ends&gt; <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to active [Yan] and [Arcane] Alliance for every Operator obtained during this Rest Phase (Can stack up to <span class='blue'>24x</span>/<span class='green'>48x</span> per round)",
+      "attribute": "&lt;When Rest Phase ends&gt; <span class='blue'>+2</span>/<span class='green'>+4</span> stacks to active [Yan] and [Arcane] Alliances for every Operator obtained during this Rest Phase (Can stack up to <span class='blue'>24</span>/<span class='green'>48</span> stacks per round)",
       "tier": 6,
       "alliances": ["Arcane", "Yan"]
     },
