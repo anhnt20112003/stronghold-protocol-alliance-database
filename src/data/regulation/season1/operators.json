@@ -416,7 +416,7 @@
     {
       "name": "Kichisei",
       "attributeType": "Prep",
-      "attribute": "&lt;When sold&gt; Do a special free refresh of Tier I/Tier V operators",
+      "attribute": "&lt;When sold&gt; Do a special free refresh of <span class='blue'>Tier I</span>/<span class='green'>Tier V</span> operators",
       "tier": 3,
       "alliances": ["Marvel"]
     },
