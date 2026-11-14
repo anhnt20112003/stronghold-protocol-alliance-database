@@ -52,7 +52,7 @@
     {
       "bondId": "egirship",
       "name": "Ægir",
-      "desc": "[Ægir] Operators <span class='blue'>+(35 + 1 x stacks)%</span> HP \nWhen the battle begins, [Ægir] Operators will devour the Operator on the tile in front of them, dealing <span class='text-red-500'>5000</span> Physical damage to the Operator and gaining their base ATK and Block, while adding [Ægir] stacks equal to the devoured Operator's Tier <span class='text-gray-500'>(among [Ægir] Operators, those positioned further up or to the left are prioritised to start a devour)</span>\n&ltWith <span class='green'>5</span> different [Ægir] Operators on the field&gt The first <span class='blue'>3</span> defeated will immediately revive",
+      "desc": "[Ægir] Operators <span class='blue'>+(35 + 1 x stacks)%</span> HP \nWhen the battle begins, [Ægir] Operators will devour the Operator on the tile in front of them, dealing <span class='text-red-500'>5000</span> Physical damage to the Operator and gaining their base ATK and Block, while adding [Ægir] stacks equal to the devoured Operator's Tier <span class='text-gray-500'>(among [Ægir] Operators, those positioned further up or to the left are prioritised to start a devour)</span>\n&ltWith <span class='green'>6</span> different [Ægir] Operators on the field&gt The first <span class='blue'>3</span> defeated will immediately revive",
       "activeCount": 3,
       "core": true
     },
